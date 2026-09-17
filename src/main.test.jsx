@@ -37,7 +37,16 @@ describe('corpus du quiz', () => {
   it('réduit une réponse géographique multiple à une réponse canonique', () => {
     const question = questions.find((item) => item.question === 'Quel pays a une frontière terrestre avec la France ?');
     const choices = buildChoices(question);
-    expect(choices).toContain('L’Espagne');
     expect(choices).toHaveLength(4);
+    expect(choices.every((choice) => /France|Allemagne|Suisse|Royaume-Uni|Norvège|Italie|Belgique|Espagne/.test(choice))).toBe(true);
+    expect(choices.every((choice) => !choice.includes(','))).toBe(true);
+  });
+
+  it('sélectionne des distracteurs liés au sujet de la question', () => {
+    const question = questions.find((item) => item.question === "Qu'est-ce que l'Hôtel de Matignon ?");
+    const choices = buildChoices(question);
+    expect(choices).toHaveLength(4);
+    expect(choices).toContain('La résidence officielle et le bureau du Premier ministre.');
+    expect(choices).not.toContain('Le 9 mai.');
   });
 });

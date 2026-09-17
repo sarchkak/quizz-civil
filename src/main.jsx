@@ -120,11 +120,31 @@ const canonicalAnswer = (item, pool) => {
     return source.includes(normalized);
   }) || item.answer;
 };
+const ignoredWords = new Set(['quel', 'quelle', 'quels', 'quelles', 'est', 'sont', 'une', 'un', 'les', 'des', 'de', 'du', 'la', 'le', 'à', 'et', 'en', 'pour', 'que', 'qui', 'dans', 'avec', 'sur', 'par', 'l', 'ce', 'cette', 'c’est']);
+const keywords = (value) => new Set(value.toLocaleLowerCase('fr-FR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/[^a-z0-9]+/).filter((word) => word.length > 2 && !ignoredWords.has(word)));
+const relatedDistractors = (item) => {
+  const sourceWords = keywords(`${item.question} ${item.answer}`);
+  return officialQuestions
+    .filter((candidate) => candidate.category === item.category && candidate.question !== item.question && candidate.answer !== item.answer)
+    .map((candidate) => {
+      const candidateWords = keywords(`${candidate.question} ${candidate.answer}`);
+      const overlap = [...sourceWords].filter((word) => candidateWords.has(word)).length;
+      return { answer: candidate.answer, score: overlap };
+    })
+    .sort((a, b) => b.score - a.score)
+    .map(({ answer }) => answer)
+    .filter((answer, index, values) => values.indexOf(answer) === index)
+    .slice(0, 3);
+};
 export const buildChoices = (item) => {
   const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
-  if (!pool) return shuffle(item.choices);
   const answer = canonicalAnswer(item, pool);
-  return shuffle([answer, ...pool.filter((choice) => choice !== answer)]).slice(0, 4);
+  const distractors = pool
+    ? pool.filter((choice) => choice !== answer)
+    : item.situation
+      ? item.choices.filter((choice) => choice !== item.answer)
+      : relatedDistractors(item);
+  return shuffle([answer, ...shuffle(distractors).slice(0, 3)]);
 };
 export const buildQuiz = () => {
   const distribution = [6, 6, 6, 5, 5];
