@@ -1,4 +1,4 @@
-// Questions officielles extraites du document de référence V3.
+// Questions officielles extraites du document de référence V4.
 export const officialQuestions = [
   {
     "category": "Principes & valeurs",
@@ -6,9 +6,9 @@ export const officialQuestions = [
     "answer": "Voter aux élections ou s'engager dans une association",
     "choices": [
       "Acheter une propriété privée",
-      "Voter aux élections ou s'engager dans une association",
       "Obtenir son permis de conduire",
-      "Le droit de créer, d'adhérer ou de quitter une association librement"
+      "Payer ses courses au supermarché",
+      "Voter aux élections ou s'engager dans une association"
     ],
     "precise": true
   },
@@ -18,9 +18,9 @@ export const officialQuestions = [
     "answer": "Le droit d'exprimer librement ses opinions (dans le respect de la loi)",
     "choices": [
       "Le droit de diffamer n'importe qui",
-      "Le droit d'exprimer librement ses opinions (dans le respect de la loi)",
       "Le droit de ne pas payer d'impôts",
-      "Le droit de créer, d'adhérer ou de quitter une association librement"
+      "Le droit de rouler sans permis",
+      "Le droit d'exprimer librement ses opinions (dans le respect de la loi)"
     ],
     "precise": true
   },
@@ -29,10 +29,10 @@ export const officialQuestions = [
     "question": "À quoi sert un titre de séjour ?",
     "answer": "C'est un document officiel autorisant un étranger à vivre légalement en France",
     "choices": [
-      "C'est un document officiel autorisant un étranger à vivre légalement en France",
-      "Il permet de voyager gratuitement",
+      "Il permet de voyager gratuitement en train",
       "C'est l'équivalent d'un passeport français",
-      "Non, c'est un délit (injure à caractère discriminatoire)"
+      "Il permet de ne pas payer d'impôts",
+      "C'est un document officiel autorisant un étranger à vivre légalement en France"
     ],
     "precise": true
   },
@@ -43,20 +43,20 @@ export const officialQuestions = [
     "choices": [
       "Conduire sans assurance",
       "Prendre les transports en commun sans payer",
-      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir",
-      "Agir et se déplacer librement sans contrainte illégale"
+      "Traverser les propriétés privées clôturées",
+      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir"
     ],
     "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
-    "answer": "Les sites finissant par .gouv.fr",
+    "answer": "Les sites officiels du gouvernement finissant par .gouv.fr",
     "choices": [
       "Les sites finissant par .com",
-      "Les sites finissant par .gouv.fr",
       "Les sites finissant par .org",
-      "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet"
+      "Les sites finissant par .net",
+      "Les sites officiels du gouvernement finissant par .gouv.fr"
     ],
     "precise": true
   },
@@ -66,9 +66,9 @@ export const officialQuestions = [
     "answer": "Citoyens",
     "choices": [
       "Soldats",
-      "Citoyens",
       "Français",
-      "Le jour de gloire est arrivé !"
+      "Camarades",
+      "Citoyens"
     ],
     "precise": true
   },
@@ -79,8 +79,8 @@ export const officialQuestions = [
     "choices": [
       "Formez vos bataillons",
       "Marchons, marchons",
-      "Le jour de gloire est arrivé !",
-      "Citoyens"
+      "Contre nous de la tyrannie",
+      "Le jour de gloire est arrivé !"
     ],
     "precise": true
   },
@@ -89,10 +89,10 @@ export const officialQuestions = [
     "question": "En application de la liberté individuelle, une personne peut :",
     "answer": "Agir et se déplacer librement sans contrainte illégale",
     "choices": [
-      "Agir et se déplacer librement sans contrainte illégale",
       "Refuser de respecter le Code de la route",
       "Ne pas déclarer ses impôts",
-      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir"
+      "Voler si elle a faim",
+      "Agir et se déplacer librement sans contrainte illégale"
     ],
     "precise": true
   },
@@ -101,22 +101,22 @@ export const officialQuestions = [
     "question": "Concernant la pratique de la religion, quelle proposition est correcte ?",
     "answer": "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public",
     "choices": [
-      "Elle est obligatoire",
-      "Elle est interdite dans l'espace public",
-      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public",
-      "Il a le droit d'exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public"
+      "Elle est obligatoire en France",
+      "Elle est totalement interdite dans l'espace public",
+      "Elle nécessite une autorisation de la mairie",
+      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public"
     ],
     "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport car ils sont mixtes ?",
-    "answer": "Non, c'est interdit (principe d'égalité et laïcité)",
+    "answer": "Non, c'est interdit (principe d'égalité et de laïcité)",
     "choices": [
       "Oui, pour des raisons religieuses",
-      "Non, c'est interdit (principe d'égalité et laïcité)",
       "Oui, si l'enfant le demande",
-      "Non, c'est un délit puni par la loi (outrage)"
+      "Oui, avec un mot des parents",
+      "Non, c'est interdit (principe d'égalité et de laïcité)"
     ],
     "precise": true
   },
@@ -127,8 +127,8 @@ export const officialQuestions = [
     "choices": [
       "Travail, Famille, Patrie",
       "Paix, Justice, Solidarité",
-      "Liberté, Égalité, Fraternité",
-      "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi"
+      "Union, Force, Démocratie",
+      "Liberté, Égalité, Fraternité"
     ],
     "precise": true
   },
@@ -139,20 +139,20 @@ export const officialQuestions = [
     "choices": [
       "Autorisée par la loi française",
       "Tolérée dans certains cas",
-      "Totalement interdite et non reconnue en France",
-      "Une République indivisible, laïque, démocratique et sociale"
+      "Autorisée si le mariage a eu lieu à l'étranger",
+      "Totalement interdite et non reconnue en France"
     ],
     "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
-    "answer": "Ils sont obligatoires et financent les services publics",
+    "answer": "Ils sont obligatoires et financent les services publics (hôpitaux, écoles)",
     "choices": [
       "Ils sont facultatifs",
-      "Ils sont obligatoires et financent les services publics",
       "Ils ne servent qu'à payer les élus",
-      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public"
+      "Ils sont uniquement payés par les entreprises",
+      "Ils sont obligatoires et financent les services publics (hôpitaux, écoles)"
     ],
     "precise": true
   },
@@ -162,9 +162,9 @@ export const officialQuestions = [
     "answer": "Non, c'est un délit puni par la loi (outrage)",
     "choices": [
       "Oui, c'est la liberté d'expression",
-      "Non, c'est un délit puni par la loi (outrage)",
-      "Oui, lors des manifestations",
-      "Non, c'est un délit (injure à caractère discriminatoire)"
+      "Oui, lors des manifestations syndicales",
+      "Oui, s'il est usé",
+      "Non, c'est un délit puni par la loi (outrage)"
     ],
     "precise": true
   },
@@ -174,9 +174,9 @@ export const officialQuestions = [
     "answer": "La loi interdit et punit sévèrement les actes discriminatoires",
     "choices": [
       "Il organise des sondages",
-      "La loi interdit et punit sévèrement les actes discriminatoires",
       "Rien, c'est de l'ordre du privé",
-      "1905"
+      "Il sépare les différentes communautés",
+      "La loi interdit et punit sévèrement les actes discriminatoires"
     ],
     "precise": true
   },
@@ -186,9 +186,9 @@ export const officialQuestions = [
     "answer": "La République française et les valeurs de la Liberté",
     "choices": [
       "La monarchie française",
-      "La République française et les valeurs de la Liberté",
       "L'Europe",
-      "Les sites finissant par .gouv.fr"
+      "La religion catholique",
+      "La République française et les valeurs de la Liberté"
     ],
     "precise": true
   },
@@ -198,9 +198,9 @@ export const officialQuestions = [
     "answer": "Le droit de créer, d'adhérer ou de quitter une association librement",
     "choices": [
       "L'obligation de rejoindre un syndicat",
-      "Le droit de créer, d'adhérer ou de quitter une association librement",
       "Le droit de se regrouper dans la rue sans autorisation",
-      "Le droit d'exprimer librement ses opinions (dans le respect de la loi)"
+      "L'obligation d'avoir une assurance",
+      "Le droit de créer, d'adhérer ou de quitter une association librement"
     ],
     "precise": true
   },
@@ -210,9 +210,9 @@ export const officialQuestions = [
     "answer": "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui",
     "choices": [
       "Faire tout ce que l'on veut",
-      "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui",
       "Ne pas respecter les lois",
-      "Oui, c'est garanti par la liberté de conscience (laïcité)"
+      "Ne pas payer d'impôts",
+      "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui"
     ],
     "precise": true
   },
@@ -221,10 +221,10 @@ export const officialQuestions = [
     "question": "Qu'est-ce que la Marseillaise ?",
     "answer": "L'hymne national français",
     "choices": [
-      "L'hymne national français",
       "Un poème célèbre",
       "La devise de la France",
-      "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi"
+      "Une danse traditionnelle",
+      "L'hymne national français"
     ],
     "precise": true
   },
@@ -234,9 +234,9 @@ export const officialQuestions = [
     "answer": "Sur les timbres, les pièces de monnaie, et les documents officiels",
     "choices": [
       "Les factures d'électricité",
-      "Sur les timbres, les pièces de monnaie, et les documents officiels",
       "Les tickets de métro",
-      "Non, c'est un délit puni par la loi (outrage)"
+      "Les chèques de banque",
+      "Sur les timbres, les pièces de monnaie, et les documents officiels"
     ],
     "precise": true
   },
@@ -246,9 +246,9 @@ export const officialQuestions = [
     "answer": "C'est interdit, c'est une discrimination sexiste punie par la loi",
     "choices": [
       "C'est son droit en tant que chef d'entreprise",
-      "C'est interdit, c'est une discrimination sexiste punie par la loi",
       "C'est toléré dans certains secteurs",
-      "Non, c'est un délit puni par la loi (outrage)"
+      "C'est autorisé s'il l'écrit dans l'annonce",
+      "C'est interdit, c'est une discrimination sexiste punie par la loi"
     ],
     "precise": true
   },
@@ -258,9 +258,9 @@ export const officialQuestions = [
     "answer": "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi",
     "choices": [
       "Que tout le monde a le même salaire",
-      "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi",
       "Que tout le monde doit penser la même chose",
-      "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui"
+      "Que tout le monde doit avoir la même religion",
+      "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi"
     ],
     "precise": true
   },
@@ -270,9 +270,9 @@ export const officialQuestions = [
     "answer": "C'est la langue officielle de la République",
     "choices": [
       "C'est une langue parmi d'autres",
-      "C'est la langue officielle de la République",
       "Elle est réservée à l'administration",
-      "Les sites finissant par .gouv.fr"
+      "Elle est facultative à l'école",
+      "C'est la langue officielle de la République"
     ],
     "precise": true
   },
@@ -282,9 +282,9 @@ export const officialQuestions = [
     "answer": "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet",
     "choices": [
       "La Tour Eiffel, le coq, le béret",
-      "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet",
       "Le vin, le fromage, la baguette",
-      "Les sites finissant par .gouv.fr"
+      "Le croissant, le champagne, le camembert",
+      "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet"
     ],
     "precise": true
   },
@@ -293,10 +293,10 @@ export const officialQuestions = [
     "question": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent ?",
     "answer": "Non, c'est un délit (injure à caractère discriminatoire)",
     "choices": [
-      "Non, c'est un délit (injure à caractère discriminatoire)",
       "Oui, tant qu'il n'y a pas de violence physique",
       "Oui, c'est de l'humour",
-      "Non, c'est un délit puni par la loi (outrage)"
+      "Oui, si c'est sur Internet",
+      "Non, c'est un délit (injure à caractère discriminatoire)"
     ],
     "precise": true
   },
@@ -306,9 +306,9 @@ export const officialQuestions = [
     "answer": "Une République indivisible, laïque, démocratique et sociale",
     "choices": [
       "Une monarchie constitutionnelle",
-      "Une République indivisible, laïque, démocratique et sociale",
       "Un état fédéral",
-      "La France est une République indivisible, laïque, démocratique et sociale"
+      "Une dictature militaire",
+      "Une République indivisible, laïque, démocratique et sociale"
     ],
     "precise": true
   },
@@ -318,9 +318,9 @@ export const officialQuestions = [
     "answer": "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse",
     "choices": [
       "Pour que les élèves n'aient pas de religion",
-      "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse",
       "Pour simplifier le travail des professeurs",
-      "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse"
+      "Pour éviter les jours fériés religieux",
+      "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse"
     ],
     "precise": true
   },
@@ -330,9 +330,9 @@ export const officialQuestions = [
     "answer": "1905",
     "choices": [
       "1789",
-      "1905",
       "1945",
-      "La séparation de l'État et des religions"
+      "2000",
+      "1905"
     ],
     "precise": true
   },
@@ -342,9 +342,9 @@ export const officialQuestions = [
     "answer": "Oui, c'est garanti par la liberté de conscience (laïcité)",
     "choices": [
       "Non, c'est obligatoire",
-      "Oui, c'est garanti par la liberté de conscience (laïcité)",
       "Uniquement si elle le déclare à la mairie",
-      "La liberté de conscience et de culte"
+      "Seulement si elle est de nationalité française",
+      "Oui, c'est garanti par la liberté de conscience (laïcité)"
     ],
     "precise": true
   },
@@ -354,21 +354,21 @@ export const officialQuestions = [
     "answer": "La liberté de conscience et de culte",
     "choices": [
       "Le droit de ne payer aucun impôt",
-      "La liberté de conscience et de culte",
       "Le droit de travailler le dimanche",
-      "Oui, c'est garanti par la liberté de conscience (laïcité)"
+      "Le droit de prier dans la rue",
+      "La liberté de conscience et de culte"
     ],
     "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "À l'école publique, qui peut porter des signes religieux très visibles ?",
-    "answer": "Personne (interdit pour tous)",
+    "answer": "Personne (interdit pour les élèves et le personnel)",
     "choices": [
       "Les professeurs uniquement",
       "Les élèves uniquement",
-      "Personne (interdit pour tous)",
-      "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse"
+      "Les parents d'élèves accompagnateurs uniquement",
+      "Personne (interdit pour les élèves et le personnel)"
     ],
     "precise": true
   },
@@ -377,22 +377,22 @@ export const officialQuestions = [
     "question": "Selon le principe de laïcité, que signifie la neutralité de l'État ?",
     "answer": "L'État ne favorise et ne finance aucune religion",
     "choices": [
-      "L'État ne favorise et ne finance aucune religion",
       "L'État interdit toutes les religions",
       "L'État finance toutes les religions de manière égale",
-      "Les agents de l'État travaillant à la préfecture (fonctionnaires)"
+      "L'État choisit une religion officielle par vote",
+      "L'État ne favorise et ne finance aucune religion"
     ],
     "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Que peut faire un usager du service public dans une mairie ?",
-    "answer": "Il a le droit d'exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public",
+    "answer": "Exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public",
     "choices": [
       "Prier à voix haute dans la salle d'attente",
-      "Il a le droit d'exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public",
       "Il doit enlever tout signe religieux avant d'entrer",
-      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public"
+      "Distribuer des tracts religieux",
+      "Exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public"
     ],
     "precise": true
   },
@@ -402,9 +402,9 @@ export const officialQuestions = [
     "answer": "Les agents de l'État travaillant à la préfecture (fonctionnaires)",
     "choices": [
       "Tous les visiteurs",
-      "Les agents de l'État travaillant à la préfecture (fonctionnaires)",
       "Uniquement le préfet",
-      "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse"
+      "Les personnes qui demandent des papiers",
+      "Les agents de l'État travaillant à la préfecture (fonctionnaires)"
     ],
     "precise": true
   },
@@ -414,9 +414,9 @@ export const officialQuestions = [
     "answer": "Oui, une stricte obligation de neutralité",
     "choices": [
       "Non, ils peuvent partager leurs croyances",
-      "Oui, une stricte obligation de neutralité",
       "Uniquement s'ils sont en contact avec le public",
-      "Les agents de l'État travaillant à la préfecture (fonctionnaires)"
+      "Seulement les jours fériés",
+      "Oui, une stricte obligation de neutralité"
     ],
     "precise": true
   },
@@ -425,22 +425,22 @@ export const officialQuestions = [
     "question": "Que garantit le principe de laïcité ?",
     "answer": "Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi",
     "choices": [
-      "Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi",
       "L'interdiction des religions en France",
       "L'enseignement religieux obligatoire à l'école",
-      "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse"
+      "L'absence de jours fériés religieux",
+      "Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi"
     ],
     "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "A-t-on le droit de changer de religion ?",
-    "answer": "Oui",
+    "answer": "Oui, c'est un droit fondamental",
     "choices": [
       "Non, c'est interdit",
-      "Oui",
       "Uniquement avec l'accord de la préfecture",
-      "Oui, c'est garanti par la liberté de conscience (laïcité)"
+      "Seulement avant l'âge de 18 ans",
+      "Oui, c'est un droit fondamental"
     ],
     "precise": true
   },
@@ -450,9 +450,9 @@ export const officialQuestions = [
     "answer": "La séparation de l'État et des religions",
     "choices": [
       "La religion d'État de la France",
-      "La séparation de l'État et des religions",
       "L'interdiction de parler de religion",
-      "1905"
+      "L'athéisme obligatoire",
+      "La séparation de l'État et des religions"
     ],
     "precise": true
   },
@@ -462,9 +462,9 @@ export const officialQuestions = [
     "answer": "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse",
     "choices": [
       "De parler de religion en cours d'histoire",
-      "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse",
       "De manger de la viande à la cantine",
-      "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse"
+      "D'apprendre d'autres langues",
+      "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse"
     ],
     "precise": true
   },
@@ -474,9 +474,9 @@ export const officialQuestions = [
     "answer": "La France est une République indivisible, laïque, démocratique et sociale",
     "choices": [
       "La France est une nation européenne",
-      "La France est une République indivisible, laïque, démocratique et sociale",
       "La France est un pays de liberté d'expression",
-      "Une République indivisible, laïque, démocratique et sociale"
+      "La France est une monarchie parlementaire",
+      "La France est une République indivisible, laïque, démocratique et sociale"
     ],
     "precise": true
   },
@@ -486,9 +486,9 @@ export const officialQuestions = [
     "answer": "Un système où tous les citoyens et l'État lui-même sont soumis à la loi",
     "choices": [
       "Le droit du Président de tout décider",
-      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi",
       "Le fait que la police dirige le pays",
-      "La protection des libertés fondamentales et l'égalité devant la loi"
+      "Le droit pour l'État de ne pas respecter les lois",
+      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi"
     ],
     "precise": true
   },
@@ -498,9 +498,9 @@ export const officialQuestions = [
     "answer": "Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale)",
     "choices": [
       "Il bénéficie d'une immunité totale à vie",
-      "Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale)",
-      "Il ne peut être jugé que par le Parlement",
-      "Il peut être poursuivi et jugé"
+      "Il ne peut être jugé que par le Parlement européen",
+      "Il est automatiquement pardonné",
+      "Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale)"
     ],
     "precise": true
   },
@@ -510,9 +510,9 @@ export const officialQuestions = [
     "answer": "La volonté générale",
     "choices": [
       "La volonté du Président",
-      "La volonté générale",
       "La volonté des juges",
-      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi"
+      "La volonté de la police",
+      "La volonté générale"
     ],
     "precise": true
   },
@@ -523,8 +523,8 @@ export const officialQuestions = [
     "choices": [
       "4 ans",
       "5 ans",
-      "6 ans",
-      "Tous les 5 ans"
+      "7 ans",
+      "6 ans"
     ],
     "precise": true
   },
@@ -534,9 +534,9 @@ export const officialQuestions = [
     "answer": "La protection des libertés fondamentales et l'égalité devant la loi",
     "choices": [
       "Que tout le monde ait un emploi",
-      "La protection des libertés fondamentales et l'égalité devant la loi",
       "Que l'État puisse faire ce qu'il veut",
-      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi"
+      "Que tout le monde ait le même salaire",
+      "La protection des libertés fondamentales et l'égalité devant la loi"
     ],
     "precise": true
   },
@@ -545,10 +545,10 @@ export const officialQuestions = [
     "question": "Une personne peut-elle voter à la place d'une autre ?",
     "answer": "Oui, uniquement si elle dispose d'une procuration officielle",
     "choices": [
-      "Non, c'est strictement interdit",
-      "Oui, si c'est un membre de sa famille",
-      "Oui, uniquement si elle dispose d'une procuration officielle",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales"
+      "Non, c'est strictement interdit dans tous les cas",
+      "Oui, si c'est un membre de sa famille proche sans démarche",
+      "Oui, si le maire donne son accord oral",
+      "Oui, uniquement si elle dispose d'une procuration officielle"
     ],
     "precise": true
   },
@@ -558,9 +558,9 @@ export const officialQuestions = [
     "answer": "Non, c'est un droit et un devoir civique, mais pas obligatoire",
     "choices": [
       "Oui, sous peine d'amende",
-      "Non, c'est un droit et un devoir civique, mais pas obligatoire",
       "Uniquement pour les personnes de plus de 65 ans",
-      "Non, en vertu de la séparation des pouvoirs"
+      "Uniquement pour l'élection présidentielle",
+      "Non, c'est un droit et un devoir civique, mais pas obligatoire"
     ],
     "precise": true
   },
@@ -569,10 +569,10 @@ export const officialQuestions = [
     "question": "À la fin de son mandat, le président peut-il décider de rester au pouvoir ?",
     "answer": "Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs)",
     "choices": [
-      "Oui, s'il y a une urgence",
-      "Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs)",
-      "Oui, s'il modifie la Constitution",
-      "Non, en vertu de la séparation des pouvoirs"
+      "Oui, s'il y a une urgence nationale",
+      "Oui, s'il modifie la Constitution par décret",
+      "Oui, s'il a le soutien de l'armée",
+      "Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs)"
     ],
     "precise": true
   },
@@ -582,9 +582,9 @@ export const officialQuestions = [
     "answer": "Le Premier ministre",
     "choices": [
       "Le Président de l'Assemblée nationale",
-      "Le Premier ministre",
       "Le Ministre de l'Intérieur",
-      "Diriger l'action du gouvernement"
+      "Le Ministre de la Justice",
+      "Le Premier ministre"
     ],
     "precise": true
   },
@@ -595,8 +595,8 @@ export const officialQuestions = [
     "choices": [
       "L'Assemblée nationale",
       "Le peuple par élection directe",
-      "Le président de la République",
-      "Le Premier ministre"
+      "Le Sénat",
+      "Le président de la République"
     ],
     "precise": true
   },
@@ -605,10 +605,10 @@ export const officialQuestions = [
     "question": "Quelle est l'organisation administrative de la France ?",
     "answer": "État, Régions, Départements, Communes",
     "choices": [
-      "État, Régions, Départements, Communes",
       "État, Cantons, Villes",
       "État fédéral, États fédérés",
-      "Environ 35 000"
+      "Royaumes, Duchés, Comtés",
+      "État, Régions, Départements, Communes"
     ],
     "precise": true
   },
@@ -618,9 +618,9 @@ export const officialQuestions = [
     "answer": "Le pouvoir de voter les lois (détenu par le Parlement)",
     "choices": [
       "Le pouvoir de juger les crimes",
-      "Le pouvoir de voter les lois (détenu par le Parlement)",
       "Le pouvoir d'exécuter les lois",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales"
+      "Le pouvoir de nommer les ministres",
+      "Le pouvoir de voter les lois (détenu par le Parlement)"
     ],
     "precise": true
   },
@@ -629,10 +629,10 @@ export const officialQuestions = [
     "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
     "answer": "Pour éviter la tyrannie et garantir les libertés des citoyens",
     "choices": [
-      "Pour éviter la tyrannie et garantir les libertés des citoyens",
       "Pour créer plus d'emplois publics",
       "Pour ralentir la prise de décision",
-      "Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire"
+      "Pour dépenser plus d'argent public",
+      "Pour éviter la tyrannie et garantir les libertés des citoyens"
     ],
     "precise": true
   },
@@ -642,9 +642,9 @@ export const officialQuestions = [
     "answer": "Le pouvoir judiciaire (les tribunaux / les juges)",
     "choices": [
       "La police",
-      "Le pouvoir judiciaire (les tribunaux / les juges)",
       "Le maire",
-      "Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire"
+      "Le préfet",
+      "Le pouvoir judiciaire (les tribunaux / les juges)"
     ],
     "precise": true
   },
@@ -654,9 +654,9 @@ export const officialQuestions = [
     "answer": "Il détermine et conduit la politique de la Nation",
     "choices": [
       "Il vote les lois",
-      "Il détermine et conduit la politique de la Nation",
       "Il juge les infractions",
-      "Diriger l'action du gouvernement"
+      "Il élit le Président",
+      "Il détermine et conduit la politique de la Nation"
     ],
     "precise": true
   },
@@ -666,9 +666,9 @@ export const officialQuestions = [
     "answer": "Il peut être poursuivi et jugé",
     "choices": [
       "Rien, il est intouchable",
-      "Il peut être poursuivi et jugé",
-      "Il paie juste une amende",
-      "Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale)"
+      "Il paie juste une amende symbolique",
+      "Il est protégé par son statut",
+      "Il peut être poursuivi et jugé"
     ],
     "precise": true
   },
@@ -678,9 +678,9 @@ export const officialQuestions = [
     "answer": "577",
     "choices": [
       "348",
-      "577",
       "1000",
-      "Environ 35 000"
+      "400",
+      "577"
     ],
     "precise": true
   },
@@ -690,9 +690,9 @@ export const officialQuestions = [
     "answer": "Les citoyens majeurs inscrits sur les listes électorales",
     "choices": [
       "Tous les résidents en France",
-      "Les citoyens majeurs inscrits sur les listes électorales",
       "Les personnes payant des impôts",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales"
+      "Tous ceux qui ont plus de 16 ans",
+      "Les citoyens majeurs inscrits sur les listes électorales"
     ],
     "precise": true
   },
@@ -701,10 +701,10 @@ export const officialQuestions = [
     "question": "Pour combien de temps sont élus les sénateurs ?",
     "answer": "6 ans",
     "choices": [
+      "4 ans",
       "5 ans",
-      "6 ans",
       "7 ans",
-      "Tous les 5 ans"
+      "6 ans"
     ],
     "precise": true
   },
@@ -714,9 +714,9 @@ export const officialQuestions = [
     "answer": "Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire",
     "choices": [
       "Politique, économique, médiatique",
-      "Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire",
       "État, région, commune",
-      "Pour éviter la tyrannie et garantir les libertés des citoyens"
+      "Police, Armée, Justice",
+      "Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire"
     ],
     "precise": true
   },
@@ -726,9 +726,9 @@ export const officialQuestions = [
     "answer": "Non, en vertu de la séparation des pouvoirs",
     "choices": [
       "Oui",
-      "Non, en vertu de la séparation des pouvoirs",
       "Uniquement en cas de guerre",
-      "Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs)"
+      "Uniquement s'il est réélu",
+      "Non, en vertu de la séparation des pouvoirs"
     ],
     "precise": true
   },
@@ -737,10 +737,10 @@ export const officialQuestions = [
     "question": "Qui est le préfet ?",
     "answer": "Le représentant de l'État dans le département (ou la région)",
     "choices": [
-      "Le représentant de l'État dans le département (ou la région)",
       "Le chef de la police municipale",
       "Un élu local",
-      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi"
+      "Le responsable des écoles",
+      "Le représentant de l'État dans le département (ou la région)"
     ],
     "precise": true
   },
@@ -750,9 +750,9 @@ export const officialQuestions = [
     "answer": "Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes",
     "choices": [
       "Avoir un emploi",
-      "Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes",
-      "Savoir lire et écrire",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales"
+      "Savoir lire et écrire parfaitement",
+      "Payer des impôts",
+      "Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes"
     ],
     "precise": true
   },
@@ -762,9 +762,9 @@ export const officialQuestions = [
     "answer": "Le maire",
     "choices": [
       "Le préfet",
-      "Le maire",
       "Le député",
-      "Le Premier ministre"
+      "Le commissaire de police",
+      "Le maire"
     ],
     "precise": true
   },
@@ -775,8 +775,8 @@ export const officialQuestions = [
     "choices": [
       "La Monarchie parlementaire",
       "La IVe République",
-      "La Ve (Cinquième) République",
-      "État, Régions, Départements, Communes"
+      "Le Second Empire",
+      "La Ve (Cinquième) République"
     ],
     "precise": true
   },
@@ -786,9 +786,9 @@ export const officialQuestions = [
     "answer": "La résidence officielle et le bureau du Premier ministre",
     "choices": [
       "Le bureau du Président",
-      "La résidence officielle et le bureau du Premier ministre",
       "Le siège de l'Assemblée nationale",
-      "Le président de la République"
+      "Un grand hôtel parisien",
+      "La résidence officielle et le bureau du Premier ministre"
     ],
     "precise": true
   },
@@ -798,9 +798,9 @@ export const officialQuestions = [
     "answer": "De l'Assemblée nationale et du Sénat",
     "choices": [
       "Du Président et du Gouvernement",
-      "De l'Assemblée nationale et du Sénat",
       "Des préfets et des maires",
-      "577"
+      "Des juges et des avocats",
+      "De l'Assemblée nationale et du Sénat"
     ],
     "precise": true
   },
@@ -810,9 +810,9 @@ export const officialQuestions = [
     "answer": "Chef de l'État, chef des armées, il veille au respect de la Constitution",
     "choices": [
       "Il vote les lois",
-      "Chef de l'État, chef des armées, il veille au respect de la Constitution",
       "Il juge les crimes",
-      "Veiller au respect des droits des citoyens et lutter contre les discriminations"
+      "Il dirige la police municipale",
+      "Chef de l'État, chef des armées, il veille au respect de la Constitution"
     ],
     "precise": true
   },
@@ -821,10 +821,10 @@ export const officialQuestions = [
     "question": "Quel est le rôle du Premier ministre ?",
     "answer": "Diriger l'action du gouvernement",
     "choices": [
-      "Diriger l'action du gouvernement",
       "Représenter la France à l'étranger",
       "Présider l'Assemblée nationale",
-      "Le Premier ministre"
+      "Diriger l'armée",
+      "Diriger l'action du gouvernement"
     ],
     "precise": true
   },
@@ -834,9 +834,9 @@ export const officialQuestions = [
     "answer": "Le Premier ministre",
     "choices": [
       "Le Président de la République",
-      "Le Premier ministre",
       "Le Ministre de la Justice",
-      "Diriger l'action du gouvernement"
+      "Le Maire de Paris",
+      "Le Premier ministre"
     ],
     "precise": true
   },
@@ -845,10 +845,10 @@ export const officialQuestions = [
     "question": "Combien y a-t-il de régions en France ?",
     "answer": "18 (13 en métropole, 5 en outre-mer)",
     "choices": [
-      "18 (13 en métropole, 5 en outre-mer)",
       "22",
       "50",
-      "Environ 35 000"
+      "100",
+      "18 (13 en métropole, 5 en outre-mer)"
     ],
     "precise": true
   },
@@ -858,9 +858,9 @@ export const officialQuestions = [
     "answer": "Veiller au respect des droits des citoyens et lutter contre les discriminations",
     "choices": [
       "Il est l'avocat de l'État",
-      "Veiller au respect des droits des citoyens et lutter contre les discriminations",
       "Il gère les prisons",
-      "Chef de l'État, chef des armées, il veille au respect de la Constitution"
+      "Il vote les lois de sécurité",
+      "Veiller au respect des droits des citoyens et lutter contre les discriminations"
     ],
     "precise": true
   },
@@ -870,9 +870,9 @@ export const officialQuestions = [
     "answer": "2002 (circulation fiduciaire)",
     "choices": [
       "1992",
-      "2002 (circulation fiduciaire)",
       "2010",
-      "Le 9 mai"
+      "1995",
+      "2002 (circulation fiduciaire)"
     ],
     "precise": true
   },
@@ -882,9 +882,9 @@ export const officialQuestions = [
     "answer": "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales",
     "choices": [
       "La défense nationale",
-      "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales",
       "Les universités",
-      "L'état civil, les écoles maternelles/primaires et l'urbanisme local"
+      "L'armée de l'air",
+      "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales"
     ],
     "precise": true
   },
@@ -894,9 +894,9 @@ export const officialQuestions = [
     "answer": "L'état civil, les écoles maternelles/primaires et l'urbanisme local",
     "choices": [
       "Les lycées",
-      "L'état civil, les écoles maternelles/primaires et l'urbanisme local",
-      "La collecte des impôts",
-      "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales"
+      "La collecte des impôts nationaux",
+      "Les hôpitaux régionaux",
+      "L'état civil, les écoles maternelles/primaires et l'urbanisme local"
     ],
     "precise": true
   },
@@ -905,10 +905,10 @@ export const officialQuestions = [
     "question": "Combien de communes environ existe-t-il en France ?",
     "answer": "Environ 35 000",
     "choices": [
+      "Environ 1 000",
       "Environ 10 000",
-      "Environ 35 000",
       "Environ 100 000",
-      "État, Régions, Départements, Communes"
+      "Environ 35 000"
     ],
     "precise": true
   },
@@ -918,9 +918,9 @@ export const officialQuestions = [
     "answer": "Le traité de Rome (ou traité de Maastricht)",
     "choices": [
       "Le traité de Versailles",
-      "Le traité de Rome (ou traité de Maastricht)",
       "Le traité de Paris",
-      "La Suisse (ou Royaume-Uni, Norvège)"
+      "Le traité de Lisbonne uniquement",
+      "Le traité de Rome (ou traité de Maastricht)"
     ],
     "precise": true
   },
@@ -930,9 +930,9 @@ export const officialQuestions = [
     "answer": "Le Royaume-Uni (Brexit)",
     "choices": [
       "La Suisse",
-      "Le Royaume-Uni (Brexit)",
       "La Norvège",
-      "La Suisse (ou Royaume-Uni, Norvège)"
+      "L'Islande",
+      "Le Royaume-Uni (Brexit)"
     ],
     "precise": true
   },
@@ -942,9 +942,9 @@ export const officialQuestions = [
     "answer": "Unie dans la diversité",
     "choices": [
       "Liberté, Égalité, Fraternité",
-      "Unie dans la diversité",
       "Paix et Prospérité",
-      "Le traité de Rome (ou traité de Maastricht)"
+      "Tous pour un, un pour tous",
+      "Unie dans la diversité"
     ],
     "precise": true
   },
@@ -954,9 +954,9 @@ export const officialQuestions = [
     "answer": "L'Ode à la joie (Beethoven)",
     "choices": [
       "La Marseillaise",
-      "L'Ode à la joie (Beethoven)",
-      "God Save the Queen",
-      "Le Royaume-Uni (Brexit)"
+      "God Save the King",
+      "La Symphonie du Nouveau Monde",
+      "L'Ode à la joie (Beethoven)"
     ],
     "precise": true
   },
@@ -966,9 +966,9 @@ export const officialQuestions = [
     "answer": "De 12 étoiles dorées disposées en cercle",
     "choices": [
       "De 50 étoiles blanches",
-      "De 12 étoiles dorées disposées en cercle",
       "De 15 bandes de couleur",
-      "Fond bleu avec des étoiles jaunes/dorées"
+      "De 27 étoiles (une par pays)",
+      "De 12 étoiles dorées disposées en cercle"
     ],
     "precise": true
   },
@@ -978,9 +978,9 @@ export const officialQuestions = [
     "answer": "Fond bleu avec des étoiles jaunes/dorées",
     "choices": [
       "Bleu, blanc, rouge",
-      "Fond bleu avec des étoiles jaunes/dorées",
       "Fond rouge avec des étoiles blanches",
-      "De 12 étoiles dorées disposées en cercle"
+      "Fond vert avec des étoiles jaunes",
+      "Fond bleu avec des étoiles jaunes/dorées"
     ],
     "precise": true
   },
@@ -990,9 +990,9 @@ export const officialQuestions = [
     "answer": "1992",
     "choices": [
       "1957",
-      "1992",
       "2002",
-      "Le traité de Rome (ou traité de Maastricht)"
+      "1989",
+      "1992"
     ],
     "precise": true
   },
@@ -1002,9 +1002,9 @@ export const officialQuestions = [
     "answer": "Strasbourg",
     "choices": [
       "Bruxelles",
-      "Strasbourg",
       "Paris",
-      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi"
+      "Berlin",
+      "Strasbourg"
     ],
     "precise": true
   },
@@ -1013,10 +1013,10 @@ export const officialQuestions = [
     "question": "Où est le siège de la Commission européenne ?",
     "answer": "Bruxelles",
     "choices": [
-      "Bruxelles",
       "Strasbourg",
       "Berlin",
-      "Unie dans la diversité"
+      "Rome",
+      "Bruxelles"
     ],
     "precise": true
   },
@@ -1027,8 +1027,8 @@ export const officialQuestions = [
     "choices": [
       "L'Espagne",
       "L'Italie",
-      "La Suisse (ou Royaume-Uni, Norvège)",
-      "Le traité de Rome (ou traité de Maastricht)"
+      "La Belgique",
+      "La Suisse (ou Royaume-Uni, Norvège)"
     ],
     "precise": true
   },
@@ -1038,9 +1038,9 @@ export const officialQuestions = [
     "answer": "Le 9 mai",
     "choices": [
       "Le 14 juillet",
-      "Le 9 mai",
       "Le 1er janvier",
-      "2002 (circulation fiduciaire)"
+      "Le 11 novembre",
+      "Le 9 mai"
     ],
     "precise": true
   },
@@ -1050,9 +1050,9 @@ export const officialQuestions = [
     "answer": "Tous les 5 ans",
     "choices": [
       "Tous les 4 ans",
-      "Tous les 5 ans",
       "Tous les 7 ans",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales"
+      "Tous les 6 ans",
+      "Tous les 5 ans"
     ],
     "precise": true
   },
@@ -1062,9 +1062,9 @@ export const officialQuestions = [
     "answer": "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales",
     "choices": [
       "Avoir un passeport de l'UE",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales",
       "Être marié à un Européen",
-      "Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes"
+      "Avoir un emploi dans l'UE",
+      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales"
     ],
     "precise": true
   },
@@ -1075,8 +1075,8 @@ export const officialQuestions = [
     "choices": [
       "Le Royaume-Uni",
       "L'Espagne",
-      "La France (avec Allemagne, Italie, Benelux)",
-      "Unie dans la diversité"
+      "La Grèce",
+      "La France (avec Allemagne, Italie, Benelux)"
     ],
     "precise": true
   },
@@ -1086,9 +1086,9 @@ export const officialQuestions = [
     "answer": "La liberté de disposer de son corps et le droit à la vie familiale",
     "choices": [
       "La liberté d'expression",
-      "La liberté de disposer de son corps et le droit à la vie familiale",
       "La liberté de circuler",
-      "La liberté de conscience"
+      "La liberté d'association",
+      "La liberté de disposer de son corps et le droit à la vie familiale"
     ],
     "precise": true
   },
@@ -1098,9 +1098,9 @@ export const officialQuestions = [
     "answer": "Pour des raisons d'ordre public, de sécurité ou d'intérêt général",
     "choices": [
       "Pour faire des économies",
-      "Pour des raisons d'ordre public, de sécurité ou d'intérêt général",
       "Sans aucune justification",
-      "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité"
+      "Pour aider les entreprises privées",
+      "Pour des raisons d'ordre public, de sécurité ou d'intérêt général"
     ],
     "precise": true
   },
@@ -1110,9 +1110,9 @@ export const officialQuestions = [
     "answer": "Il est ouvert aux couples de sexes différents et de même sexe",
     "choices": [
       "Seuls les couples de sexe différent peuvent se marier",
-      "Il est ouvert aux couples de sexes différents et de même sexe",
       "Il nécessite l'accord du maire",
-      "Les lois s'y appliquent (les injures et incitations à la haine y sont punies)"
+      "Il est interdit aux étrangers",
+      "Il est ouvert aux couples de sexes différents et de même sexe"
     ],
     "precise": true
   },
@@ -1122,9 +1122,9 @@ export const officialQuestions = [
     "answer": "Oui",
     "choices": [
       "Non, c'est interdit",
-      "Oui",
       "Seulement en cas de faute",
-      "Oui, légalement autorisé et garanti par la Constitution"
+      "Seulement après 10 ans de mariage",
+      "Oui"
     ],
     "precise": true
   },
@@ -1135,8 +1135,8 @@ export const officialQuestions = [
     "choices": [
       "Appliquée pour les crimes très graves",
       "Suspendue provisoirement",
-      "Abolie (interdite) en France",
-      "Un délit (ou infraction) passible d'une amende"
+      "Appliquée par l'armée",
+      "Abolie (interdite) en France"
     ],
     "precise": true
   },
@@ -1146,9 +1146,9 @@ export const officialQuestions = [
     "answer": "\"Les hommes naissent et demeurent libres et égaux en droits\"",
     "choices": [
       "\"L'État c'est moi\"",
-      "\"Les hommes naissent et demeurent libres et égaux en droits\"",
       "\"Travail, Famille, Patrie\"",
-      "Trier ses déchets"
+      "\"L'union fait la force\"",
+      "\"Les hommes naissent et demeurent libres et égaux en droits\""
     ],
     "precise": true
   },
@@ -1157,10 +1157,10 @@ export const officialQuestions = [
     "question": "Le recours à l'avortement est-il autorisé ?",
     "answer": "Oui, légalement autorisé et garanti par la Constitution",
     "choices": [
-      "Oui, légalement autorisé et garanti par la Constitution",
       "Non, sauf avis médical strict",
       "Oui, uniquement pour les femmes majeures",
-      "La Constitution"
+      "Uniquement si la femme est mariée",
+      "Oui, légalement autorisé et garanti par la Constitution"
     ],
     "precise": true
   },
@@ -1170,9 +1170,9 @@ export const officialQuestions = [
     "answer": "Les règles d'organisation de l'État et les droits fondamentaux des citoyens",
     "choices": [
       "Le Code de la route",
-      "Les règles d'organisation de l'État et les droits fondamentaux des citoyens",
       "Les tarifs des impôts",
-      "Pour des raisons d'ordre public, de sécurité ou d'intérêt général"
+      "Le calendrier des jours fériés",
+      "Les règles d'organisation de l'État et les droits fondamentaux des citoyens"
     ],
     "precise": true
   },
@@ -1182,9 +1182,9 @@ export const officialQuestions = [
     "answer": "Le droit de publier, diffuser et s'informer librement",
     "choices": [
       "Que la presse est gratuite",
-      "Le droit de publier, diffuser et s'informer librement",
       "Que la presse ne dit que la vérité",
-      "La liberté de disposer de son corps et le droit à la vie familiale"
+      "Que l'État contrôle les journaux",
+      "Le droit de publier, diffuser et s'informer librement"
     ],
     "precise": true
   },
@@ -1194,9 +1194,9 @@ export const officialQuestions = [
     "answer": "Le droit de vivre dans un environnement équilibré et respectueux de la santé",
     "choices": [
       "L'interdiction des voitures",
-      "Le droit de vivre dans un environnement équilibré et respectueux de la santé",
       "Que l'eau est gratuite pour tous",
-      "Trier ses déchets"
+      "L'obligation de devenir végétarien",
+      "Le droit de vivre dans un environnement équilibré et respectueux de la santé"
     ],
     "precise": true
   },
@@ -1206,9 +1206,9 @@ export const officialQuestions = [
     "answer": "Le respect absolu de la personne humaine (interdiction de traitements dégradants)",
     "choices": [
       "Le droit d'être riche",
-      "Le respect absolu de la personne humaine (interdiction de traitements dégradants)",
       "Le fait d'avoir un travail",
-      "Procréation Médicalement Assistée"
+      "Le droit de ne pas payer d'amendes",
+      "Le respect absolu de la personne humaine (interdiction de traitements dégradants)"
     ],
     "precise": true
   },
@@ -1217,10 +1217,10 @@ export const officialQuestions = [
     "question": "Que signifie le droit de manifester ?",
     "answer": "Le droit d'exprimer collectivement et pacifiquement ses opinions sur la voie publique",
     "choices": [
-      "Le droit d'exprimer collectivement et pacifiquement ses opinions sur la voie publique",
       "Le droit de détruire du matériel",
       "Le droit de bloquer les routes",
-      "Trier ses déchets"
+      "Le droit d'attaquer la police",
+      "Le droit d'exprimer collectivement et pacifiquement ses opinions sur la voie publique"
     ],
     "precise": true
   },
@@ -1230,9 +1230,9 @@ export const officialQuestions = [
     "answer": "Procréation Médicalement Assistée",
     "choices": [
       "Prime Minimum d'Activité",
-      "Procréation Médicalement Assistée",
       "Plan Mondial d'Action",
-      "Le respect absolu de la personne humaine (interdiction de traitements dégradants)"
+      "Protection Maternelle Autorisée",
+      "Procréation Médicalement Assistée"
     ],
     "precise": true
   },
@@ -1243,8 +1243,8 @@ export const officialQuestions = [
     "choices": [
       "Le Code de la route",
       "Une loi ordinaire",
-      "La Constitution",
-      "Oui, légalement autorisé et garanti par la Constitution"
+      "Un décret municipal",
+      "La Constitution"
     ],
     "precise": true
   },
@@ -1254,9 +1254,9 @@ export const officialQuestions = [
     "answer": "La liberté de conscience",
     "choices": [
       "La liberté d'expression",
-      "La liberté de conscience",
       "La liberté d'association",
-      "La liberté de disposer de son corps et le droit à la vie familiale"
+      "La liberté de circulation",
+      "La liberté de conscience"
     ],
     "precise": true
   },
@@ -1266,9 +1266,9 @@ export const officialQuestions = [
     "answer": "Le droit de cesser le travail pour des revendications professionnelles",
     "choices": [
       "Le droit de ne jamais travailler",
-      "Le droit de cesser le travail pour des revendications professionnelles",
       "Le droit de frapper son employeur",
-      "Oui (depuis 1944)"
+      "Le droit de bloquer les usines des autres",
+      "Le droit de cesser le travail pour des revendications professionnelles"
     ],
     "precise": true
   },
@@ -1277,10 +1277,10 @@ export const officialQuestions = [
     "question": "Qu'est-ce que la Constitution ?",
     "answer": "C'est la loi suprême du pays",
     "choices": [
-      "C'est la loi suprême du pays",
       "C'est un livre d'histoire",
       "C'est le règlement de l'Assemblée nationale",
-      "Oui, légalement autorisé et garanti par la Constitution"
+      "C'est le programme du Président",
+      "C'est la loi suprême du pays"
     ],
     "precise": true
   },
@@ -1290,9 +1290,9 @@ export const officialQuestions = [
     "answer": "Toute femme enceinte, mineure ou majeure",
     "choices": [
       "Uniquement les femmes mariées",
-      "Toute femme enceinte, mineure ou majeure",
       "Uniquement les femmes majeures",
-      "Porter plainte à la police ou à la gendarmerie"
+      "Les femmes ayant déjà un enfant",
+      "Toute femme enceinte, mineure ou majeure"
     ],
     "precise": true
   },
@@ -1302,9 +1302,9 @@ export const officialQuestions = [
     "answer": "Oui (depuis 1944)",
     "choices": [
       "Non",
-      "Oui (depuis 1944)",
       "Oui, si son mari l'y autorise",
-      "Toute femme enceinte, mineure ou majeure"
+      "Uniquement aux élections locales",
+      "Oui (depuis 1944)"
     ],
     "precise": true
   },
@@ -1314,9 +1314,9 @@ export const officialQuestions = [
     "answer": "Les lois s'y appliquent (les injures et incitations à la haine y sont punies)",
     "choices": [
       "On peut y dire tout ce qu'on veut, il n'y a pas de règles",
-      "Les lois s'y appliquent (les injures et incitations à la haine y sont punies)",
       "Seules les entreprises sont responsables de ce qui y est publié",
-      "Il est ouvert aux couples de sexes différents et de même sexe"
+      "Internet n'est pas soumis aux lois françaises",
+      "Les lois s'y appliquent (les injures et incitations à la haine y sont punies)"
     ],
     "precise": true
   },
@@ -1325,10 +1325,10 @@ export const officialQuestions = [
     "question": "Jeter un mégot par terre est :",
     "answer": "Un délit (ou infraction) passible d'une amende",
     "choices": [
-      "Un délit (ou infraction) passible d'une amende",
       "Toléré dans la rue",
       "Une liberté citoyenne",
-      "Le vol ou les violences légères"
+      "Autorisé s'il pleut",
+      "Un délit (ou infraction) passible d'une amende"
     ],
     "precise": true
   },
@@ -1338,9 +1338,9 @@ export const officialQuestions = [
     "answer": "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité",
     "choices": [
       "Non, jamais",
-      "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité",
       "Oui, à tout moment sans justification",
-      "Pour des raisons d'ordre public, de sécurité ou d'intérêt général"
+      "Uniquement pour les étrangers",
+      "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité"
     ],
     "precise": true
   },
@@ -1349,10 +1349,10 @@ export const officialQuestions = [
     "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
     "answer": "Trier ses déchets",
     "choices": [
-      "Trier ses déchets",
       "Jeter ses ordures dans la rue",
       "Laisser l'eau couler",
-      "Pour faciliter leur recyclage et préserver l'environnement"
+      "Brûler ses déchets dans son jardin",
+      "Trier ses déchets"
     ],
     "precise": true
   },
@@ -1362,9 +1362,9 @@ export const officialQuestions = [
     "answer": "Payer ses impôts ou scolariser ses enfants",
     "choices": [
       "Voter à toutes les élections",
-      "Payer ses impôts ou scolariser ses enfants",
       "Avoir une voiture",
-      "Le vol ou les violences légères"
+      "Être propriétaire de sa maison",
+      "Payer ses impôts ou scolariser ses enfants"
     ],
     "precise": true
   },
@@ -1374,9 +1374,9 @@ export const officialQuestions = [
     "answer": "En cas d'injure, diffamation ou incitation à la haine",
     "choices": [
       "Si on n'est pas d'accord avec le gouvernement",
-      "En cas d'injure, diffamation ou incitation à la haine",
       "Si l'opinion est impopulaire",
-      "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité"
+      "Si un journaliste n'est pas d'accord",
+      "En cas d'injure, diffamation ou incitation à la haine"
     ],
     "precise": true
   },
@@ -1386,9 +1386,9 @@ export const officialQuestions = [
     "answer": "Pour faciliter leur recyclage et préserver l'environnement",
     "choices": [
       "C'est une recommandation sans importance",
-      "Pour faciliter leur recyclage et préserver l'environnement",
       "Pour faire payer moins d'impôts locaux",
-      "Trier ses déchets"
+      "Pour aider les entreprises privées",
+      "Pour faciliter leur recyclage et préserver l'environnement"
     ],
     "precise": true
   },
@@ -1397,10 +1397,10 @@ export const officialQuestions = [
     "question": "Que doit faire une victime de violences ?",
     "answer": "Porter plainte à la police ou à la gendarmerie",
     "choices": [
-      "Porter plainte à la police ou à la gendarmerie",
       "Se venger",
       "Ne rien faire pour éviter les problèmes",
-      "Toute femme enceinte, mineure ou majeure"
+      "Poster une vidéo sur les réseaux sociaux",
+      "Porter plainte à la police ou à la gendarmerie"
     ],
     "precise": true
   },
@@ -1410,9 +1410,9 @@ export const officialQuestions = [
     "answer": "Obéir et coopérer",
     "choices": [
       "Discuter systématiquement leurs ordres",
-      "Obéir et coopérer",
       "S'enfuir",
-      "Porter plainte à la police ou à la gendarmerie"
+      "Les insulter s'ils ont tort",
+      "Obéir et coopérer"
     ],
     "precise": true
   },
@@ -1422,9 +1422,9 @@ export const officialQuestions = [
     "answer": "Assurer la sécurité des citoyens et maintenir l'ordre public",
     "choices": [
       "Juger les criminels",
-      "Assurer la sécurité des citoyens et maintenir l'ordre public",
       "Rédiger les lois",
-      "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité"
+      "Organiser les élections",
+      "Assurer la sécurité des citoyens et maintenir l'ordre public"
     ],
     "precise": true
   },
@@ -1434,9 +1434,9 @@ export const officialQuestions = [
     "answer": "Appeler les secours (15, 17, 18 ou 112)",
     "choices": [
       "Filmer la scène avec son téléphone",
-      "Appeler les secours (15, 17, 18 ou 112)",
       "S'enfuir pour ne pas être impliqué",
-      "Toute femme enceinte, mineure ou majeure"
+      "Regarder sans rien faire",
+      "Appeler les secours (15, 17, 18 ou 112)"
     ],
     "precise": true
   },
@@ -1446,9 +1446,9 @@ export const officialQuestions = [
     "answer": "Le code de la route (limite de vitesse) ou le confinement",
     "choices": [
       "Interdire de choisir son métier",
-      "Le code de la route (limite de vitesse) ou le confinement",
       "Interdire de voyager à l'étranger",
-      "Pour des raisons d'ordre public, de sécurité ou d'intérêt général"
+      "Interdire de changer de religion",
+      "Le code de la route (limite de vitesse) ou le confinement"
     ],
     "precise": true
   },
@@ -1458,9 +1458,9 @@ export const officialQuestions = [
     "answer": "Alerter immédiatement les secours",
     "choices": [
       "Ne rien dire",
-      "Alerter immédiatement les secours",
       "Participer aux violences",
-      "Porter plainte à la police ou à la gendarmerie"
+      "Ignorer la situation",
+      "Alerter immédiatement les secours"
     ],
     "precise": true
   },
@@ -1471,8 +1471,8 @@ export const officialQuestions = [
     "choices": [
       "La contravention (ex: mauvais stationnement)",
       "Le délit (ex: vol)",
-      "Le crime (ex: meurtre, viol)",
-      "Le meurtre ou le viol"
+      "Le tapage nocturne",
+      "Le crime (ex: meurtre, viol)"
     ],
     "precise": true
   },
@@ -1482,9 +1482,9 @@ export const officialQuestions = [
     "answer": "L'obligation de respecter les lois",
     "choices": [
       "Parler parfaitement le français",
-      "L'obligation de respecter les lois",
       "Avoir un emploi",
-      "Payer ses impôts ou scolariser ses enfants"
+      "Avoir une religion",
+      "L'obligation de respecter les lois"
     ],
     "precise": true
   },
@@ -1493,10 +1493,10 @@ export const officialQuestions = [
     "question": "Quelle proposition représente un exemple de crime ?",
     "answer": "Le meurtre ou le viol",
     "choices": [
-      "Le meurtre ou le viol",
       "Le vol à l'étalage",
       "Le stationnement gênant",
-      "Le vol ou les violences légères"
+      "Conduire sans permis",
+      "Le meurtre ou le viol"
     ],
     "precise": true
   },
@@ -1505,10 +1505,10 @@ export const officialQuestions = [
     "question": "Quelle proposition représente un exemple de délit ?",
     "answer": "Le vol ou les violences légères",
     "choices": [
-      "Le vol ou les violences légères",
       "L'assassinat",
       "Traverser hors des clous",
-      "Le meurtre ou le viol"
+      "Le terrorisme",
+      "Le vol ou les violences légères"
     ],
     "precise": true
   },
@@ -1518,9 +1518,9 @@ export const officialQuestions = [
     "answer": "La police et la gendarmerie nationale",
     "choices": [
       "L'armée",
-      "La police et la gendarmerie nationale",
       "Les juges",
-      "Assurer la sécurité des citoyens et maintenir l'ordre public"
+      "Les vigiles privés",
+      "La police et la gendarmerie nationale"
     ],
     "precise": true
   },
@@ -1530,9 +1530,9 @@ export const officialQuestions = [
     "answer": "Ils doivent être triés et jetés dans les poubelles adaptées",
     "choices": [
       "On peut les jeter n'importe où",
-      "Ils doivent être triés et jetés dans les poubelles adaptées",
       "C'est à la mairie de venir les chercher chez moi",
-      "Les lois s'y appliquent (les injures et incitations à la haine y sont punies)"
+      "On peut les brûler dans la rue",
+      "Ils doivent être triés et jetés dans les poubelles adaptées"
     ],
     "precise": true
   },
@@ -1541,10 +1541,10 @@ export const officialQuestions = [
     "question": "Quel était le surnom de Louis XIV ?",
     "answer": "Le Roi-Soleil",
     "choices": [
-      "Le Roi-Soleil",
       "Le Libérateur",
       "L'Empereur",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "Le Juste",
+      "Le Roi-Soleil"
     ],
     "precise": true
   },
@@ -1554,9 +1554,9 @@ export const officialQuestions = [
     "answer": "Louis XVI",
     "choices": [
       "Henri IV",
-      "Louis XVI",
       "François Ier",
-      "La Première République"
+      "Louis XIV",
+      "Louis XVI"
     ],
     "precise": true
   },
@@ -1566,9 +1566,9 @@ export const officialQuestions = [
     "answer": "1804",
     "choices": [
       "1789",
-      "1804",
       "1914",
-      "La France"
+      "1815",
+      "1804"
     ],
     "precise": true
   },
@@ -1578,9 +1578,9 @@ export const officialQuestions = [
     "answer": "Marianne (ou Charles de Gaulle, Jean Moulin)",
     "choices": [
       "Jules César",
-      "Marianne (ou Charles de Gaulle, Jean Moulin)",
       "Charlemagne",
-      "Paris (ou Savoie, Var)"
+      "Vercingétorix",
+      "Marianne (ou Charles de Gaulle, Jean Moulin)"
     ],
     "precise": true
   },
@@ -1591,8 +1591,8 @@ export const officialQuestions = [
     "choices": [
       "Le 14 juillet 1789",
       "Le 11 novembre 1918",
-      "Le 18 juin 1940",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "Le 8 mai 1945",
+      "Le 18 juin 1940"
     ],
     "precise": true
   },
@@ -1602,9 +1602,9 @@ export const officialQuestions = [
     "answer": "Pour le devoir de mémoire et prévenir les crimes contre l'humanité",
     "choices": [
       "Pour préparer un examen",
-      "Pour le devoir de mémoire et prévenir les crimes contre l'humanité",
       "C'est facultatif",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "Pour apprendre la géographie",
+      "Pour le devoir de mémoire et prévenir les crimes contre l'humanité"
     ],
     "precise": true
   },
@@ -1613,10 +1613,10 @@ export const officialQuestions = [
     "question": "Quel pays a été colonisé par la France ?",
     "answer": "L'Algérie (ou Sénégal, Indochine)",
     "choices": [
-      "L'Algérie (ou Sénégal, Indochine)",
       "Le Brésil",
       "L'Inde",
-      "La Belgique (ou Luxembourg, Allemagne)"
+      "L'Australie",
+      "L'Algérie (ou Sénégal, Indochine)"
     ],
     "precise": true
   },
@@ -1627,8 +1627,8 @@ export const officialQuestions = [
     "choices": [
       "1789",
       "1945",
-      "1962",
-      "Un peintre français (impressionniste)"
+      "1848",
+      "1962"
     ],
     "precise": true
   },
@@ -1638,9 +1638,9 @@ export const officialQuestions = [
     "answer": "La CECA (Communauté Européenne du Charbon et de l'Acier)",
     "choices": [
       "L'Euro",
-      "La CECA (Communauté Européenne du Charbon et de l'Acier)",
       "L'Espace Schengen",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "Le Parlement Européen",
+      "La CECA (Communauté Européenne du Charbon et de l'Acier)"
     ],
     "precise": true
   },
@@ -1650,9 +1650,9 @@ export const officialQuestions = [
     "answer": "François Mitterrand (en 1981)",
     "choices": [
       "Charles de Gaulle",
-      "François Mitterrand (en 1981)",
       "Jacques Chirac",
-      "La peine de mort"
+      "Emmanuel Macron",
+      "François Mitterrand (en 1981)"
     ],
     "precise": true
   },
@@ -1662,9 +1662,9 @@ export const officialQuestions = [
     "answer": "La Première République",
     "choices": [
       "Le Premier Empire",
-      "La Première République",
       "La Monarchie de Juillet",
-      "Louis XVI"
+      "La Cinquième République",
+      "La Première République"
     ],
     "precise": true
   },
@@ -1673,10 +1673,10 @@ export const officialQuestions = [
     "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
     "answer": "Jean Moulin",
     "choices": [
-      "Jean Moulin",
       "Napoléon",
       "Louis XIV",
-      "L'Afrique"
+      "Jeanne d'Arc",
+      "Jean Moulin"
     ],
     "precise": true
   },
@@ -1685,10 +1685,10 @@ export const officialQuestions = [
     "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
     "answer": "Elles ont obtenu le droit de vote",
     "choices": [
-      "Elles ont obtenu le droit de vote",
       "Elles ont pu travailler sans l'accord de leur mari",
       "Elles ont eu le droit d'ouvrir un compte bancaire",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "Elles ont eu le droit de conduire",
+      "Elles ont obtenu le droit de vote"
     ],
     "precise": true
   },
@@ -1698,9 +1698,9 @@ export const officialQuestions = [
     "answer": "L'ONU (Organisation des Nations Unies)",
     "choices": [
       "L'Union Européenne",
-      "L'ONU (Organisation des Nations Unies)",
       "L'OTAN",
-      "L'Afrique"
+      "L'OMS",
+      "L'ONU (Organisation des Nations Unies)"
     ],
     "precise": true
   },
@@ -1710,9 +1710,9 @@ export const officialQuestions = [
     "answer": "La peine de mort",
     "choices": [
       "La prison à vie",
-      "La peine de mort",
       "Les travaux forcés",
-      "François Mitterrand (en 1981)"
+      "L'exil",
+      "La peine de mort"
     ],
     "precise": true
   },
@@ -1722,9 +1722,9 @@ export const officialQuestions = [
     "answer": "2002",
     "choices": [
       "1999",
-      "2002",
       "2010",
-      "La France"
+      "1995",
+      "2002"
     ],
     "precise": true
   },
@@ -1734,9 +1734,9 @@ export const officialQuestions = [
     "answer": "1914",
     "choices": [
       "1870",
-      "1914",
       "1939",
-      "L'ONU (Organisation des Nations Unies)"
+      "1918",
+      "1914"
     ],
     "precise": true
   },
@@ -1746,9 +1746,9 @@ export const officialQuestions = [
     "answer": "En Normandie (et en Provence)",
     "choices": [
       "En Bretagne",
-      "En Normandie (et en Provence)",
       "Dans le Pas-de-Calais",
-      "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)"
+      "En Corse",
+      "En Normandie (et en Provence)"
     ],
     "precise": true
   },
@@ -1758,9 +1758,9 @@ export const officialQuestions = [
     "answer": "L'Afrique",
     "choices": [
       "L'Amérique du Sud",
-      "L'Afrique",
       "L'Asie",
-      "L'ONU (Organisation des Nations Unies)"
+      "L'Océanie",
+      "L'Afrique"
     ],
     "precise": true
   },
@@ -1770,9 +1770,9 @@ export const officialQuestions = [
     "answer": "La fin de la Seconde Guerre mondiale (armistice de 1945)",
     "choices": [
       "La fin de la Première Guerre mondiale",
-      "La fin de la Seconde Guerre mondiale (armistice de 1945)",
       "La Fête du Travail",
-      "L'ONU (Organisation des Nations Unies)"
+      "La Fête Nationale",
+      "La fin de la Seconde Guerre mondiale (armistice de 1945)"
     ],
     "precise": true
   },
@@ -1782,9 +1782,9 @@ export const officialQuestions = [
     "answer": "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)",
     "choices": [
       "La Mer Noire",
-      "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)",
       "L'Océan Pacifique",
-      "Les premiers dimanches du mois ou lors des Journées du Patrimoine"
+      "La Mer Rouge",
+      "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)"
     ],
     "precise": true
   },
@@ -1793,10 +1793,10 @@ export const officialQuestions = [
     "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
     "answer": "L'Espagne (ou Italie, Allemagne, Belgique, Suisse)",
     "choices": [
-      "L'Espagne (ou Italie, Allemagne, Belgique, Suisse)",
       "Le Royaume-Uni",
       "L'Autriche",
-      "La Belgique (ou Luxembourg, Allemagne)"
+      "Le Portugal",
+      "L'Espagne (ou Italie, Allemagne, Belgique, Suisse)"
     ],
     "precise": true
   },
@@ -1806,9 +1806,9 @@ export const officialQuestions = [
     "answer": "Marseille (ou Le Havre, Bordeaux)",
     "choices": [
       "Lyon",
-      "Marseille (ou Le Havre, Bordeaux)",
       "Paris",
-      "Paris (ou Marseille, Lyon, Toulouse...)"
+      "Strasbourg",
+      "Marseille (ou Le Havre, Bordeaux)"
     ],
     "precise": true
   },
@@ -1818,9 +1818,9 @@ export const officialQuestions = [
     "answer": "La Manche",
     "choices": [
       "La Mer Méditerranée",
-      "La Manche",
       "La Mer Baltique",
-      "Les Pyrénées"
+      "La Mer du Nord",
+      "La Manche"
     ],
     "precise": true
   },
@@ -1829,10 +1829,10 @@ export const officialQuestions = [
     "question": "Qu'est ce que la France d'outre-mer ?",
     "answer": "Les territoires français situés en dehors de l'Europe",
     "choices": [
-      "Les territoires français situés en dehors de l'Europe",
       "Les ambassades de France",
       "Les pays qui parlent français",
-      "Un peintre français (impressionniste)"
+      "L'ancienne appellation des colonies",
+      "Les territoires français situés en dehors de l'Europe"
     ],
     "precise": true
   },
@@ -1842,9 +1842,9 @@ export const officialQuestions = [
     "answer": "Les Pyrénées",
     "choices": [
       "Les Alpes",
-      "Les Pyrénées",
       "Le Jura",
-      "La Manche"
+      "Les Vosges",
+      "Les Pyrénées"
     ],
     "precise": true
   },
@@ -1855,8 +1855,8 @@ export const officialQuestions = [
     "choices": [
       "La Corse",
       "La Martinique",
-      "La Réunion (et Mayotte)",
-      "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)"
+      "La Guadeloupe",
+      "La Réunion (et Mayotte)"
     ],
     "precise": true
   },
@@ -1866,9 +1866,9 @@ export const officialQuestions = [
     "answer": "Environ 68 millions d'habitants",
     "choices": [
       "50 millions",
-      "Environ 68 millions d'habitants",
       "80 millions",
-      "Plus de 300 millions de personnes"
+      "100 millions",
+      "Environ 68 millions d'habitants"
     ],
     "precise": true
   },
@@ -1878,9 +1878,9 @@ export const officialQuestions = [
     "answer": "La Seine",
     "choices": [
       "La Loire",
-      "La Seine",
       "Le Rhône",
-      "Paris (ou Savoie, Var)"
+      "La Garonne",
+      "La Seine"
     ],
     "precise": true
   },
@@ -1890,9 +1890,9 @@ export const officialQuestions = [
     "answer": "L'Italie",
     "choices": [
       "Le Portugal",
-      "L'Italie",
       "Les Pays-Bas",
-      "Paris (ou Savoie, Var)"
+      "La Suède",
+      "L'Italie"
     ],
     "precise": true
   },
@@ -1902,9 +1902,9 @@ export const officialQuestions = [
     "answer": "La Belgique (ou Luxembourg, Allemagne)",
     "choices": [
       "L'Espagne",
-      "La Belgique (ou Luxembourg, Allemagne)",
       "La Suisse",
-      "L'Espagne (ou Italie, Allemagne, Belgique, Suisse)"
+      "L'Italie",
+      "La Belgique (ou Luxembourg, Allemagne)"
     ],
     "precise": true
   },
@@ -1914,9 +1914,9 @@ export const officialQuestions = [
     "answer": "Dans les grandes métropoles (Île-de-France, grandes villes)",
     "choices": [
       "En milieu rural",
-      "Dans les grandes métropoles (Île-de-France, grandes villes)",
       "Uniquement dans les ports",
-      "Paris (ou Marseille, Lyon, Toulouse...)"
+      "À la montagne",
+      "Dans les grandes métropoles (Île-de-France, grandes villes)"
     ],
     "precise": true
   },
@@ -1926,9 +1926,9 @@ export const officialQuestions = [
     "answer": "La France",
     "choices": [
       "L'Espagne",
-      "La France",
       "Les États-Unis",
-      "Paris (ou Savoie, Var)"
+      "L'Italie",
+      "La France"
     ],
     "precise": true
   },
@@ -1938,9 +1938,9 @@ export const officialQuestions = [
     "answer": "Dans les aires urbaines (les villes)",
     "choices": [
       "À la campagne",
-      "Dans les aires urbaines (les villes)",
       "En montagne",
-      "Dans les grandes métropoles (Île-de-France, grandes villes)"
+      "Sur les côtes",
+      "Dans les aires urbaines (les villes)"
     ],
     "precise": true
   },
@@ -1950,9 +1950,9 @@ export const officialQuestions = [
     "answer": "L'Île-de-France",
     "choices": [
       "La Bretagne",
-      "L'Île-de-France",
       "La Provence-Alpes-Côte d'Azur",
-      "Plus de 300 millions de personnes"
+      "La Normandie",
+      "L'Île-de-France"
     ],
     "precise": true
   },
@@ -1962,9 +1962,9 @@ export const officialQuestions = [
     "answer": "Paris (ou Marseille, Lyon, Toulouse...)",
     "choices": [
       "Tours",
-      "Paris (ou Marseille, Lyon, Toulouse...)",
       "Biarritz",
-      "Paris (ou Savoie, Var)"
+      "Cannes",
+      "Paris (ou Marseille, Lyon, Toulouse...)"
     ],
     "precise": true
   },
@@ -1974,9 +1974,9 @@ export const officialQuestions = [
     "answer": "Paris (ou Savoie, Var)",
     "choices": [
       "La Creuse",
-      "Paris (ou Savoie, Var)",
       "La Meuse",
-      "La France"
+      "La Lozère",
+      "Paris (ou Savoie, Var)"
     ],
     "precise": true
   },
@@ -1986,9 +1986,9 @@ export const officialQuestions = [
     "answer": "Les premiers dimanches du mois ou lors des Journées du Patrimoine",
     "choices": [
       "Tous les jours pour les résidents",
-      "Les premiers dimanches du mois ou lors des Journées du Patrimoine",
       "Le 14 juillet uniquement",
-      "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)"
+      "Tous les week-ends",
+      "Les premiers dimanches du mois ou lors des Journées du Patrimoine"
     ],
     "precise": true
   },
@@ -1998,9 +1998,9 @@ export const officialQuestions = [
     "answer": "Plus de 300 millions de personnes",
     "choices": [
       "68 millions",
-      "Plus de 300 millions de personnes",
       "1 milliard",
-      "5ème langue la plus parlée"
+      "150 millions",
+      "Plus de 300 millions de personnes"
     ],
     "precise": true
   },
@@ -2009,10 +2009,10 @@ export const officialQuestions = [
     "question": "Qui était Marguerite Yourcenar ?",
     "answer": "Une écrivaine célèbre, première femme élue à l'Académie française",
     "choices": [
-      "Une écrivaine célèbre, première femme élue à l'Académie française",
       "Une reine de France",
       "Une scientifique",
-      "La Première République"
+      "Une femme politique",
+      "Une écrivaine célèbre, première femme élue à l'Académie française"
     ],
     "precise": true
   },
@@ -2022,9 +2022,9 @@ export const officialQuestions = [
     "answer": "Claude Monet (ou Paul Cézanne, Auguste Renoir)",
     "choices": [
       "Pablo Picasso",
-      "Claude Monet (ou Paul Cézanne, Auguste Renoir)",
       "Vincent van Gogh",
-      "Un peintre français (impressionniste)"
+      "Salvador Dalí",
+      "Claude Monet (ou Paul Cézanne, Auguste Renoir)"
     ],
     "precise": true
   },
@@ -2034,9 +2034,9 @@ export const officialQuestions = [
     "answer": "Le Louvre (ou Musée d'Orsay, Centre Pompidou)",
     "choices": [
       "Le Musée du Prado",
-      "Le Louvre (ou Musée d'Orsay, Centre Pompidou)",
       "Le British Museum",
-      "Paris (ou Savoie, Var)"
+      "Le Musée de l'Ermitage",
+      "Le Louvre (ou Musée d'Orsay, Centre Pompidou)"
     ],
     "precise": true
   },
@@ -2046,9 +2046,9 @@ export const officialQuestions = [
     "answer": "Un célèbre sculpteur français",
     "choices": [
       "Un homme politique",
-      "Un célèbre sculpteur français",
       "Un chanteur",
-      "Un peintre français (impressionniste)"
+      "Un écrivain",
+      "Un célèbre sculpteur français"
     ],
     "precise": true
   },
@@ -2058,9 +2058,9 @@ export const officialQuestions = [
     "answer": "5ème langue la plus parlée",
     "choices": [
       "1ère",
-      "5ème langue la plus parlée",
       "10ème",
-      "Plus de 300 millions de personnes"
+      "2ème",
+      "5ème langue la plus parlée"
     ],
     "precise": true
   },
@@ -2070,9 +2070,9 @@ export const officialQuestions = [
     "answer": "Notre-Dame de Paris",
     "choices": [
       "La cathédrale de Reims",
-      "Notre-Dame de Paris",
       "La cathédrale de Chartres",
-      "Paris (ou Marseille, Lyon, Toulouse...)"
+      "La cathédrale de Strasbourg",
+      "Notre-Dame de Paris"
     ],
     "precise": true
   },
@@ -2082,9 +2082,9 @@ export const officialQuestions = [
     "answer": "George Sand (ou Simone de Beauvoir, Colette...)",
     "choices": [
       "Marie Curie",
-      "George Sand (ou Simone de Beauvoir, Colette...)",
       "Edith Piaf",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "Olympe de Gouges",
+      "George Sand (ou Simone de Beauvoir, Colette...)"
     ],
     "precise": true
   },
@@ -2094,9 +2094,9 @@ export const officialQuestions = [
     "answer": "Claude Debussy (ou Maurice Ravel)",
     "choices": [
       "Mozart",
-      "Claude Debussy (ou Maurice Ravel)",
       "Beethoven",
-      "Un célèbre sculpteur français"
+      "Bach",
+      "Claude Debussy (ou Maurice Ravel)"
     ],
     "precise": true
   },
@@ -2106,9 +2106,9 @@ export const officialQuestions = [
     "answer": "Un peintre français (impressionniste)",
     "choices": [
       "Un président de la République",
-      "Un peintre français (impressionniste)",
       "Un écrivain",
-      "Un célèbre sculpteur français"
+      "Un scientifique",
+      "Un peintre français (impressionniste)"
     ],
     "precise": true
   },
@@ -2118,9 +2118,9 @@ export const officialQuestions = [
     "answer": "Le 14 juillet (Fête nationale)",
     "choices": [
       "Thanksgiving",
-      "Le 14 juillet (Fête nationale)",
       "Halloween",
-      "Une écrivaine célèbre, première femme élue à l'Académie française"
+      "La Saint-Patrick",
+      "Le 14 juillet (Fête nationale)"
     ],
     "precise": true
   },
@@ -2130,9 +2130,9 @@ export const officialQuestions = [
     "answer": "Uniquement le mariage civil (célébré à la mairie)",
     "choices": [
       "Le mariage religieux uniquement",
-      "Uniquement le mariage civil (célébré à la mairie)",
       "Les fiançailles",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
+      "Le PACS exclusivement",
+      "Uniquement le mariage civil (célébré à la mairie)"
     ],
     "precise": true
   },
@@ -2142,9 +2142,9 @@ export const officialQuestions = [
     "answer": "À la mairie de sa commune",
     "choices": [
       "À la préfecture",
-      "À la mairie de sa commune",
       "Au commissariat",
-      "À la mairie du lieu de naissance (dans les 5 jours)"
+      "À la CAF",
+      "À la mairie de sa commune"
     ],
     "precise": true
   },
@@ -2154,9 +2154,9 @@ export const officialQuestions = [
     "answer": "Généralement les deux parents de façon conjointe",
     "choices": [
       "Uniquement la mère",
-      "Généralement les deux parents de façon conjointe",
       "Uniquement le père",
-      "À la mairie de sa commune"
+      "Les grands-parents",
+      "Généralement les deux parents de façon conjointe"
     ],
     "precise": true
   },
@@ -2166,9 +2166,9 @@ export const officialQuestions = [
     "answer": "L'aide juridictionnelle",
     "choices": [
       "L'aide médicale d'État",
-      "L'aide juridictionnelle",
       "Le RSA",
-      "C'est un droit garanti pour toutes les personnes résidant en France"
+      "Les allocations familiales",
+      "L'aide juridictionnelle"
     ],
     "precise": true
   },
@@ -2179,8 +2179,8 @@ export const officialQuestions = [
     "choices": [
       "À la préfecture",
       "À l'hôpital uniquement",
-      "À la mairie du lieu de naissance (dans les 5 jours)",
-      "À la mairie de sa commune"
+      "À la sécurité sociale uniquement",
+      "À la mairie du lieu de naissance (dans les 5 jours)"
     ],
     "precise": true
   },
@@ -2189,10 +2189,10 @@ export const officialQuestions = [
     "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
     "answer": "Avoir l'âge requis (17/18 ans) et réussir l'examen du code",
     "choices": [
-      "Avoir l'âge requis (17/18 ans) et réussir l'examen du code",
       "Avoir une voiture",
       "Être de nationalité française",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
+      "Avoir un travail",
+      "Avoir l'âge requis (17/18 ans) et réussir l'examen du code"
     ],
     "precise": true
   },
@@ -2201,10 +2201,10 @@ export const officialQuestions = [
     "question": "Un bail locatif est valide s'il est :",
     "answer": "Écrit et signé par le propriétaire et le locataire",
     "choices": [
-      "Écrit et signé par le propriétaire et le locataire",
       "Conclu à l'oral",
       "Signé par le maire",
-      "À cesser le travail pour des revendications sans risquer le licenciement"
+      "Visé par la police",
+      "Écrit et signé par le propriétaire et le locataire"
     ],
     "precise": true
   },
@@ -2214,9 +2214,9 @@ export const officialQuestions = [
     "answer": "À la déchetterie ou dans un point de collecte agréé",
     "choices": [
       "Sur le trottoir n'importe quand",
-      "À la déchetterie ou dans un point de collecte agréé",
       "Dans la poubelle classique",
-      "À la mairie du lieu de naissance (dans les 5 jours)"
+      "Dans la forêt",
+      "À la déchetterie ou dans un point de collecte agréé"
     ],
     "precise": true
   },
@@ -2226,9 +2226,9 @@ export const officialQuestions = [
     "answer": "Le 17 (ou le 112)",
     "choices": [
       "Le 15",
-      "Le 17 (ou le 112)",
       "Le 18",
-      "L'aide juridictionnelle"
+      "Le 114",
+      "Le 17 (ou le 112)"
     ],
     "precise": true
   },
@@ -2237,10 +2237,10 @@ export const officialQuestions = [
     "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
     "answer": "C'est un droit garanti pour toutes les personnes résidant en France",
     "choices": [
-      "C'est un droit garanti pour toutes les personnes résidant en France",
       "Il est réservé aux Français",
       "Il faut payer avant chaque soin d'urgence",
-      "L'aide juridictionnelle"
+      "Il est interdit aux chômeurs",
+      "C'est un droit garanti pour toutes les personnes résidant en France"
     ],
     "precise": true
   },
@@ -2250,9 +2250,9 @@ export const officialQuestions = [
     "answer": "À toutes les femmes (mineures et majeures)",
     "choices": [
       "Uniquement aux femmes mariées",
-      "À toutes les femmes (mineures et majeures)",
       "Uniquement aux personnes majeures",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
+      "Uniquement si on a une ordonnance",
+      "À toutes les femmes (mineures et majeures)"
     ],
     "precise": true
   },
@@ -2261,10 +2261,10 @@ export const officialQuestions = [
     "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
     "answer": "Le secret médical (les médecins ne divulguent pas les dossiers)",
     "choices": [
-      "Le secret médical (les médecins ne divulguent pas les dossiers)",
       "Ne pas dire qu'on est malade à son employeur",
       "L'interdiction d'aller à l'hôpital",
-      "Des amendes (jusqu'à 1500 euros) voire des sanctions pénales"
+      "Le fait que les médicaments soient cachés",
+      "Le secret médical (les médecins ne divulguent pas les dossiers)"
     ],
     "precise": true
   },
@@ -2275,8 +2275,8 @@ export const officialQuestions = [
     "choices": [
       "Facultative si on n'est jamais malade",
       "Réservée aux personnes âgées",
-      "Obligatoire pour travailler et résider en France",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
+      "Interdite aux étrangers",
+      "Obligatoire pour travailler et résider en France"
     ],
     "precise": true
   },
@@ -2286,9 +2286,9 @@ export const officialQuestions = [
     "answer": "La mère ou le père",
     "choices": [
       "Uniquement la mère",
-      "La mère ou le père",
       "Les grands-parents",
-      "À la mairie du lieu de naissance (dans les 5 jours)"
+      "Seulement si on a trois enfants",
+      "La mère ou le père"
     ],
     "precise": true
   },
@@ -2298,9 +2298,9 @@ export const officialQuestions = [
     "answer": "Les litiges liés au contrat de travail entre employeur et salarié",
     "choices": [
       "Les divorces",
-      "Les litiges liés au contrat de travail entre employeur et salarié",
       "Les vols",
-      "Il doit payer des heures supplémentaires ou donner un repos compensateur"
+      "Les problèmes de voisinage",
+      "Les litiges liés au contrat de travail entre employeur et salarié"
     ],
     "precise": true
   },
@@ -2309,10 +2309,10 @@ export const officialQuestions = [
     "question": "Travailler sans être déclaré est :",
     "answer": "Du travail illégal (dissimulé), c'est un délit",
     "choices": [
-      "Du travail illégal (dissimulé), c'est un délit",
       "Pratique et légal si c'est temporaire",
       "Autorisé le week-end",
-      "À cesser le travail pour des revendications sans risquer le licenciement"
+      "Autorisé pour les étudiants",
+      "Du travail illégal (dissimulé), c'est un délit"
     ],
     "precise": true
   },
@@ -2322,9 +2322,9 @@ export const officialQuestions = [
     "answer": "Il doit payer des heures supplémentaires ou donner un repos compensateur",
     "choices": [
       "Il n'a rien à payer en plus",
-      "Il doit payer des heures supplémentaires ou donner un repos compensateur",
       "Le salarié doit refuser",
-      "Les litiges liés au contrat de travail entre employeur et salarié"
+      "L'employeur peut le forcer sans limite",
+      "Il doit payer des heures supplémentaires ou donner un repos compensateur"
     ],
     "precise": true
   },
@@ -2333,10 +2333,10 @@ export const officialQuestions = [
     "question": "Quelle est la mission de France Travail ?",
     "answer": "Accompagner les demandeurs d'emploi et verser les allocations chômage",
     "choices": [
-      "Accompagner les demandeurs d'emploi et verser les allocations chômage",
       "Gérer les retraites",
       "Financer les entreprises",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
+      "Délivrer les cartes de séjour",
+      "Accompagner les demandeurs d'emploi et verser les allocations chômage"
     ],
     "precise": true
   },
@@ -2346,9 +2346,9 @@ export const officialQuestions = [
     "answer": "De se syndiquer pour défendre les intérêts des salariés",
     "choices": [
       "De refuser de travailler",
-      "De se syndiquer pour défendre les intérêts des salariés",
       "De licencier son patron",
-      "À cesser le travail pour des revendications sans risquer le licenciement"
+      "D'augmenter son propre salaire",
+      "De se syndiquer pour défendre les intérêts des salariés"
     ],
     "precise": true
   },
@@ -2358,9 +2358,9 @@ export const officialQuestions = [
     "answer": "À cesser le travail pour des revendications sans risquer le licenciement",
     "choices": [
       "À détruire le matériel de l'entreprise",
-      "À cesser le travail pour des revendications sans risquer le licenciement",
       "À insulter son patron",
-      "Du travail illégal (dissimulé), c'est un délit"
+      "À bloquer les autres employés",
+      "À cesser le travail pour des revendications sans risquer le licenciement"
     ],
     "precise": true
   },
@@ -2370,9 +2370,9 @@ export const officialQuestions = [
     "answer": "Être inscrit à France Travail et avoir travaillé suffisamment longtemps",
     "choices": [
       "Avoir démissionné",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps",
       "Avoir plus de 50 ans",
-      "Accompagner les demandeurs d'emploi et verser les allocations chômage"
+      "Ne jamais avoir travaillé",
+      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
     ],
     "precise": true
   },
@@ -2382,9 +2382,9 @@ export const officialQuestions = [
     "answer": "L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire)",
     "choices": [
       "Une crèche payante",
-      "L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire)",
       "L'école pour les mères",
-      "Dès l'âge de 3 ans"
+      "Une garderie le soir",
+      "L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire)"
     ],
     "precise": true
   },
@@ -2394,9 +2394,9 @@ export const officialQuestions = [
     "answer": "Le Diplôme National du Brevet (DNB)",
     "choices": [
       "Le Baccalauréat",
-      "Le Diplôme National du Brevet (DNB)",
       "La Licence",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps"
+      "Le Master",
+      "Le Diplôme National du Brevet (DNB)"
     ],
     "precise": true
   },
@@ -2406,9 +2406,9 @@ export const officialQuestions = [
     "answer": "S'informer sur la scolarité et voter pour leurs représentants",
     "choices": [
       "Choisir les professeurs",
-      "S'informer sur la scolarité et voter pour leurs représentants",
       "Ne pas envoyer leurs enfants à l'école",
-      "Faire preuve de violence ou d'imposer leurs croyances religieuses"
+      "Modifier le programme scolaire",
+      "S'informer sur la scolarité et voter pour leurs représentants"
     ],
     "precise": true
   },
@@ -2418,9 +2418,9 @@ export const officialQuestions = [
     "answer": "Tous les enfants inscrits à l'école, sans discrimination",
     "choices": [
       "Uniquement les enfants dont les parents travaillent",
-      "Tous les enfants inscrits à l'école, sans discrimination",
       "Les enfants de nationalité française",
-      "L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire)"
+      "Les enfants de plus de 10 ans",
+      "Tous les enfants inscrits à l'école, sans discrimination"
     ],
     "precise": true
   },
@@ -2429,10 +2429,10 @@ export const officialQuestions = [
     "question": "À quel âge commence l'instruction obligatoire des enfants ?",
     "answer": "Dès l'âge de 3 ans",
     "choices": [
-      "Dès l'âge de 3 ans",
       "Dès 6 ans",
       "Dès 11 ans",
-      "L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire)"
+      "Dès 2 ans",
+      "Dès l'âge de 3 ans"
     ],
     "precise": true
   },
@@ -2442,9 +2442,9 @@ export const officialQuestions = [
     "answer": "18 ans",
     "choices": [
       "16 ans",
-      "18 ans",
       "21 ans",
-      "Dès l'âge de 3 ans"
+      "15 ans",
+      "18 ans"
     ],
     "precise": true
   },
@@ -2454,9 +2454,9 @@ export const officialQuestions = [
     "answer": "Faire preuve de violence ou d'imposer leurs croyances religieuses",
     "choices": [
       "Rencontrer les professeurs",
-      "Faire preuve de violence ou d'imposer leurs croyances religieuses",
       "Aider aux devoirs",
-      "S'informer sur la scolarité et voter pour leurs représentants"
+      "Venir chercher leur enfant",
+      "Faire preuve de violence ou d'imposer leurs croyances religieuses"
     ],
     "precise": true
   },
@@ -2466,9 +2466,9 @@ export const officialQuestions = [
     "answer": "La maladie de l'enfant ou un événement familial grave (ex: décès)",
     "choices": [
       "Un départ en vacances en dehors du calendrier",
-      "La maladie de l'enfant ou un événement familial grave (ex: décès)",
       "La flemme",
-      "À la mairie du lieu de naissance (dans les 5 jours)"
+      "Pour faire les courses",
+      "La maladie de l'enfant ou un événement familial grave (ex: décès)"
     ],
     "precise": true
   },
@@ -2479,8 +2479,8 @@ export const officialQuestions = [
     "choices": [
       "Rien du tout",
       "Une exclusion de l'école pour l'enfant",
-      "Des amendes (jusqu'à 1500 euros) voire des sanctions pénales",
-      "Le secret médical (les médecins ne divulguent pas les dossiers)"
+      "Une retenue sur salaire",
+      "Des amendes (jusqu'à 1500 euros) voire des sanctions pénales"
     ],
     "precise": true
   },
@@ -2490,9 +2490,9 @@ export const officialQuestions = [
     "answer": "En décembre et début janvier",
     "choices": [
       "En novembre",
-      "En décembre et début janvier",
       "En février",
-      "À la mairie du lieu de naissance (dans les 5 jours)"
+      "En octobre",
+      "En décembre et début janvier"
     ],
     "precise": true
   },
@@ -2502,9 +2502,9 @@ export const officialQuestions = [
     "answer": "A le droit d'être scolarisé en milieu ordinaire avec un accompagnement adapté",
     "choices": [
       "Doit rester chez lui",
-      "A le droit d'être scolarisé en milieu ordinaire avec un accompagnement adapté",
       "Ne peut aller que dans des écoles privées",
-      "À cesser le travail pour des revendications sans risquer le licenciement"
+      "Doit payer un supplément",
+      "A le droit d'être scolarisé en milieu ordinaire avec un accompagnement adapté"
     ],
     "precise": true
   }
