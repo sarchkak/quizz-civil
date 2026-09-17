@@ -100,11 +100,28 @@ const situationalQuestions = [
 export const questions = [...officialQuestions, ...situationalQuestions];
 const categories = ['Principes & valeurs', 'Institutions', 'Droits & devoirs', 'Histoire & culture', 'Vie quotidienne'];
 const shuffle = (items) => [...items].sort(() => Math.random() - 0.5);
+const optionPools = [
+  { pattern: /quel (?:État|pays)/i, values: ['La France', 'L’Allemagne', 'La Suisse', 'Le Royaume-Uni', 'La Norvège', 'L’Italie', 'La Belgique', 'L’Espagne'] },
+  { pattern: /quelle année|en quelle année|depuis quand|de quand/i, values: ['1789', '1804', '1905', '1914', '1944', '1945', '1958', '1962', '1981', '1992', '2002'] },
+  { pattern: /combien/i, values: ['12', '18', '27', '348', '577', 'Environ 35 000', 'Environ 68 millions'] },
+  { pattern: /quel (?:fleuve|cours d’eau)/i, values: ['La Seine', 'La Loire', 'Le Rhône', 'La Garonne'] },
+  { pattern: /quelle chaîne de montagnes/i, values: ['Les Alpes', 'Les Pyrénées', 'Les Vosges', 'Le Jura'] },
+  { pattern: /quelle mer|quel océan/i, values: ['La Manche', 'La mer Méditerranée', 'L’océan Atlantique', 'La mer du Nord'] },
+  { pattern: /quelle ville/i, values: ['Paris', 'Marseille', 'Lyon', 'Toulouse', 'Strasbourg', 'Bordeaux'] },
+  { pattern: /quel musée/i, values: ['Le Louvre', 'Le musée d’Orsay', 'Le Centre Pompidou', 'Le musée Rodin'] },
+  { pattern: /quelle cathédrale/i, values: ['Notre-Dame de Paris', 'La cathédrale de Reims', 'La cathédrale de Chartres', 'La cathédrale de Strasbourg'] },
+  { pattern: /quel peintre/i, values: ['Claude Monet', 'Paul Cézanne', 'Auguste Renoir', 'Édouard Manet'] },
+];
+export const buildChoices = (item) => {
+  const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
+  if (!pool) return shuffle(item.choices);
+  return shuffle([item.answer, ...pool.filter((choice) => choice !== item.answer)]).slice(0, 4);
+};
 export const buildQuiz = () => {
   const distribution = [6, 6, 6, 5, 5];
   const official = categories.flatMap((category, index) => shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, distribution[index]));
   const situations = shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 12);
-  return shuffle([...official, ...situations]).map((item) => ({ ...item, choices: shuffle(item.choices) }));
+  return shuffle([...official, ...situations]).map((item) => ({ ...item, choices: buildChoices(item) }));
 };
 
 function App() {

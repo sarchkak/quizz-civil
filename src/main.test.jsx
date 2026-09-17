@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildQuiz, questions } from './main.jsx';
+import { buildChoices, buildQuiz, questions } from './main.jsx';
 
 describe('corpus du quiz', () => {
   it('contient quatre choix et une seule bonne réponse par question', () => {
@@ -24,5 +24,13 @@ describe('corpus du quiz', () => {
     expect(official.filter((item) => item.category === 'Histoire & culture')).toHaveLength(5);
     expect(official.filter((item) => item.category === 'Vie quotidienne')).toHaveLength(5);
     expect(new Set(session.map((item) => item.category)).size).toBe(5);
+  });
+
+  it('génère des distracteurs du même type pour les questions factuelles', () => {
+    const question = questions.find((item) => item.question === 'Quel État a quitté l’Union européenne en 2020 ?');
+    const choices = buildChoices(question);
+    expect(choices).toHaveLength(4);
+    expect(choices).toContain(question.answer);
+    expect(choices.every((choice) => /France|Allemagne|Suisse|Royaume-Uni|Norvège|Italie|Belgique|Espagne/.test(choice))).toBe(true);
   });
 });
