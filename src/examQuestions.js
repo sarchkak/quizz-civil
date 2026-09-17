@@ -1,136 +1,148 @@
-// Questions officielles extraites du document de référence.
+// Questions officielles extraites et mises à jour depuis la version V2.
 export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
-    "answer": "Voter aux élections, s'engager dans une association ou être juré d'assises.",
+    "answer": "Voter aux élections ou s'engager dans une association",
     "choices": [
-      "Voter aux élections, s'engager dans une association ou être juré d'assises.",
-      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public.",
-      "L'hymne national français.",
-      "Personne (interdit pour les élèves et les professeurs)."
-    ]
+      "Acheter une propriété privée",
+      "Voter aux élections ou s'engager dans une association",
+      "Obtenir son permis de conduire",
+      "Voter aux élections, s'engager dans une association ou être juré d'assises."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Que garantit la liberté d'expression ?",
-    "answer": "Le droit d'exprimer librement ses opinions (dans le respect de la loi).",
+    "answer": "Le droit d'exprimer librement ses opinions (dans le respect de la loi)",
     "choices": [
-      "Le droit d'exprimer librement ses opinions (dans le respect de la loi).",
-      "Non, c'est interdit (principe de laïcité et d'égalité).",
-      "Sur les timbres, les pièces de monnaie, et les documents officiels.",
-      "L'État ne favorise et ne finance aucune religion."
-    ]
+      "Le droit de diffamer n'importe qui",
+      "Le droit d'exprimer librement ses opinions (dans le respect de la loi)",
+      "Le droit de ne pas payer d'impôts",
+      "Le droit d'exprimer librement ses opinions (dans le respect de la loi)."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "À quoi sert un titre de séjour ?",
-    "answer": "C'est un document officiel autorisant un étranger à vivre légalement en France.",
+    "answer": "C'est un document officiel autorisant un étranger à vivre légalement en France",
     "choices": [
-      "C'est un document officiel autorisant un étranger à vivre légalement en France.",
-      "Liberté, Égalité, Fraternité.",
-      "C'est interdit, c'est une discrimination sexiste punie par la loi.",
-      "Il a le droit d'exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public."
-    ]
+      "C'est un document officiel autorisant un étranger à vivre légalement en France",
+      "Il permet de voyager gratuitement",
+      "C'est l'équivalent d'un passeport français",
+      "C'est un document officiel autorisant un étranger à vivre légalement en France."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "La liberté de circulation permet à toute personne de :",
-    "answer": "Se déplacer librement sur le territoire national, de le quitter et d'y revenir.",
+    "answer": "Se déplacer librement sur le territoire national, de le quitter et d'y revenir",
     "choices": [
-      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir.",
-      "Totalement interdite et non reconnue en France.",
-      "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi.",
-      "Les agents de l'État travaillant à la préfecture (fonctionnaires)."
-    ]
+      "Conduire sans assurance",
+      "Prendre les transports en commun sans payer",
+      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir",
+      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
-    "answer": "Sur les sites officiels du gouvernement finissant par  .gouv.fr .",
+    "answer": "Les sites finissant par .gouv.fr",
     "choices": [
-      "Sur les sites officiels du gouvernement finissant par  .gouv.fr .",
-      "Ils sont obligatoires et financent les services publics (hôpitaux, écoles, routes).",
-      "Le français est la langue officielle de la République.",
-      "Oui, une stricte obligation de neutralité."
-    ]
+      "Les sites finissant par .com",
+      "Les sites finissant par .gouv.fr",
+      "Les sites finissant par .org",
+      "Sur les sites officiels du gouvernement finissant par  .gouv.fr ."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Complétez ces paroles : \"Aux armes […] ! Formez vos bataillons\"",
-    "answer": "\"Citoyens\"",
+    "answer": "Citoyens",
     "choices": [
-      "\"Citoyens\"",
-      "Non, c'est un délit puni par la loi (outrage).",
-      "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet.",
-      "Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi."
-    ]
+      "Soldats",
+      "Citoyens",
+      "Français",
+      "\"Citoyens\""
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Complétez les paroles : \"Allons enfants de la patrie […]\"",
-    "answer": "\"Le jour de gloire est arrivé !\"",
+    "answer": "Le jour de gloire est arrivé !",
     "choices": [
-      "\"Le jour de gloire est arrivé !\"",
-      "La loi interdit et punit sévèrement les actes discriminatoires.",
-      "Non, c'est un délit (injure à caractère discriminatoire).",
-      "Oui."
-    ]
+      "Formez vos bataillons",
+      "Marchons, marchons",
+      "Le jour de gloire est arrivé !",
+      "\"Le jour de gloire est arrivé !\""
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "En application de la liberté individuelle, une personne peut :",
-    "answer": "Agir et se déplacer librement sans contrainte illégale.",
+    "answer": "Agir et se déplacer librement sans contrainte illégale",
     "choices": [
-      "Agir et se déplacer librement sans contrainte illégale.",
-      "La République française et les valeurs de la Liberté.",
-      "Une République indivisible, laïque, démocratique et sociale.",
-      "La séparation de l'État et des religions."
-    ]
+      "Agir et se déplacer librement sans contrainte illégale",
+      "Refuser de respecter le Code de la route",
+      "Ne pas déclarer ses impôts",
+      "Agir et se déplacer librement sans contrainte illégale."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Concernant la pratique de la religion, quelle proposition est correcte ?",
-    "answer": "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public.",
+    "answer": "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public",
     "choices": [
-      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public.",
-      "Le droit de créer, d'adhérer ou de quitter une association librement.",
-      "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse.",
-      "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse."
-    ]
+      "Elle est obligatoire",
+      "Elle est interdite dans l'espace public",
+      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public",
+      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport car ils sont mixtes ?",
-    "answer": "Non, c'est interdit (principe de laïcité et d'égalité).",
+    "answer": "Non, c'est interdit (principe d'égalité et laïcité)",
     "choices": [
-      "Non, c'est interdit (principe de laïcité et d'égalité).",
-      "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui.",
-      "En 1905.",
-      "La France est une République indivisible, laïque, démocratique et sociale."
-    ]
+      "Oui, pour des raisons religieuses",
+      "Non, c'est interdit (principe d'égalité et laïcité)",
+      "Oui, si l'enfant le demande",
+      "Non, c'est interdit (principe de laïcité et d'égalité)."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Quelle est la devise de la France ?",
-    "answer": "Liberté, Égalité, Fraternité.",
+    "answer": "Liberté, Égalité, Fraternité",
     "choices": [
-      "Liberté, Égalité, Fraternité.",
-      "L'hymne national français.",
-      "Oui, c'est garanti par la liberté de conscience (laïcité).",
-      "Voter aux élections, s'engager dans une association ou être juré d'assises."
-    ]
+      "Travail, Famille, Patrie",
+      "Paix, Justice, Solidarité",
+      "Liberté, Égalité, Fraternité",
+      "Liberté, Égalité, Fraternité."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "La répudiation de sa femme est :",
-    "answer": "Totalement interdite et non reconnue en France.",
+    "answer": "Totalement interdite et non reconnue en France",
     "choices": [
-      "Totalement interdite et non reconnue en France.",
-      "Sur les timbres, les pièces de monnaie, et les documents officiels.",
-      "La liberté de conscience et de culte.",
-      "Le droit d'exprimer librement ses opinions (dans le respect de la loi)."
-    ]
+      "Autorisée par la loi française",
+      "Tolérée dans certains cas",
+      "Totalement interdite et non reconnue en France",
+      "Totalement interdite et non reconnue en France."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
@@ -146,13 +158,14 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Peut-on brûler publiquement un drapeau français ?",
-    "answer": "Non, c'est un délit puni par la loi (outrage).",
+    "answer": "Non, c'est un délit puni par la loi (outrage)",
     "choices": [
-      "Non, c'est un délit puni par la loi (outrage).",
-      "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi.",
-      "L'État ne favorise et ne finance aucune religion.",
-      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir."
-    ]
+      "Oui, c'est la liberté d'expression",
+      "Non, c'est un délit puni par la loi (outrage)",
+      "Oui, lors des manifestations",
+      "Non, c'est un délit puni par la loi (outrage)."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
@@ -168,13 +181,14 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que représente Marianne ?",
-    "answer": "La République française et les valeurs de la Liberté.",
+    "answer": "La République française et les valeurs de la Liberté",
     "choices": [
-      "La République française et les valeurs de la Liberté.",
-      "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet.",
-      "Les agents de l'État travaillant à la préfecture (fonctionnaires).",
-      "\"Citoyens\""
-    ]
+      "La monarchie française",
+      "La République française et les valeurs de la Liberté",
+      "L'Europe",
+      "La République française et les valeurs de la Liberté."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
@@ -267,24 +281,26 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent ?",
-    "answer": "Non, c'est un délit (injure à caractère discriminatoire).",
+    "answer": "Non, c'est un délit (injure à caractère discriminatoire)",
     "choices": [
-      "Non, c'est un délit (injure à caractère discriminatoire).",
-      "Il a le droit d'exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public.",
-      "C'est un document officiel autorisant un étranger à vivre légalement en France.",
-      "La loi interdit et punit sévèrement les actes discriminatoires."
-    ]
+      "Non, c'est un délit (injure à caractère discriminatoire)",
+      "Oui, tant qu'il n'y a pas de violence physique",
+      "Oui, c'est de l'humour",
+      "Non, c'est un délit (injure à caractère discriminatoire)."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
     "question": "Le régime de la France est :",
-    "answer": "Une République indivisible, laïque, démocratique et sociale.",
+    "answer": "Une République indivisible, laïque, démocratique et sociale",
     "choices": [
-      "Une République indivisible, laïque, démocratique et sociale.",
-      "Les agents de l'État travaillant à la préfecture (fonctionnaires).",
-      "Se déplacer librement sur le territoire national, de le quitter et d'y revenir.",
-      "La République française et les valeurs de la Liberté."
-    ]
+      "Une monarchie constitutionnelle",
+      "Une République indivisible, laïque, démocratique et sociale",
+      "Un état fédéral",
+      "Une République indivisible, laïque, démocratique et sociale."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
@@ -300,13 +316,14 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
-    "answer": "En 1905.",
+    "answer": "1905",
     "choices": [
-      "En 1905.",
-      "Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi.",
-      "\"Citoyens\"",
-      "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui."
-    ]
+      "1789",
+      "1905",
+      "1945",
+      "En 1905."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
@@ -333,13 +350,14 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "À l'école publique, qui peut porter des signes religieux très visibles ?",
-    "answer": "Personne (interdit pour les élèves et les professeurs).",
+    "answer": "Personne (interdit pour tous)",
     "choices": [
-      "Personne (interdit pour les élèves et les professeurs).",
-      "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse.",
-      "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public.",
-      "C'est interdit, c'est une discrimination sexiste punie par la loi."
-    ]
+      "Les professeurs uniquement",
+      "Les élèves uniquement",
+      "Personne (interdit pour tous)",
+      "Personne (interdit pour les élèves et les professeurs)."
+    ],
+    "precise": true
   },
   {
     "category": "Principes & valeurs",
@@ -443,13 +461,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qu'est-ce que l'État de droit ?",
-    "answer": "Un système où tous les citoyens et l'État lui-même sont soumis à la loi.",
+    "answer": "Un système où tous les citoyens et l'État lui-même sont soumis à la loi",
     "choices": [
-      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi.",
-      "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales.",
-      "Le président de la République.",
-      "Le représentant de l'État dans le département (ou la région)."
-    ]
+      "Le droit du Président de tout décider",
+      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi",
+      "Le fait que la police dirige le pays",
+      "Un système où tous les citoyens et l'État lui-même sont soumis à la loi."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -509,13 +528,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Est-ce que le vote est obligatoire ?",
-    "answer": "Non, c'est un droit et un devoir civique, mais pas obligatoire.",
+    "answer": "Non, c'est un droit et un devoir civique, mais pas obligatoire",
     "choices": [
-      "Non, c'est un droit et un devoir civique, mais pas obligatoire.",
-      "La protection des libertés fondamentales et l'égalité devant la loi.",
-      "Il peut être poursuivi et jugé.",
-      "Chef de l'État, chef des armées, il veille au respect de la Constitution."
-    ]
+      "Oui, sous peine d'amende",
+      "Non, c'est un droit et un devoir civique, mais pas obligatoire",
+      "Uniquement pour les personnes de plus de 65 ans",
+      "Non, c'est un droit et un devoir civique, mais pas obligatoire."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -542,13 +562,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui nomme le Premier ministre ?",
-    "answer": "Le président de la République.",
+    "answer": "Le président de la République",
     "choices": [
-      "Le président de la République.",
-      "Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs).",
-      "6 ans.",
-      "18 (13 en métropole, 5 en outre-mer)."
-    ]
+      "L'Assemblée nationale",
+      "Le peuple par élection directe",
+      "Le président de la République",
+      "Le président de la République."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -575,13 +596,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
-    "answer": "Pour éviter la tyrannie et garantir les libertés des citoyens.",
+    "answer": "Pour éviter la tyrannie et garantir les libertés",
     "choices": [
-      "Pour éviter la tyrannie et garantir les libertés des citoyens.",
-      "État, Régions, Départements, Communes.",
-      "Le représentant de l'État dans le département (ou la région).",
-      "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales."
-    ]
+      "Pour éviter la tyrannie et garantir les libertés",
+      "Pour créer plus d'emplois publics",
+      "Pour ralentir la prise de décision",
+      "Pour éviter la tyrannie et garantir les libertés des citoyens."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -619,13 +641,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Combien de députés composent l'Assemblée nationale ?",
-    "answer": "577.",
+    "answer": "577",
     "choices": [
-      "577.",
-      "Il détermine et conduit la politique de la Nation.",
-      "La résidence officielle et le bureau du Premier ministre.",
-      "Le Royaume-Uni (Brexit)."
-    ]
+      "348",
+      "577",
+      "1000",
+      "577."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -707,13 +730,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le régime politique de la France aujourd'hui ?",
-    "answer": "La Ve (Cinquième) République.",
+    "answer": "La Ve (Cinquième) République",
     "choices": [
-      "La Ve (Cinquième) République.",
-      "Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes.",
-      "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales.",
-      "La Suisse, le Royaume-Uni ou la Norvège."
-    ]
+      "La Monarchie parlementaire",
+      "La IVe République",
+      "La Ve (Cinquième) République",
+      "La Ve (Cinquième) République."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -729,13 +753,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Le Parlement est composé :",
-    "answer": "De l'Assemblée nationale et du Sénat.",
+    "answer": "De l'Assemblée nationale et du Sénat",
     "choices": [
-      "De l'Assemblée nationale et du Sénat.",
-      "La Ve (Cinquième) République.",
-      "Environ 35 000.",
-      "Tous les 5 ans."
-    ]
+      "Du Président et du Gouvernement",
+      "De l'Assemblée nationale et du Sénat",
+      "Des préfets et des maires",
+      "De l'Assemblée nationale et du Sénat."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -773,13 +798,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Combien y a-t-il de régions en France ?",
-    "answer": "18 (13 en métropole, 5 en outre-mer).",
+    "answer": "18 (13 en métropole, 5 en outre-mer)",
     "choices": [
-      "18 (13 en métropole, 5 en outre-mer).",
-      "Diriger l'action du gouvernement.",
-      "L'Ode à la joie (Beethoven).",
-      "Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale)."
-    ]
+      "18 (13 en métropole, 5 en outre-mer)",
+      "22",
+      "50",
+      "18 (13 en métropole, 5 en outre-mer)."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -883,13 +909,14 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "De quoi est composé le drapeau européen ?",
-    "answer": "De 12 étoiles dorées disposées en cercle.",
+    "answer": "De 12 étoiles dorées disposées en cercle",
     "choices": [
-      "De 12 étoiles dorées disposées en cercle.",
-      "Unie dans la diversité.",
-      "La France (ainsi que l'Allemagne, l'Italie, la Belgique, les Pays-Bas, le Luxembourg).",
-      "Le pouvoir de voter les lois (détenu par le Parlement)."
-    ]
+      "De 50 étoiles blanches",
+      "De 12 étoiles dorées disposées en cercle",
+      "De 15 bandes de couleur",
+      "De 12 étoiles dorées disposées en cercle."
+    ],
+    "precise": true
   },
   {
     "category": "Institutions",
@@ -1015,13 +1042,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
-    "answer": "Il est ouvert aux couples de sexes différents et de même sexe.",
+    "answer": "Il est ouvert aux couples de sexes différents et de même sexe",
     "choices": [
-      "Il est ouvert aux couples de sexes différents et de même sexe.",
-      "Porter plainte à la police ou à la gendarmerie.",
-      "La police et la gendarmerie nationale.",
-      "Le droit d'exprimer collectivement et pacifiquement ses opinions sur la voie publique."
-    ]
+      "Seuls les couples de sexe différent peuvent se marier",
+      "Il est ouvert aux couples de sexes différents et de même sexe",
+      "Il nécessite l'accord du maire",
+      "Il est ouvert aux couples de sexes différents et de même sexe."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1037,13 +1065,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "La peine de mort est :",
-    "answer": "Abolie (interdite) en France.",
+    "answer": "Abolie (interdite) en France",
     "choices": [
-      "Abolie (interdite) en France.",
-      "Assurer la sécurité des citoyens et maintenir l'ordre public.",
-      "La liberté de disposer de son corps et le droit à la vie familiale.",
-      "La Constitution."
-    ]
+      "Appliquée pour les crimes très graves",
+      "Suspendue provisoirement",
+      "Abolie (interdite) en France",
+      "Abolie (interdite) en France."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1059,13 +1088,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Le recours à l'avortement est-il autorisé ?",
-    "answer": "Oui, légalement autorisé et garanti par la Constitution.",
+    "answer": "Oui, légalement autorisé et garanti par la Constitution",
     "choices": [
-      "Oui, légalement autorisé et garanti par la Constitution.",
-      "Le code de la route (limite de vitesse) ou le confinement.",
-      "Il est ouvert aux couples de sexes différents et de même sexe.",
-      "Le droit de cesser le travail pour des revendications professionnelles."
-    ]
+      "Oui, légalement autorisé et garanti par la Constitution",
+      "Non, sauf avis médical strict",
+      "Oui, uniquement pour les femmes majeures",
+      "Oui, légalement autorisé et garanti par la Constitution."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1136,13 +1166,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quel texte est le plus difficile à modifier ?",
-    "answer": "La Constitution.",
+    "answer": "La Constitution",
     "choices": [
-      "La Constitution.",
-      "Ils doivent être triés et jetés dans les poubelles adaptées.",
-      "Le droit de vivre dans un environnement équilibré et respectueux de la santé.",
-      "Trier ses déchets."
-    ]
+      "Le Code de la route",
+      "Une loi ordinaire",
+      "La Constitution",
+      "La Constitution."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1213,13 +1244,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Jeter un mégot par terre est :",
-    "answer": "Un délit (ou infraction) passible d'une amende.",
+    "answer": "Un délit (ou infraction) passible d'une amende",
     "choices": [
-      "Un délit (ou infraction) passible d'une amende.",
-      "Oui, légalement autorisé et garanti par la Constitution.",
-      "C'est la loi suprême du pays.",
-      "Appeler les secours (15, 17, 18 ou 112)."
-    ]
+      "Un délit (ou infraction) passible d'une amende",
+      "Toléré dans la rue",
+      "Une liberté citoyenne",
+      "Un délit (ou infraction) passible d'une amende."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1246,13 +1278,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle proposition constitue une obligation ?",
-    "answer": "Payer ses impôts ou scolariser ses enfants.",
+    "answer": "Payer ses impôts ou scolariser ses enfants",
     "choices": [
-      "Payer ses impôts ou scolariser ses enfants.",
-      "Le droit de vivre dans un environnement équilibré et respectueux de la santé.",
-      "Les lois s'y appliquent (les injures et incitations à la haine y sont punies).",
-      "Le crime (meurtre, viol)."
-    ]
+      "Voter à toutes les élections",
+      "Payer ses impôts ou scolariser ses enfants",
+      "Avoir une voiture",
+      "Payer ses impôts ou scolariser ses enfants."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1279,13 +1312,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que doit faire une victime de violences ?",
-    "answer": "Porter plainte à la police ou à la gendarmerie.",
+    "answer": "Porter plainte à la police ou à la gendarmerie",
     "choices": [
-      "Porter plainte à la police ou à la gendarmerie.",
-      "Procréation Médicalement Assistée.",
-      "Trier ses déchets.",
-      "Le vol ou les violences légères."
-    ]
+      "Porter plainte à la police ou à la gendarmerie",
+      "Se venger",
+      "Ne rien faire pour éviter les problèmes",
+      "Porter plainte à la police ou à la gendarmerie."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1345,13 +1379,14 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle est l'infraction la plus grave ?",
-    "answer": "Le crime (meurtre, viol).",
+    "answer": "Le crime (ex: meurtre, viol)",
     "choices": [
-      "Le crime (meurtre, viol).",
-      "Oui (depuis 1944).",
-      "Assurer la sécurité des citoyens et maintenir l'ordre public.",
-      "Oui."
-    ]
+      "La contravention (ex: mauvais stationnement)",
+      "Le délit (ex: vol)",
+      "Le crime (ex: meurtre, viol)",
+      "Le crime (meurtre, viol)."
+    ],
+    "precise": true
   },
   {
     "category": "Droits & devoirs",
@@ -1411,24 +1446,26 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel était le surnom de Louis XIV ?",
-    "answer": "Le Roi-Soleil.",
+    "answer": "Le Roi-Soleil",
     "choices": [
-      "Le Roi-Soleil.",
-      "Depuis 1962.",
-      "En Normandie (et en Provence).",
-      "La Belgique, le Luxembourg ou l'Allemagne."
-    ]
+      "Le Roi-Soleil",
+      "Le Libérateur",
+      "L'Empereur",
+      "Le Roi-Soleil."
+    ],
+    "precise": true
   },
   {
     "category": "Histoire & culture",
-    "question": "Quel roi de France a été exécuté pendant la Révolution ?",
-    "answer": "Louis XVI.",
+    "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "answer": "Louis XVI",
     "choices": [
-      "Louis XVI.",
-      "La CECA (Communauté Européenne du Charbon et de l'Acier).",
-      "L'Afrique.",
-      "La France."
-    ]
+      "Henri IV",
+      "Louis XVI",
+      "François Ier",
+      "Louis XVI."
+    ],
+    "precise": true
   },
   {
     "category": "Histoire & culture",
@@ -1455,13 +1492,14 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "De quand date l'appel à la résistance du général de Gaulle ?",
-    "answer": "Le 18 juin 1940.",
+    "answer": "Le 18 juin 1940",
     "choices": [
-      "Le 18 juin 1940.",
-      "Jean Moulin.",
-      "Espagne, Italie, Allemagne, Belgique, Suisse, etc.",
-      "Paris, Marseille, Lyon, Toulouse, Nice, etc."
-    ]
+      "Le 14 juillet 1789",
+      "Le 11 novembre 1918",
+      "Le 18 juin 1940",
+      "Le 18 juin 1940."
+    ],
+    "precise": true
   },
   {
     "category": "Histoire & culture",
@@ -1543,13 +1581,14 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
-    "answer": "Elles ont obtenu le droit de vote.",
+    "answer": "Elles ont obtenu le droit de vote",
     "choices": [
-      "Elles ont obtenu le droit de vote.",
-      "La fin de la Seconde Guerre mondiale (armistice de 1945).",
-      "La Belgique, le Luxembourg ou l'Allemagne.",
-      "Notre-Dame de Paris."
-    ]
+      "Elles ont obtenu le droit de vote",
+      "Elles ont pu travailler sans l'accord de leur mari",
+      "Elles ont eu le droit d'ouvrir un compte bancaire",
+      "Elles ont obtenu le droit de vote."
+    ],
+    "precise": true
   },
   {
     "category": "Histoire & culture",
@@ -1697,13 +1736,14 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle île française se trouve dans l'océan Indien ?",
-    "answer": "La Réunion (et Mayotte).",
+    "answer": "La Réunion",
     "choices": [
-      "La Réunion (et Mayotte).",
-      "Paris, Marseille, Lyon, Toulouse, Nice, etc.",
-      "Le 14 juillet (Fête nationale).",
-      "Jean Moulin."
-    ]
+      "La Corse",
+      "La Martinique",
+      "La Réunion",
+      "La Réunion (et Mayotte)."
+    ],
+    "precise": true
   },
   {
     "category": "Histoire & culture",
@@ -1752,13 +1792,14 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Où habite la majorité des Français ?",
-    "answer": "Dans les aires urbaines (les villes).",
+    "answer": "Dans les aires urbaines (les villes)",
     "choices": [
-      "Dans les aires urbaines (les villes).",
-      "Le Louvre (ou Musée d'Orsay, Centre Pompidou).",
-      "Le 18 juin 1940.",
-      "1914."
-    ]
+      "À la campagne",
+      "Dans les aires urbaines (les villes)",
+      "En montagne",
+      "Dans les aires urbaines (les villes)."
+    ],
+    "precise": true
   },
   {
     "category": "Histoire & culture",
@@ -1884,24 +1925,26 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle fête est française ?",
-    "answer": "Le 14 juillet (Fête nationale).",
+    "answer": "Le 14 juillet (Fête nationale)",
     "choices": [
-      "Le 14 juillet (Fête nationale).",
-      "L'Algérie (ou Sénégal, Indochine).",
-      "1914.",
-      "La Seine."
-    ]
+      "Thanksgiving",
+      "Le 14 juillet (Fête nationale)",
+      "Halloween",
+      "Le 14 juillet (Fête nationale)."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
     "question": "Quel mariage est reconnu par l'État ?",
-    "answer": "Uniquement le mariage civil (célébré à la mairie).",
+    "answer": "Uniquement le mariage civil (célébré à la mairie)",
     "choices": [
-      "Uniquement le mariage civil (célébré à la mairie).",
-      "Dès l'âge de 3 ans.",
-      "À la mairie du lieu de naissance (dans les 5 jours).",
-      "Il doit payer des heures supplémentaires ou donner un repos compensateur."
-    ]
+      "Le mariage religieux uniquement",
+      "Uniquement le mariage civil (célébré à la mairie)",
+      "Les fiançailles",
+      "Uniquement le mariage civil (célébré à la mairie)."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -1939,13 +1982,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Où faut-il déclarer la naissance d'un enfant ?",
-    "answer": "À la mairie du lieu de naissance (dans les 5 jours).",
+    "answer": "À la mairie du lieu de naissance (dans les 5 jours)",
     "choices": [
-      "À la mairie du lieu de naissance (dans les 5 jours).",
-      "Des amendes allant jusqu'à 1500 euros (voire des peines de prison).",
-      "Le 17 (ou le 112).",
-      "Être inscrit à France Travail et avoir travaillé suffisamment longtemps."
-    ]
+      "À la préfecture",
+      "À l'hôpital uniquement",
+      "À la mairie du lieu de naissance (dans les 5 jours)",
+      "À la mairie du lieu de naissance (dans les 5 jours)."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -1983,13 +2027,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quel numéro d'urgence permet d'appeler la police ?",
-    "answer": "Le 17 (ou le 112).",
+    "answer": "Le 17 (ou le 112)",
     "choices": [
-      "Le 17 (ou le 112).",
-      "À la mairie de sa commune.",
-      "Obligatoire pour travailler et résider en France.",
-      "Tous les enfants inscrits à l'école, sans discrimination."
-    ]
+      "Le 15",
+      "Le 17 (ou le 112)",
+      "Le 18",
+      "Le 17 (ou le 112)."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -2027,13 +2072,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "L'inscription à l'Assurance maladie est :",
-    "answer": "Obligatoire pour travailler et résider en France.",
+    "answer": "Obligatoire pour travailler et résider en France",
     "choices": [
-      "Obligatoire pour travailler et résider en France.",
-      "Avoir l'âge requis (17/18 ans) et réussir l'examen du code.",
-      "Il doit payer des heures supplémentaires ou donner un repos compensateur.",
-      "La maladie de l'enfant ou un événement familial grave (ex: décès)."
-    ]
+      "Facultative si on n'est jamais malade",
+      "Réservée aux personnes âgées",
+      "Obligatoire pour travailler et résider en France",
+      "Obligatoire pour travailler et résider en France."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -2060,13 +2106,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Travailler sans être déclaré est :",
-    "answer": "Du travail illégal (dissimulé), c'est un délit.",
+    "answer": "Du travail illégal (dissimulé), c'est un délit",
     "choices": [
-      "Du travail illégal (dissimulé), c'est un délit.",
-      "Le 17 (ou le 112).",
-      "À cesser le travail pour des revendications sans risquer le licenciement.",
-      "A le droit d'être scolarisé en milieu ordinaire avec un accompagnement adapté."
-    ]
+      "Du travail illégal (dissimulé), c'est un délit",
+      "Pratique et légal si c'est temporaire",
+      "Autorisé le week-end",
+      "Du travail illégal (dissimulé), c'est un délit."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -2104,13 +2151,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Dans une entreprise, le droit de grève autorise :",
-    "answer": "À cesser le travail pour des revendications sans risquer le licenciement.",
+    "answer": "À cesser le travail pour des revendications sans risquer le licenciement",
     "choices": [
-      "À cesser le travail pour des revendications sans risquer le licenciement.",
-      "Obligatoire pour travailler et résider en France.",
-      "S'informer sur la scolarité et voter pour leurs représentants.",
-      "L'aide juridictionnelle."
-    ]
+      "À détruire le matériel de l'entreprise",
+      "À cesser le travail pour des revendications sans risquer le licenciement",
+      "À insulter son patron",
+      "À cesser le travail pour des revendications sans risquer le licenciement."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -2170,13 +2218,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "À quel âge commence l'instruction obligatoire ?",
-    "answer": "Dès l'âge de 3 ans.",
+    "answer": "Dès l'âge de 3 ans",
     "choices": [
-      "Dès l'âge de 3 ans.",
-      "De se syndiquer pour défendre les intérêts des salariés.",
-      "Des amendes allant jusqu'à 1500 euros (voire des peines de prison).",
-      "C'est un droit garanti pour toutes les personnes résidant en France."
-    ]
+      "Dès l'âge de 3 ans",
+      "Dès 6 ans",
+      "Dès 11 ans",
+      "Dès l'âge de 3 ans."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",
@@ -2214,13 +2263,14 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Des parents ne respectent pas l'obligation d'instruction. Que risquent-ils ?",
-    "answer": "Des amendes allant jusqu'à 1500 euros (voire des peines de prison).",
+    "answer": "Des amendes (voire de la prison)",
     "choices": [
-      "Des amendes allant jusqu'à 1500 euros (voire des peines de prison).",
-      "Le Diplôme National du Brevet (DNB).",
-      "À la mairie de sa commune.",
-      "La mère ou le père."
-    ]
+      "Rien du tout",
+      "Une exclusion de l'école pour l'enfant",
+      "Des amendes (voire de la prison)",
+      "Des amendes allant jusqu'à 1500 euros (voire des peines de prison)."
+    ],
+    "precise": true
   },
   {
     "category": "Vie quotidienne",

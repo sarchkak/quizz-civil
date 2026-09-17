@@ -137,6 +137,7 @@ const relatedDistractors = (item) => {
     .slice(0, 3);
 };
 export const buildChoices = (item) => {
+  if (item.precise) return shuffle(item.choices);
   const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
   const answer = canonicalAnswer(item, pool);
   const distractors = pool
@@ -152,7 +153,7 @@ export const buildQuiz = () => {
   const situations = shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 12);
   return shuffle([...official, ...situations]).map((item) => {
     const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
-    const answer = canonicalAnswer(item, pool);
+    const answer = item.precise ? item.answer : canonicalAnswer(item, pool);
     return { ...item, answer, choices: buildChoices({ ...item, answer }) };
   });
 };

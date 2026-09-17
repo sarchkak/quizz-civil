@@ -56,4 +56,12 @@ describe('corpus du quiz', () => {
       expect(item.choices.filter((choice) => choice === item.answer)).toHaveLength(1);
     });
   });
+
+  it('conserve les propositions précises du document V2', () => {
+    expect(questions.filter((item) => item.precise)).toHaveLength(50);
+    const louis = questions.find((item) => item.precise && item.question === 'Quel était le surnom de Louis XIV ?');
+    expect(louis).toBeDefined();
+    expect(louis.choices).toContain('Le Roi-Soleil');
+    expect(louis.choices.filter((choice) => choice === louis.answer)).toHaveLength(1);
+  });
 });
