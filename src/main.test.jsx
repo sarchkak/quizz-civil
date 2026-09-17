@@ -49,4 +49,11 @@ describe('corpus du quiz', () => {
     expect(choices).toContain('La résidence officielle et le bureau du Premier ministre.');
     expect(choices).not.toContain('Le 9 mai.');
   });
+
+  it('conserve toujours la bonne réponse dans les quatre choix', () => {
+    Array.from({ length: 25 }, () => buildQuiz()).flat().forEach((item) => {
+      expect(item.choices).toHaveLength(4);
+      expect(item.choices.filter((choice) => choice === item.answer)).toHaveLength(1);
+    });
+  });
 });
