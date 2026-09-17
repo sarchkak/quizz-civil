@@ -12,14 +12,17 @@ describe('corpus du quiz', () => {
     });
   });
 
-  it('compose chaque session de 28 questions équitablement dans les 5 rubriques', () => {
+  it('compose chaque session de 40 questions avec 28 officielles équilibrées et 12 situations', () => {
     const session = buildQuiz();
-    expect(session).toHaveLength(28);
-    expect(session.filter((item) => item.category === 'Principes & valeurs')).toHaveLength(6);
-    expect(session.filter((item) => item.category === 'Institutions')).toHaveLength(6);
-    expect(session.filter((item) => item.category === 'Droits & devoirs')).toHaveLength(6);
-    expect(session.filter((item) => item.category === 'Histoire & culture')).toHaveLength(5);
-    expect(session.filter((item) => item.category === 'Vie quotidienne')).toHaveLength(5);
+    expect(session).toHaveLength(40);
+    expect(session.filter((item) => item.situation)).toHaveLength(12);
+    const official = session.filter((item) => !item.situation);
+    expect(official).toHaveLength(28);
+    expect(official.filter((item) => item.category === 'Principes & valeurs')).toHaveLength(6);
+    expect(official.filter((item) => item.category === 'Institutions')).toHaveLength(6);
+    expect(official.filter((item) => item.category === 'Droits & devoirs')).toHaveLength(6);
+    expect(official.filter((item) => item.category === 'Histoire & culture')).toHaveLength(5);
+    expect(official.filter((item) => item.category === 'Vie quotidienne')).toHaveLength(5);
     expect(new Set(session.map((item) => item.category)).size).toBe(5);
   });
 });

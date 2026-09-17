@@ -102,12 +102,14 @@ const categories = ['Principes & valeurs', 'Institutions', 'Droits & devoirs', '
 const shuffle = (items) => [...items].sort(() => Math.random() - 0.5);
 export const buildQuiz = () => {
   const distribution = [6, 6, 6, 5, 5];
-  return shuffle(categories.flatMap((category, index) => shuffle(questions.filter((item) => item.category === category)).slice(0, distribution[index]))).map((item) => ({ ...item, choices: shuffle(item.choices) }));
+  const official = categories.flatMap((category, index) => shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, distribution[index]));
+  const situations = shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 12);
+  return shuffle([...official, ...situations]).map((item) => ({ ...item, choices: shuffle(item.choices) }));
 };
 
 function App() {
   const [screen, setScreen] = useState('home');
-  const [requestedSize] = useState(28);
+  const [requestedSize] = useState(40);
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -166,7 +168,7 @@ function Shell({ children }) {
 }
 
 function Home({ requestedSize, setRequestedSize, startQuiz }) {
-  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles sur les valeurs, les institutions, l’histoire et la vie en société françaises.</p><div className="home-stats"><div><strong>204</strong><span>questions officielles</span></div><div><strong>5</strong><span>thématiques couvertes</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Format de la session</label><p>28 questions tirées équitablement dans les 5 thèmes.</p></div><div className="size-options"><div className="size-option active">28<small>questions</small></div></div></div><button className="primary-button" onClick={() => startQuiz()}><span>Commencer le quiz</span><ArrowRight size={19} /></button><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
+  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles et entraînez-vous avec des situations concrètes de la vie quotidienne.</p><div className="home-stats"><div><strong>204</strong><span>questions officielles</span></div><div><strong>50</strong><span>mises en situation</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Format de la session</label><p>28 questions thématiques + 12 mises en situation.</p></div><div className="size-options"><div className="size-option active">40<small>questions</small></div></div></div><button className="primary-button" onClick={() => startQuiz()}><span>Commencer le quiz</span><ArrowRight size={19} /></button><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
 }
 
 function QuizScreen({ question, current, total, progress, selected, choose, next }) {
