@@ -1,9 +1,10 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowRight, Award, Check, ChevronLeft, CircleHelp, Clock3, Flag, RotateCcw, Sparkles, X } from 'lucide-react';
+import { officialQuestions } from './examQuestions';
 import './styles.css';
 
-export const questions = [
+const situationalQuestions = [
   { category: 'Principes & valeurs', question: 'Quelle est la devise de la République française ?', answer: 'Liberté, Égalité, Fraternité', choices: ['Liberté, Égalité, Fraternité', 'Unité, Travail, Progrès', 'Honneur, Patrie, Justice', 'Paix, Force, Solidarité'] },
   { category: 'Principes & valeurs', question: 'Que garantit la liberté d’expression ?', answer: 'Le droit d’exprimer librement ses opinions dans le respect de la loi', choices: ['Le droit d’exprimer librement ses opinions dans le respect de la loi', 'Le droit de diffuser toute information sans aucune règle', 'Le droit de parler uniquement en privé', 'Le droit de remplacer une décision de justice'] },
   { category: 'Principes & valeurs', question: 'Que représente Marianne ?', answer: 'La République française et ses valeurs', choices: ['La République française et ses valeurs', 'La monnaie européenne', 'La justice européenne', 'La fête nationale uniquement'] },
@@ -96,19 +97,17 @@ export const questions = [
   { category: 'Vie quotidienne', situation: true, question: 'Vous voulez louer un logement. Que doit contenir un bail valide ?', answer: 'Un écrit signé par le propriétaire et le locataire', choices: ['Un écrit signé par le propriétaire et le locataire', 'Une promesse orale uniquement', 'Une signature du voisin', 'Une autorisation de l’école'] },
 ];
 
-const categories = [...new Set(questions.map((item) => item.category))];
+export const questions = [...officialQuestions, ...situationalQuestions];
+const categories = ['Principes & valeurs', 'Institutions', 'Droits & devoirs', 'Histoire & culture', 'Vie quotidienne'];
 const shuffle = (items) => [...items].sort(() => Math.random() - 0.5);
 export const buildQuiz = () => {
-  const knowledge = questions.filter((item) => !item.situation);
-  const situations = shuffle(questions.filter((item) => item.situation)).slice(0, 12);
-  const essentials = categories.map((category) => shuffle(knowledge.filter((item) => item.category === category))[0]);
-  const remaining = shuffle(knowledge.filter((item) => !essentials.includes(item)));
-  return shuffle([...situations, ...essentials, ...remaining.slice(0, 23)]);
+  const distribution = [6, 6, 6, 5, 5];
+  return shuffle(categories.flatMap((category, index) => shuffle(questions.filter((item) => item.category === category)).slice(0, distribution[index]))).map((item) => ({ ...item, choices: shuffle(item.choices) }));
 };
 
 function App() {
   const [screen, setScreen] = useState('home');
-  const [requestedSize] = useState(40);
+  const [requestedSize] = useState(28);
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -167,7 +166,7 @@ function Shell({ children }) {
 }
 
 function Home({ requestedSize, setRequestedSize, startQuiz }) {
-  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Testez vos connaissances et vos réflexes dans les situations de la vie quotidienne en France.</p><div className="home-stats"><div><strong>40</strong><span>questions par session</span></div><div><strong>5</strong><span>thématiques couvertes</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Format de la session</label><p>28 questions de connaissances + 12 mises en situation.</p></div><div className="size-options"><div className="size-option active">40<small>questions</small></div></div></div><button className="primary-button" onClick={() => startQuiz()}><span>Commencer le quiz</span><ArrowRight size={19} /></button><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
+  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles sur les valeurs, les institutions, l’histoire et la vie en société françaises.</p><div className="home-stats"><div><strong>204</strong><span>questions officielles</span></div><div><strong>5</strong><span>thématiques couvertes</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Format de la session</label><p>28 questions tirées équitablement dans les 5 thèmes.</p></div><div className="size-options"><div className="size-option active">28<small>questions</small></div></div></div><button className="primary-button" onClick={() => startQuiz()}><span>Commencer le quiz</span><ArrowRight size={19} /></button><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
 }
 
 function QuizScreen({ question, current, total, progress, selected, choose, next }) {
