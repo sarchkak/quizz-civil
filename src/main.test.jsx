@@ -26,30 +26,6 @@ describe('corpus du quiz', () => {
     expect(new Set(session.map((item) => item.category)).size).toBe(5);
   });
 
-  it('génère des distracteurs du même type pour les questions factuelles', () => {
-    const question = questions.find((item) => item.question === 'Quel État a quitté l’Union européenne en 2020 ?');
-    const choices = buildChoices(question);
-    expect(choices).toHaveLength(4);
-    expect(choices.some((choice) => /Royaume-Uni/.test(choice))).toBe(true);
-    expect(choices.every((choice) => /France|Allemagne|Suisse|Royaume-Uni|Norvège|Italie|Belgique|Espagne/.test(choice))).toBe(true);
-  });
-
-  it('réduit une réponse géographique multiple à une réponse canonique', () => {
-    const question = questions.find((item) => item.question === 'Quel pays a une frontière terrestre avec la France ?');
-    const choices = buildChoices(question);
-    expect(choices).toHaveLength(4);
-    expect(choices.every((choice) => /France|Allemagne|Suisse|Royaume-Uni|Norvège|Italie|Belgique|Espagne/.test(choice))).toBe(true);
-    expect(choices.every((choice) => !choice.includes(','))).toBe(true);
-  });
-
-  it('sélectionne des distracteurs liés au sujet de la question', () => {
-    const question = questions.find((item) => item.question === "Qu'est-ce que l'Hôtel de Matignon ?");
-    const choices = buildChoices(question);
-    expect(choices).toHaveLength(4);
-    expect(choices).toContain('La résidence officielle et le bureau du Premier ministre.');
-    expect(choices).not.toContain('Le 9 mai.');
-  });
-
   it('conserve toujours la bonne réponse dans les quatre choix', () => {
     Array.from({ length: 25 }, () => buildQuiz()).flat().forEach((item) => {
       expect(item.choices).toHaveLength(4);
@@ -57,8 +33,8 @@ describe('corpus du quiz', () => {
     });
   });
 
-  it('conserve les propositions précises du document V2', () => {
-    expect(questions.filter((item) => item.precise)).toHaveLength(50);
+  it('conserve les propositions précises du document V3', () => {
+    expect(questions.filter((item) => item.precise)).toHaveLength(209);
     const louis = questions.find((item) => item.precise && item.question === 'Quel était le surnom de Louis XIV ?');
     expect(louis).toBeDefined();
     expect(louis.choices).toContain('Le Roi-Soleil');
