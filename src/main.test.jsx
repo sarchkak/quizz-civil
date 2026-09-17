@@ -30,7 +30,14 @@ describe('corpus du quiz', () => {
     const question = questions.find((item) => item.question === 'Quel État a quitté l’Union européenne en 2020 ?');
     const choices = buildChoices(question);
     expect(choices).toHaveLength(4);
-    expect(choices).toContain(question.answer);
+    expect(choices.some((choice) => /Royaume-Uni/.test(choice))).toBe(true);
     expect(choices.every((choice) => /France|Allemagne|Suisse|Royaume-Uni|Norvège|Italie|Belgique|Espagne/.test(choice))).toBe(true);
+  });
+
+  it('réduit une réponse géographique multiple à une réponse canonique', () => {
+    const question = questions.find((item) => item.question === 'Quel pays a une frontière terrestre avec la France ?');
+    const choices = buildChoices(question);
+    expect(choices).toContain('L’Espagne');
+    expect(choices).toHaveLength(4);
   });
 });

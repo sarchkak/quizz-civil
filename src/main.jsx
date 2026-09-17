@@ -112,16 +112,29 @@ const optionPools = [
   { pattern: /quelle cathédrale/i, values: ['Notre-Dame de Paris', 'La cathédrale de Reims', 'La cathédrale de Chartres', 'La cathédrale de Strasbourg'] },
   { pattern: /quel peintre/i, values: ['Claude Monet', 'Paul Cézanne', 'Auguste Renoir', 'Édouard Manet'] },
 ];
+const canonicalAnswer = (item, pool) => {
+  if (!pool) return item.answer;
+  const source = item.answer.toLocaleLowerCase('fr-FR');
+  return pool.find((choice) => {
+    const normalized = choice.replace(/^(?:l['’]|le\s+|la\s+|les\s+)/i, '').toLocaleLowerCase('fr-FR');
+    return source.includes(normalized);
+  }) || item.answer;
+};
 export const buildChoices = (item) => {
   const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
   if (!pool) return shuffle(item.choices);
-  return shuffle([item.answer, ...pool.filter((choice) => choice !== item.answer)]).slice(0, 4);
+  const answer = canonicalAnswer(item, pool);
+  return shuffle([answer, ...pool.filter((choice) => choice !== answer)]).slice(0, 4);
 };
 export const buildQuiz = () => {
   const distribution = [6, 6, 6, 5, 5];
   const official = categories.flatMap((category, index) => shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, distribution[index]));
   const situations = shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 12);
-  return shuffle([...official, ...situations]).map((item) => ({ ...item, choices: buildChoices(item) }));
+  return shuffle([...official, ...situations]).map((item) => {
+    const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
+    const answer = canonicalAnswer(item, pool);
+    return { ...item, answer, choices: buildChoices({ ...item, answer }) };
+  });
 };
 
 function App() {
