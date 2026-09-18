@@ -26,6 +26,12 @@ describe('corpus du quiz', () => {
     expect(new Set(session.map((item) => item.category)).size).toBe(5);
   });
 
+  it('compose un quiz thématique de 20 questions officielles sans situations', () => {
+    const session = buildQuiz({ category: 'Institutions' });
+    expect(session).toHaveLength(20);
+    expect(session.every((item) => item.category === 'Institutions' && !item.situation)).toBe(true);
+  });
+
   it('conserve toujours la bonne réponse dans les quatre choix', () => {
     Array.from({ length: 25 }, () => buildQuiz()).flat().forEach((item) => {
       expect(item.choices).toHaveLength(4);

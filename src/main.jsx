@@ -147,7 +147,10 @@ export const buildChoices = (item) => {
       : relatedDistractors(item);
   return shuffle([answer, ...shuffle(distractors).slice(0, 3)]);
 };
-export const buildQuiz = () => {
+export const buildQuiz = ({ category } = {}) => {
+  if (category) {
+    return shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, 20).map((item) => ({ ...item, answer: item.answer, choices: buildChoices(item) }));
+  }
   const distribution = [6, 6, 6, 5, 5];
   const official = categories.flatMap((category, index) => shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, distribution[index]));
   const situations = shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 12);
@@ -161,14 +164,15 @@ export const buildQuiz = () => {
 function App() {
   const [screen, setScreen] = useState('home');
   const [requestedSize] = useState(40);
+  const [quizCategory, setQuizCategory] = useState('');
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
   const [answers, setAnswers] = useState([]);
 
-  const startQuiz = () => {
-    setQuizQuestions(buildQuiz());
+  const startQuiz = (category = quizCategory) => {
+    setQuizQuestions(buildQuiz(category ? { category } : {}));
     setCurrent(0);
     setSelected(null);
     setScore(0);
@@ -210,16 +214,17 @@ function App() {
   }, [screen, question, selected, current]);
 
   if (screen === 'quiz' && question) return <QuizScreen question={question} current={current} total={quizQuestions.length} progress={progress} selected={selected} choose={choose} next={next} />;
-  if (screen === 'results') return <Results score={score} total={quizQuestions.length} answers={answers} restart={() => startQuiz(requestedSize)} home={() => setScreen('home')} />;
-  return <Home startQuiz={startQuiz} />;
+  if (screen === 'results') return <Results score={score} total={quizQuestions.length} answers={answers} restart={() => startQuiz(quizCategory)} home={() => setScreen('home')} />;
+  return <Home quizCategory={quizCategory} setQuizCategory={setQuizCategory} startQuiz={startQuiz} />;
 }
 
 function Shell({ children }) {
   return <main className="app-shell"><header className="topbar"><div className="brand"><span className="brand-mark">RF</span><span>Révise citoyen</span></div><span className="source-label">Carte de résident · 2025</span></header>{children}<footer>Un outil de révision local · Les réponses proviennent du support officiel fourni</footer></main>;
 }
 
-function Home({ requestedSize, setRequestedSize, startQuiz }) {
-  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles et entraînez-vous avec des situations concrètes de la vie quotidienne.</p><div className="home-stats"><div><strong>204</strong><span>questions officielles</span></div><div><strong>50</strong><span>mises en situation</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Format de la session</label><p>28 questions thématiques + 12 mises en situation.</p></div><div className="size-options"><div className="size-option active">40<small>questions</small></div></div></div><button className="primary-button" onClick={() => startQuiz()}><span>Commencer le quiz</span><ArrowRight size={19} /></button><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
+function Home({ quizCategory, setQuizCategory, startQuiz }) {
+  const categories = ['Principes & valeurs', 'Institutions', 'Droits & devoirs', 'Histoire & culture', 'Vie quotidienne'];
+  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles et entraînez-vous avec des situations concrètes de la vie quotidienne.</p><div className="home-stats"><div><strong>209</strong><span>questions officielles</span></div><div><strong>50</strong><span>mises en situation</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Quiz complet</label><p>28 questions officielles + 12 mises en situation.</p></div><button className="size-option active" onClick={() => { setQuizCategory(''); startQuiz(''); }}>40<small>questions</small></button></div><div className="theme-setup"><div><label>Révision par thème</label><p>20 questions officielles, sans mise en situation.</p></div><select value={quizCategory} onChange={(event) => setQuizCategory(event.target.value)} aria-label="Choisir un thème"><option value="">Choisir un thème</option>{categories.map((category) => <option key={category} value={category}>{category}</option>)}</select><button className="secondary-button" disabled={!quizCategory} onClick={() => startQuiz(quizCategory)}>Démarrer ce thème <ArrowRight size={16} /></button></div><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
 }
 
 function QuizScreen({ question, current, total, progress, selected, choose, next }) {
