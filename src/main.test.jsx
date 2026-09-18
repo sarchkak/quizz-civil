@@ -36,6 +36,7 @@ describe('corpus du quiz', () => {
     Array.from({ length: 25 }, () => buildQuiz()).flat().forEach((item) => {
       expect(item.choices).toHaveLength(4);
       expect(item.choices.filter((choice) => choice === item.answer)).toHaveLength(1);
+      expect(item.choices.some((choice) => choice.includes('(') || choice.includes(')'))).toBe(false);
     });
   });
 

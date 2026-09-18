@@ -122,6 +122,8 @@ const canonicalAnswer = (item, pool) => {
 };
 const ignoredWords = new Set(['quel', 'quelle', 'quels', 'quelles', 'est', 'sont', 'une', 'un', 'les', 'des', 'de', 'du', 'la', 'le', 'à', 'et', 'en', 'pour', 'que', 'qui', 'dans', 'avec', 'sur', 'par', 'l', 'ce', 'cette', 'c’est']);
 const keywords = (value) => new Set(value.toLocaleLowerCase('fr-FR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/[^a-z0-9]+/).filter((word) => word.length > 2 && !ignoredWords.has(word)));
+const stripParenthetical = (value) => value.replace(/\s*\([^)]*\)/g, '').replace(/\s{2,}/g, ' ').trim();
+const cleanItem = (item) => ({ ...item, answer: stripParenthetical(item.answer), choices: item.choices.map(stripParenthetical) });
 const relatedDistractors = (item) => {
   const sourceWords = keywords(`${item.question} ${item.answer}`);
   return officialQuestions
@@ -132,32 +134,37 @@ const relatedDistractors = (item) => {
       return { answer: candidate.answer, score: overlap };
     })
     .sort((a, b) => b.score - a.score)
-    .map(({ answer }) => answer)
+    .map(({ answer }) => stripParenthetical(answer))
     .filter((answer, index, values) => values.indexOf(answer) === index)
     .slice(0, 3);
 };
 export const buildChoices = (item) => {
-  if (item.precise) return shuffle(item.choices);
-  const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
-  const answer = canonicalAnswer(item, pool);
+  const cleaned = cleanItem(item);
+  if (cleaned.precise) return shuffle(cleaned.choices);
+  const pool = optionPools.find(({ pattern }) => pattern.test(cleaned.question))?.values;
+  const answer = canonicalAnswer(cleaned, pool);
   const distractors = pool
     ? pool.filter((choice) => choice !== answer)
-    : item.situation
-      ? item.choices.filter((choice) => choice !== item.answer)
-      : relatedDistractors(item);
+    : cleaned.situation
+      ? cleaned.choices.filter((choice) => choice !== cleaned.answer)
+      : relatedDistractors(cleaned);
   return shuffle([answer, ...shuffle(distractors).slice(0, 3)]);
 };
 export const buildQuiz = ({ category } = {}) => {
   if (category) {
-    return shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, 20).map((item) => ({ ...item, answer: item.answer, choices: buildChoices(item) }));
+    return shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, 20).map((item) => {
+      const cleaned = cleanItem(item);
+      return { ...cleaned, choices: buildChoices(cleaned) };
+    });
   }
   const distribution = [6, 6, 6, 5, 5];
   const official = categories.flatMap((category, index) => shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, distribution[index]));
   const situations = shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 12);
   return shuffle([...official, ...situations]).map((item) => {
-    const pool = optionPools.find(({ pattern }) => pattern.test(item.question))?.values;
-    const answer = item.precise ? item.answer : canonicalAnswer(item, pool);
-    return { ...item, answer, choices: buildChoices({ ...item, answer }) };
+    const cleaned = cleanItem(item);
+    const pool = optionPools.find(({ pattern }) => pattern.test(cleaned.question))?.values;
+    const answer = cleaned.precise ? cleaned.answer : canonicalAnswer(cleaned, pool);
+    return { ...cleaned, answer, choices: buildChoices({ ...cleaned, answer }) };
   });
 };
 
