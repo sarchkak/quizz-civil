@@ -32,6 +32,7 @@ h1 em { color: #c05a3c; font-weight: 600; }
 .theme-setup > div { flex: 1; }.theme-setup label { font-weight: 700; }.theme-setup p { margin: 5px 0 0; color: #8498a9; font-size: 12px; }
 .theme-setup select { min-height: 42px; max-width: 205px; padding: 0 12px; border: 1px solid #dae3eb; border-radius: 9px; color: #4f6b80; background: white; font: inherit; font-size: 12px; }
 .theme-setup .secondary-button { min-height: 42px; white-space: nowrap; }.theme-setup .secondary-button:disabled { cursor: not-allowed; opacity: .45; }
+.situation-setup { border-color: #f0ddd6; background: #fffaf8; }.situation-setup .secondary-button { color: #a64d34; border-color: #edcfc4; }
 .primary-button, .secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 9px; font-weight: 700; }
 .primary-button { border: 0; color: white; background: #c05a3c; box-shadow: 0 8px 18px #c05a3c26; transition: transform .2s, background .2s; }
 .primary-button:hover { background: #a94b31; transform: translateY(-1px); }

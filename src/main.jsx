@@ -150,7 +150,13 @@ export const buildChoices = (item) => {
       : relatedDistractors(cleaned);
   return shuffle([answer, ...shuffle(distractors).slice(0, 3)]);
 };
-export const buildQuiz = ({ category } = {}) => {
+export const buildQuiz = ({ category, situationsOnly = false } = {}) => {
+  if (situationsOnly) {
+    return shuffle(situationalQuestions.filter((item) => item.situation)).slice(0, 20).map((item) => {
+      const cleaned = cleanItem(item);
+      return { ...cleaned, choices: buildChoices(cleaned) };
+    });
+  }
   if (category) {
     return shuffle(officialQuestions.filter((item) => item.category === category)).slice(0, 20).map((item) => {
       const cleaned = cleanItem(item);
@@ -179,7 +185,7 @@ function App() {
   const [answers, setAnswers] = useState([]);
 
   const startQuiz = (category = quizCategory) => {
-    setQuizQuestions(buildQuiz(category ? { category } : {}));
+    setQuizQuestions(buildQuiz(category === '__situations__' ? { situationsOnly: true } : category ? { category } : {}));
     setCurrent(0);
     setSelected(null);
     setScore(0);
@@ -231,7 +237,7 @@ function Shell({ children }) {
 
 function Home({ quizCategory, setQuizCategory, startQuiz }) {
   const categories = ['Principes & valeurs', 'Institutions', 'Droits & devoirs', 'Histoire & culture', 'Vie quotidienne'];
-  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles et entraînez-vous avec des situations concrètes de la vie quotidienne.</p><div className="home-stats"><div><strong>209</strong><span>questions officielles</span></div><div><strong>50</strong><span>mises en situation</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Quiz complet</label><p>28 questions officielles + 12 mises en situation.</p></div><button className="size-option active" onClick={() => { setQuizCategory(''); startQuiz(''); }}>40<small>questions</small></button></div><div className="theme-setup"><div><label>Révision par thème</label><p>20 questions officielles, sans mise en situation.</p></div><select value={quizCategory} onChange={(event) => setQuizCategory(event.target.value)} aria-label="Choisir un thème"><option value="">Choisir un thème</option>{categories.map((category) => <option key={category} value={category}>{category}</option>)}</select><button className="secondary-button" disabled={!quizCategory} onClick={() => startQuiz(quizCategory)}>Démarrer ce thème <ArrowRight size={16} /></button></div><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
+  return <Shell><section className="hero home-card"><div className="eyebrow"><Sparkles size={16} /> Préparez-vous sereinement</div><h1>L’examen civique,<br /><em>à votre rythme.</em></h1><p className="lead">Révisez les questions officielles et entraînez-vous avec des situations concrètes de la vie quotidienne.</p><div className="home-stats"><div><strong>209</strong><span>questions officielles</span></div><div><strong>50</strong><span>mises en situation</span></div><div><strong>4</strong><span>choix par question</span></div></div><div className="setup"><div><label>Quiz complet</label><p>28 questions officielles + 12 mises en situation.</p></div><button className="size-option active" onClick={() => { setQuizCategory(''); startQuiz(''); }}>40<small>questions</small></button></div><div className="theme-setup"><div><label>Révision par thème</label><p>20 questions officielles, sans mise en situation.</p></div><select value={quizCategory.startsWith('__') ? '' : quizCategory} onChange={(event) => setQuizCategory(event.target.value)} aria-label="Choisir un thème"><option value="">Choisir un thème</option>{categories.map((category) => <option key={category} value={category}>{category}</option>)}</select><button className="secondary-button" disabled={!quizCategory || quizCategory === '__situations__'} onClick={() => startQuiz(quizCategory)}>Démarrer ce thème <ArrowRight size={16} /></button></div><div className="theme-setup situation-setup"><div><label>Mise en situation</label><p>20 situations concrètes pour vous entraîner à réagir.</p></div><button className="secondary-button" onClick={() => { setQuizCategory('__situations__'); startQuiz('__situations__'); }}>S’entraîner aux situations <ArrowRight size={16} /></button></div><p className="keyboard-hint"><CircleHelp size={15} /> Répondez aussi avec les touches 1 à 4</p></section></Shell>;
 }
 
 function QuizScreen({ question, current, total, progress, selected, choose, next }) {

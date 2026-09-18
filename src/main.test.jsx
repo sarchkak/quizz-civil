@@ -32,6 +32,12 @@ describe('corpus du quiz', () => {
     expect(session.every((item) => item.category === 'Institutions' && !item.situation)).toBe(true);
   });
 
+  it('compose un entraînement de 20 mises en situation', () => {
+    const session = buildQuiz({ situationsOnly: true });
+    expect(session).toHaveLength(20);
+    expect(session.every((item) => item.situation)).toBe(true);
+  });
+
   it('conserve toujours la bonne réponse dans les quatre choix', () => {
     Array.from({ length: 25 }, () => buildQuiz()).flat().forEach((item) => {
       expect(item.choices).toHaveLength(4);
