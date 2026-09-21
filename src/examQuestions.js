@@ -3,7 +3,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Voter aux élections ou s'engager dans une association ».",
+    "explanation": "Le vote et l'engagement associatif sont les piliers de la démocratie et de la vie civique.",
 
     "answer": "Voter aux élections ou s'engager dans une association",
     "choices": [
@@ -17,7 +17,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que garantit la liberté d'expression ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le droit d'exprimer librement ses opinions (dans le respect de la loi) ».",
+    "explanation": "Chacun peut s'exprimer librement, tant qu'il ne commet pas de délit comme l'injure ou l'incitation à la haine.",
 
     "answer": "Le droit d'exprimer librement ses opinions (dans le respect de la loi)",
     "choices": [
@@ -31,7 +31,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "À quoi sert un titre de séjour ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « C'est un document officiel autorisant un étranger à vivre légalement en France ».",
+    "explanation": "C'est le document officiel délivré par la préfecture qui prouve la régularité du séjour.",
 
     "answer": "C'est un document officiel autorisant un étranger à vivre légalement en France",
     "choices": [
@@ -45,7 +45,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "La liberté de circulation permet à toute personne de :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Se déplacer librement sur le territoire national, de le quitter et d'y revenir ».",
+    "explanation": "C'est un droit fondamental garanti à toute personne résidant légalement sur le territoire.",
 
     "answer": "Se déplacer librement sur le territoire national, de le quitter et d'y revenir",
     "choices": [
@@ -59,7 +59,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Les sites officiels du gouvernement finissant par .gouv.fr ».",
+    "explanation": "L'extension .gouv.fr certifie qu'il s'agit d'un site officiel du gouvernement français.",
 
     "answer": "Les sites officiels du gouvernement finissant par .gouv.fr",
     "choices": [
@@ -73,7 +73,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Complétez ces paroles : \"Aux armes […] ! Formez vos bataillons\"",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Citoyens ».",
+    "explanation": "C'est le célèbre refrain de La Marseillaise, appelant le peuple à défendre la patrie.",
 
     "answer": "Citoyens",
     "choices": [
@@ -87,7 +87,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Complétez les paroles : \"Allons enfants de la patrie […]\"",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Le jour de gloire est arrivé ! ».",
+    "explanation": "Il s'agit du tout premier vers de l'hymne national français.",
 
     "answer": "Le jour de gloire est arrivé !",
     "choices": [
@@ -101,7 +101,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "En application de la liberté individuelle, une personne peut :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Agir et se déplacer librement sans contrainte illégale ».",
+    "explanation": "La liberté individuelle protège contre les arrestations arbitraires et permet d'agir librement dans le cadre de la loi.",
 
     "answer": "Agir et se déplacer librement sans contrainte illégale",
     "choices": [
@@ -115,7 +115,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Concernant la pratique de la religion, quelle proposition est correcte ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public ».",
+    "explanation": "La laïcité garantit le libre exercice des cultes tant qu'ils respectent les lois et l'ordre public.",
 
     "answer": "Elle est libre dans la sphère privée, mais ne doit pas troubler l'ordre public",
     "choices": [
@@ -129,7 +129,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport car ils sont mixtes ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Non, c'est interdit (principe d'égalité et de laïcité) ».",
+    "explanation": "L'école publique est mixte et laïque ; les convictions religieuses ne justifient pas une dispense d'enseignement.",
 
     "answer": "Non, c'est interdit (principe d'égalité et de laïcité)",
     "choices": [
@@ -143,7 +143,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Quelle est la devise de la France ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Liberté, Égalité, Fraternité ».",
+    "explanation": "C'est le fondement de la République, hérité de la Révolution française.",
 
     "answer": "Liberté, Égalité, Fraternité",
     "choices": [
@@ -157,7 +157,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "La répudiation de sa femme est :",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Totalement interdite et non reconnue en France ».",
+    "explanation": "La loi française exige une procédure de divorce garantissant l'égalité des époux.",
 
     "answer": "Totalement interdite et non reconnue en France",
     "choices": [
@@ -171,7 +171,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Ils sont obligatoires et financent les services publics (hôpitaux, écoles) ».",
+    "explanation": "Ils sont essentiels pour financer les hôpitaux, les écoles, la justice et les infrastructures.",
 
     "answer": "Ils sont obligatoires et financent les services publics (hôpitaux, écoles)",
     "choices": [
@@ -185,7 +185,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Peut-on brûler publiquement un drapeau français ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Non, c'est un délit puni par la loi (outrage) ».",
+    "explanation": "L'outrage à l'hymne national ou au drapeau tricolore est pénalement répréhensible.",
 
     "answer": "Non, c'est un délit puni par la loi (outrage)",
     "choices": [
@@ -199,7 +199,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que fait l'État pour lutter contre les discriminations ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La loi interdit et punit sévèrement les actes discriminatoires ».",
+    "explanation": "Le Code pénal sanctionne toute distinction basée sur l'origine, le sexe, la religion ou le handicap.",
 
     "answer": "La loi interdit et punit sévèrement les actes discriminatoires",
     "choices": [
@@ -213,7 +213,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que représente Marianne ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « La République française et les valeurs de la Liberté ».",
+    "explanation": "Elle est l'allégorie de la République française, souvent coiffée du bonnet phrygien.",
 
     "answer": "La République française et les valeurs de la Liberté",
     "choices": [
@@ -227,7 +227,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Qu'est-ce que la liberté d'association ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le droit de créer, d'adhérer ou de quitter une association librement ».",
+    "explanation": "Garantie par la loi de 1901, elle permet aux citoyens de s'unir pour un but commun sans but lucratif.",
 
     "answer": "Le droit de créer, d'adhérer ou de quitter une association librement",
     "choices": [
@@ -241,7 +241,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Qu'est-ce que la liberté ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui ».",
+    "explanation": "C'est la définition exacte donnée par l'article 4 de la Déclaration des droits de l'homme et du citoyen.",
 
     "answer": "Pouvoir faire tout ce qui ne nuit pas aux droits d'autrui",
     "choices": [
@@ -255,7 +255,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Qu'est-ce que la Marseillaise ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « L'hymne national français ».",
+    "explanation": "Composée par Rouget de Lisle, elle est l'hymne officiel de la France.",
 
     "answer": "L'hymne national français",
     "choices": [
@@ -269,7 +269,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Sur quel document peut-on voir Marianne ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Sur les timbres, les pièces de monnaie, et les documents officiels ».",
+    "explanation": "Elle figure sur les objets édités par l'État pour symboliser la République au quotidien.",
 
     "answer": "Sur les timbres, les pièces de monnaie, et les documents officiels",
     "choices": [
@@ -283,7 +283,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Un employeur refuse d'embaucher des femmes. Que dit la loi ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « C'est interdit, c'est une discrimination sexiste punie par la loi ».",
+    "explanation": "Le refus d'embauche fondé sur le sexe est un délit passible de sanctions pénales.",
 
     "answer": "C'est interdit, c'est une discrimination sexiste punie par la loi",
     "choices": [
@@ -297,7 +297,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Une des valeurs de la devise est l'égalité. Qu'est-ce que cela signifie ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi ».",
+    "explanation": "La loi est la même pour tous, qu'elle protège ou qu'elle punisse, sans distinction de naissance.",
 
     "answer": "Que tous les citoyens ont les mêmes droits et les mêmes devoirs devant la loi",
     "choices": [
@@ -311,7 +311,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Quelle est la place de la langue française dans la République ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « C'est la langue officielle de la République ».",
+    "explanation": "L'article 2 de la Constitution précise que \"la langue de la République est le français\".",
 
     "answer": "C'est la langue officielle de la République",
     "choices": [
@@ -325,7 +325,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Quels sont des symboles officiels de la République française ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet ».",
+    "explanation": "Ce sont les emblèmes et symboles institutionnels reconnus par la Constitution.",
 
     "answer": "Le drapeau tricolore, la Marseillaise, la devise, Marianne, le 14 juillet",
     "choices": [
@@ -339,7 +339,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "A-t-on le droit d'insulter publiquement quelqu'un parce qu'il est différent ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Non, c'est un délit (injure à caractère discriminatoire) ».",
+    "explanation": "Les propos racistes, sexistes ou homophobes ne sont pas des opinions mais des délits punis par la loi.",
 
     "answer": "Non, c'est un délit (injure à caractère discriminatoire)",
     "choices": [
@@ -353,7 +353,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Le régime de la France est :",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Une République indivisible, laïque, démocratique et sociale ».",
+    "explanation": "C'est la définition exacte donnée par l'article 1er de la Constitution de 1958.",
 
     "answer": "Une République indivisible, laïque, démocratique et sociale",
     "choices": [
@@ -367,7 +367,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Pour garantir l'égalité des élèves et les protéger de toute pression religieuse ».",
+    "explanation": "L'école préserve les élèves de tout prosélytisme pour forger leur esprit critique librement.",
 
     "answer": "Pour garantir l'égalité des élèves et les protéger de toute pression religieuse",
     "choices": [
@@ -381,7 +381,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "En quelle année la loi de séparation des Églises et de l'Etat a-t-elle été votée ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 1905 ».",
+    "explanation": "Cette loi fondatrice a séparé le pouvoir politique du pouvoir religieux en France.",
 
     "answer": "1905",
     "choices": [
@@ -395,7 +395,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Oui, c'est garanti par la liberté de conscience (laïcité) ».",
+    "explanation": "La laïcité protège la liberté de croire, de ne pas croire ou de changer de religion.",
 
     "answer": "Oui, c'est garanti par la liberté de conscience (laïcité)",
     "choices": [
@@ -409,7 +409,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Quel droit est garanti par la laïcité ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « La liberté de conscience et de culte ».",
+    "explanation": "L'État assure la liberté de conscience et garantit le libre exercice des cultes.",
 
     "answer": "La liberté de conscience et de culte",
     "choices": [
@@ -423,7 +423,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "À l'école publique, qui peut porter des signes religieux très visibles ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Personne (interdit pour les élèves et le personnel) ».",
+    "explanation": "La loi de 2004 interdit le port de signes manifestant ostensiblement une appartenance religieuse.",
 
     "answer": "Personne (interdit pour les élèves et le personnel)",
     "choices": [
@@ -437,7 +437,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Selon le principe de laïcité, que signifie la neutralité de l'État ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « L'État ne favorise et ne finance aucune religion ».",
+    "explanation": "C'est le principe strict de la loi de 1905 : la République ne reconnaît, ne salarie ni ne subventionne aucun culte.",
 
     "answer": "L'État ne favorise et ne finance aucune religion",
     "choices": [
@@ -451,7 +451,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que peut faire un usager du service public dans une mairie ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public ».",
+    "explanation": "Contrairement aux fonctionnaires, les usagers du service public conservent leur liberté religieuse.",
 
     "answer": "Exprimer ses croyances (ex: porter le voile) tant qu'il ne trouble pas l'ordre public",
     "choices": [
@@ -465,7 +465,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Les agents de l'État travaillant à la préfecture (fonctionnaires) ».",
+    "explanation": "Les agents du service public représentent l'État laïque et sont soumis à une stricte neutralité.",
 
     "answer": "Les agents de l'État travaillant à la préfecture (fonctionnaires)",
     "choices": [
@@ -479,7 +479,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Oui, une stricte obligation de neutralité ».",
+    "explanation": "Un agent ne doit jamais manifester ses convictions religieuses, politiques ou philosophiques au travail.",
 
     "answer": "Oui, une stricte obligation de neutralité",
     "choices": [
@@ -493,7 +493,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que garantit le principe de laïcité ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi ».",
+    "explanation": "Elle permet à tous les citoyens, quelles que soient leurs convictions, de vivre ensemble pacifiquement.",
 
     "answer": "Le vivre-ensemble, la liberté de croire ou non, et l'égalité devant la loi",
     "choices": [
@@ -507,7 +507,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "A-t-on le droit de changer de religion ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Oui, c'est un droit fondamental ».",
+    "explanation": "C'est une composante essentielle de la liberté de conscience protégée par la République.",
 
     "answer": "Oui, c'est un droit fondamental",
     "choices": [
@@ -521,7 +521,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que représente la laïcité ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « La séparation de l'État et des religions ».",
+    "explanation": "Le pouvoir politique et l'administration sont totalement indépendants des autorités religieuses.",
 
     "answer": "La séparation de l'État et des religions",
     "choices": [
@@ -535,7 +535,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse ».",
+    "explanation": "Pour protéger les élèves de toute pression, l'affichage de signes religieux évidents y est interdit.",
 
     "answer": "Le port de signes ou tenues manifestant ostensiblement une appartenance religieuse",
     "choices": [
@@ -549,7 +549,7 @@ export const officialQuestions = [
   {
     "category": "Principes & valeurs",
     "question": "Que dit l'article 1er de la Constitution française ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La France est une République indivisible, laïque, démocratique et sociale ».",
+    "explanation": "Ces quatre piliers définissent la nature même de l'État français.",
 
     "answer": "La France est une République indivisible, laïque, démocratique et sociale",
     "choices": [
@@ -563,7 +563,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qu'est-ce que l'État de droit ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Un système où tous les citoyens et l'État lui-même sont soumis à la loi ».",
+    "explanation": "La puissance publique est soumise aux règles de droit, évitant ainsi l'arbitraire.",
 
     "answer": "Un système où tous les citoyens et l'État lui-même sont soumis à la loi",
     "choices": [
@@ -577,7 +577,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale) ».",
+    "explanation": "Le Président peut être destitué par la Haute Cour en cas de manquement grave.",
 
     "answer": "Il n'est pas au-dessus des lois et peut être jugé (selon une procédure spéciale)",
     "choices": [
@@ -591,7 +591,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "La loi est l'expression de :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « La volonté générale ».",
+    "explanation": "Votée par les représentants du peuple (les députés), elle s'applique à tous également.",
 
     "answer": "La volonté générale",
     "choices": [
@@ -605,7 +605,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « 6 ans ».",
+    "explanation": "Les élections municipales ont lieu tous les 6 ans.",
 
     "answer": "6 ans",
     "choices": [
@@ -619,7 +619,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Que garantit l'État de droit ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « La protection des libertés fondamentales et l'égalité devant la loi ».",
+    "explanation": "Il garantit que les droits fondamentaux des citoyens sont respectés par les institutions.",
 
     "answer": "La protection des libertés fondamentales et l'égalité devant la loi",
     "choices": [
@@ -633,7 +633,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Une personne peut-elle voter à la place d'une autre ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Oui, uniquement si elle dispose d'une procuration officielle ».",
+    "explanation": "La procuration permet de confier son vote à un autre électeur si on est absent le jour du scrutin.",
 
     "answer": "Oui, uniquement si elle dispose d'une procuration officielle",
     "choices": [
@@ -647,7 +647,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Est-ce que le vote est obligatoire ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Non, c'est un droit et un devoir civique, mais pas obligatoire ».",
+    "explanation": "Contrairement à d'autres pays, l'abstention n'est pas sanctionnée en France.",
 
     "answer": "Non, c'est un droit et un devoir civique, mais pas obligatoire",
     "choices": [
@@ -661,7 +661,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "À la fin de son mandat, le président peut-il décider de rester au pouvoir ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs) ».",
+    "explanation": "La Constitution limite le nombre de mandats présidentiels consécutifs à deux (soit 10 ans max).",
 
     "answer": "Non, il est élu pour un temps défini (et limité à 2 mandats consécutifs)",
     "choices": [
@@ -675,7 +675,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui dirige l'action du Gouvernement ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Le Premier ministre ».",
+    "explanation": "Il est le chef du gouvernement et coordonne l'action des différents ministres.",
 
     "answer": "Le Premier ministre",
     "choices": [
@@ -689,7 +689,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui nomme le Premier ministre ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Le président de la République ».",
+    "explanation": "C'est une prérogative propre au Président, bien qu'il tienne compte de la majorité à l'Assemblée.",
 
     "answer": "Le président de la République",
     "choices": [
@@ -703,7 +703,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quelle est l'organisation administrative de la France ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « État, Régions, Départements, Communes ».",
+    "explanation": "C'est le découpage territorial et administratif officiel (décentralisation).",
 
     "answer": "État, Régions, Départements, Communes",
     "choices": [
@@ -717,7 +717,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qu'est-ce que le pouvoir législatif ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « Le pouvoir de voter les lois (détenu par le Parlement) ».",
+    "explanation": "Le Parlement (Assemblée nationale et Sénat) détient le pouvoir de débattre et voter les lois.",
 
     "answer": "Le pouvoir de voter les lois (détenu par le Parlement)",
     "choices": [
@@ -731,7 +731,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « Pour éviter la tyrannie et garantir les libertés des citoyens ».",
+    "explanation": "C'est le principe de Montesquieu : \"pour qu'on ne puisse abuser du pouvoir, il faut que le pouvoir arrête le pouvoir\".",
 
     "answer": "Pour éviter la tyrannie et garantir les libertés des citoyens",
     "choices": [
@@ -745,7 +745,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui sanctionne l'auteur d'un vol ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le pouvoir judiciaire (les tribunaux / les juges) ».",
+    "explanation": "Seule la justice a le pouvoir de prononcer des peines et des condamnations.",
 
     "answer": "Le pouvoir judiciaire (les tribunaux / les juges)",
     "choices": [
@@ -759,7 +759,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le rôle du gouvernement ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Il détermine et conduit la politique de la Nation ».",
+    "explanation": "C'est le pouvoir exécutif (dirigé par le Premier ministre) qui applique les lois et gère le pays.",
 
     "answer": "Il détermine et conduit la politique de la Nation",
     "choices": [
@@ -773,7 +773,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Il peut être poursuivi et jugé ».",
+    "explanation": "La Cour de justice de la République est compétente pour juger les ministres pour des actes liés à leurs fonctions.",
 
     "answer": "Il peut être poursuivi et jugé",
     "choices": [
@@ -787,7 +787,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Combien de députés composent l'Assemblée nationale ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « 577 ».",
+    "explanation": "Les 577 députés siègent à l'Assemblée nationale et sont élus au suffrage universel direct.",
 
     "answer": "577",
     "choices": [
@@ -801,7 +801,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui peut voter aux élections en France ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Les citoyens majeurs inscrits sur les listes électorales ».",
+    "explanation": "Le droit de vote national est lié à la nationalité française et à la majorité (18 ans).",
 
     "answer": "Les citoyens majeurs inscrits sur les listes électorales",
     "choices": [
@@ -815,7 +815,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Pour combien de temps sont élus les sénateurs ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « 6 ans ».",
+    "explanation": "Les sénateurs sont élus au suffrage universel indirect pour un mandat de 6 ans.",
 
     "answer": "6 ans",
     "choices": [
@@ -829,7 +829,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire ».",
+    "explanation": "C'est la base de toute démocratie moderne pour garantir l'équilibre de l'État.",
 
     "answer": "Pouvoir exécutif, pouvoir législatif, pouvoir judiciaire",
     "choices": [
@@ -843,7 +843,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Est-ce que le président a tous les pouvoirs ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Non, en vertu de la séparation des pouvoirs ».",
+    "explanation": "Son pouvoir est limité et encadré par le Parlement et le Conseil constitutionnel.",
 
     "answer": "Non, en vertu de la séparation des pouvoirs",
     "choices": [
@@ -857,7 +857,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui est le préfet ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Le représentant de l'État dans le département (ou la région) ».",
+    "explanation": "Nommé par le Président, il veille à l'ordre public et à l'application des lois dans son département.",
 
     "answer": "Le représentant de l'État dans le département (ou la région)",
     "choices": [
@@ -871,7 +871,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quelle condition est nécessaire pour voter aux élections ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes ».",
+    "explanation": "C'est la règle stricte du code électoral français.",
 
     "answer": "Avoir la nationalité française (sauf élections locales/UE), être majeur et inscrit sur les listes",
     "choices": [
@@ -885,7 +885,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui dirige la commune ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Le maire ».",
+    "explanation": "Le maire est à la fois le représentant de la commune et de l'État à l'échelle locale.",
 
     "answer": "Le maire",
     "choices": [
@@ -899,7 +899,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le régime politique de la France aujourd'hui ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La Ve (Cinquième) République ».",
+    "explanation": "La Cinquième République a été fondée en 1958 sous l'impulsion de Charles de Gaulle.",
 
     "answer": "La Ve (Cinquième) République",
     "choices": [
@@ -913,7 +913,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qu'est-ce que l'Hôtel de Matignon ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « La résidence officielle et le bureau du Premier ministre ».",
+    "explanation": "L'Hôtel de Matignon, à Paris, abrite les bureaux officiels du chef du gouvernement.",
 
     "answer": "La résidence officielle et le bureau du Premier ministre",
     "choices": [
@@ -927,7 +927,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Le Parlement est composé :",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « De l'Assemblée nationale et du Sénat ».",
+    "explanation": "La France possède un parlement bicaméral (deux chambres) pour équilibrer la législation.",
 
     "answer": "De l'Assemblée nationale et du Sénat",
     "choices": [
@@ -941,7 +941,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le rôle du président de la République ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Chef de l'État, chef des armées, il veille au respect de la Constitution ».",
+    "explanation": "Il est la clé de voûte des institutions de la Ve République.",
 
     "answer": "Chef de l'État, chef des armées, il veille au respect de la Constitution",
     "choices": [
@@ -955,7 +955,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le rôle du Premier ministre ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Diriger l'action du gouvernement ».",
+    "explanation": "Il s'assure de l'exécution des lois et dirige l'administration.",
 
     "answer": "Diriger l'action du gouvernement",
     "choices": [
@@ -969,7 +969,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Qui est le chef du Gouvernement ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Le Premier ministre ».",
+    "explanation": "Bien que nommé par le Président, c'est lui qui dirige et nomme l'équipe gouvernementale.",
 
     "answer": "Le Premier ministre",
     "choices": [
@@ -983,7 +983,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Combien y a-t-il de régions en France ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « 18 (13 en métropole, 5 en outre-mer) ».",
+    "explanation": "La carte des régions a été redessinée et simplifiée en 2015.",
 
     "answer": "18 (13 en métropole, 5 en outre-mer)",
     "choices": [
@@ -997,7 +997,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le rôle du Défenseur des droits ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Veiller au respect des droits des citoyens et lutter contre les discriminations ».",
+    "explanation": "C'est une autorité indépendante que tout citoyen peut saisir gratuitement.",
 
     "answer": "Veiller au respect des droits des citoyens et lutter contre les discriminations",
     "choices": [
@@ -1011,7 +1011,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Depuis quand l'euro est-elle la monnaie unique ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 2002 (circulation fiduciaire) ».",
+    "explanation": "Les pièces et billets en euros ont été introduits physiquement le 1er janvier 2002.",
 
     "answer": "2002 (circulation fiduciaire)",
     "choices": [
@@ -1025,7 +1025,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le rôle principal du département ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales ».",
+    "explanation": "Les conseils départementaux gèrent la solidarité et l'action sociale de proximité.",
 
     "answer": "L'action sociale (RSA, aide sociale), la gestion des collèges et des routes départementales",
     "choices": [
@@ -1039,7 +1039,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est le rôle principal des communes ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « L'état civil, les écoles maternelles/primaires et l'urbanisme local ».",
+    "explanation": "Le maire gère le quotidien de proximité et l'entretien des écoles maternelles et élémentaires.",
 
     "answer": "L'état civil, les écoles maternelles/primaires et l'urbanisme local",
     "choices": [
@@ -1053,7 +1053,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Combien de communes environ existe-t-il en France ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Environ 35 000 ».",
+    "explanation": "La France compte un nombre exceptionnellement élevé de communes par rapport à ses voisins.",
 
     "answer": "Environ 35 000",
     "choices": [
@@ -1067,7 +1067,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel traité concerne la construction de l'Union européenne ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le traité de Rome (ou traité de Maastricht) ».",
+    "explanation": "Le traité de Rome (1957) crée la CEE, celui de Maastricht (1992) crée l'Union européenne.",
 
     "answer": "Le traité de Rome (ou traité de Maastricht)",
     "choices": [
@@ -1081,7 +1081,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel État a quitté l'Union européenne en 2020 ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le Royaume-Uni (Brexit) ».",
+    "explanation": "C'est le premier et unique pays à avoir quitté l'Union européenne à ce jour.",
 
     "answer": "Le Royaume-Uni (Brexit)",
     "choices": [
@@ -1095,7 +1095,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quelle est la devise de l'Union européenne ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Unie dans la diversité ».",
+    "explanation": "Cette devise souligne que les Européens s'unissent en conservant leurs cultures respectives.",
 
     "answer": "Unie dans la diversité",
     "choices": [
@@ -1109,7 +1109,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel est l'hymne de l'Union européenne ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « L'Ode à la joie (Beethoven) ».",
+    "explanation": "Tirée de la 9ème Symphonie, elle symbolise l'idéal de fraternité européenne.",
 
     "answer": "L'Ode à la joie (Beethoven)",
     "choices": [
@@ -1123,7 +1123,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "De quoi est composé le drapeau européen ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « De 12 étoiles dorées disposées en cercle ».",
+    "explanation": "Le nombre 12 symbolise la perfection et l'unité, il ne correspond pas au nombre de pays.",
 
     "answer": "De 12 étoiles dorées disposées en cercle",
     "choices": [
@@ -1137,7 +1137,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "De quelle couleur est le drapeau européen ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Fond bleu avec des étoiles jaunes/dorées ».",
+    "explanation": "C'est le symbole officiel adopté par le Conseil de l'Europe puis par l'UE.",
 
     "answer": "Fond bleu avec des étoiles jaunes/dorées",
     "choices": [
@@ -1151,7 +1151,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "En quelle année le traité de Maastricht a-t-il été signé ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 1992 ».",
+    "explanation": "Ce traité a transformé la Communauté économique en une union politique (l'UE).",
 
     "answer": "1992",
     "choices": [
@@ -1165,7 +1165,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Où est le siège du Parlement européen ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Strasbourg ».",
+    "explanation": "Les sessions plénières du Parlement européen se tiennent officiellement à Strasbourg en France.",
 
     "answer": "Strasbourg",
     "choices": [
@@ -1179,7 +1179,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Où est le siège de la Commission européenne ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Bruxelles ».",
+    "explanation": "L'organe exécutif de l'UE est basé dans la capitale belge.",
 
     "answer": "Bruxelles",
     "choices": [
@@ -1193,7 +1193,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel État n'est pas membre de l'Union européenne ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La Suisse (ou Royaume-Uni, Norvège) ».",
+    "explanation": "Bien qu'au cœur de l'Europe géographique, la Suisse a refusé d'intégrer l'Union politique.",
 
     "answer": "La Suisse (ou Royaume-Uni, Norvège)",
     "choices": [
@@ -1207,7 +1207,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quand célèbre-t-on la journée de l'Europe ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le 9 mai ».",
+    "explanation": "Elle commémore la déclaration de Robert Schuman de 1950, fondatrice de l'Europe.",
 
     "answer": "Le 9 mai",
     "choices": [
@@ -1221,7 +1221,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Tous les 5 ans ».",
+    "explanation": "Les eurodéputés sont élus par les citoyens de l'UE pour des mandats de 5 ans.",
 
     "answer": "Tous les 5 ans",
     "choices": [
@@ -1235,7 +1235,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales ».",
+    "explanation": "Les ressortissants de l'UE résidant en France peuvent voter à cette élection.",
 
     "answer": "Être citoyen d'un pays de l'UE, majeur et inscrit sur les listes électorales",
     "choices": [
@@ -1249,7 +1249,7 @@ export const officialQuestions = [
   {
     "category": "Institutions",
     "question": "Quel pays est un pays fondateur de l'Union européenne ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « La France (avec Allemagne, Italie, Benelux) ».",
+    "explanation": "Ces six pays ont initié la construction européenne dès 1951 avec la CECA.",
 
     "answer": "La France (avec Allemagne, Italie, Benelux)",
     "choices": [
@@ -1263,7 +1263,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "À quelle liberté la PMA fait-elle référence ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « La liberté de disposer de son corps et le droit à la vie familiale ».",
+    "explanation": "La Procréation Médicalement Assistée relève du droit fondamental à fonder une famille.",
 
     "answer": "La liberté de disposer de son corps et le droit à la vie familiale",
     "choices": [
@@ -1277,7 +1277,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Pour des raisons d'ordre public, de sécurité ou d'intérêt général ».",
+    "explanation": "L'État ne peut limiter une liberté que si elle menace gravement la sécurité ou l'ordre public.",
 
     "answer": "Pour des raisons d'ordre public, de sécurité ou d'intérêt général",
     "choices": [
@@ -1291,7 +1291,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Il est ouvert aux couples de sexes différents et de même sexe ».",
+    "explanation": "Depuis la loi \"Mariage pour tous\" de 2013, l'orientation sexuelle n'est plus un obstacle au mariage civil.",
 
     "answer": "Il est ouvert aux couples de sexes différents et de même sexe",
     "choices": [
@@ -1305,7 +1305,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Est-il toujours possible de divorcer ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Oui ».",
+    "explanation": "Le divorce est légal et possible par consentement mutuel ou par voie judiciaire.",
 
     "answer": "Oui",
     "choices": [
@@ -1319,7 +1319,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "La peine de mort est :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Abolie (interdite) en France ».",
+    "explanation": "Elle a été définitivement abolie en 1981, aucune exécution n'est autorisée.",
 
     "answer": "Abolie (interdite) en France",
     "choices": [
@@ -1333,7 +1333,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme de 1789 ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « \"Les hommes naissent et demeurent libres et égaux en droits\" ».",
+    "explanation": "C'est l'article 1er et le pilier central de la Déclaration des droits de l'homme.",
 
     "answer": "\"Les hommes naissent et demeurent libres et égaux en droits\"",
     "choices": [
@@ -1347,7 +1347,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Le recours à l'avortement est-il autorisé ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Oui, légalement autorisé et garanti par la Constitution ».",
+    "explanation": "L'IVG est un droit fondamental garanti pour toutes les femmes depuis la loi Veil (1975).",
 
     "answer": "Oui, légalement autorisé et garanti par la Constitution",
     "choices": [
@@ -1361,7 +1361,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que contient la Constitution ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Les règles d'organisation de l'État et les droits fondamentaux des citoyens ».",
+    "explanation": "C'est la norme suprême qui définit comment le pays est gouverné et protège les citoyens.",
 
     "answer": "Les règles d'organisation de l'État et les droits fondamentaux des citoyens",
     "choices": [
@@ -1375,7 +1375,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que garantit la liberté de la presse ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le droit de publier, diffuser et s'informer librement ».",
+    "explanation": "Garantie par la loi de 1881, elle empêche la censure de l'État sur les journaux.",
 
     "answer": "Le droit de publier, diffuser et s'informer librement",
     "choices": [
@@ -1389,7 +1389,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que prévoit la Charte de l'environnement ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le droit de vivre dans un environnement équilibré et respectueux de la santé ».",
+    "explanation": "Intégrée à la Constitution en 2005, elle lie les droits humains à la protection de la nature.",
 
     "answer": "Le droit de vivre dans un environnement équilibré et respectueux de la santé",
     "choices": [
@@ -1403,7 +1403,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que signifie la dignité humaine ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « Le respect absolu de la personne humaine (interdiction de traitements dégradants) ».",
+    "explanation": "C'est un principe absolu interdisant la torture, l'esclavage ou les traitements inhumains.",
 
     "answer": "Le respect absolu de la personne humaine (interdiction de traitements dégradants)",
     "choices": [
@@ -1417,7 +1417,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que signifie le droit de manifester ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le droit d'exprimer collectivement et pacifiquement ses opinions sur la voie publique ».",
+    "explanation": "C'est un droit fondamental tant que la manifestation est déclarée et pacifique.",
 
     "answer": "Le droit d'exprimer collectivement et pacifiquement ses opinions sur la voie publique",
     "choices": [
@@ -1431,7 +1431,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que signifie PMA ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « Procréation Médicalement Assistée ».",
+    "explanation": "Elle permet aux personnes ayant un projet parental d'avoir recours à la médecine pour concevoir.",
 
     "answer": "Procréation Médicalement Assistée",
     "choices": [
@@ -1445,7 +1445,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quel texte est le plus difficile à modifier ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La Constitution ».",
+    "explanation": "Il faut l'accord des deux assemblées et souvent un référendum pour la modifier.",
 
     "answer": "La Constitution",
     "choices": [
@@ -1459,7 +1459,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
-    "explanation": "Cette réponse applique la liberté de conscience, l’égalité des citoyens et la neutralité de l’État prévues par le principe de laïcité. Pour cette question, la bonne réponse est « La liberté de conscience ».",
+    "explanation": "C'est le cœur de la laïcité : l'État garantit à chacun la liberté intérieure de croire ou non.",
 
     "answer": "La liberté de conscience",
     "choices": [
@@ -1473,7 +1473,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Qu'est-ce que le droit de grève ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le droit de cesser le travail pour des revendications professionnelles ».",
+    "explanation": "C'est un droit constitutionnel qui protège les salariés qui défendent leurs intérêts.",
 
     "answer": "Le droit de cesser le travail pour des revendications professionnelles",
     "choices": [
@@ -1487,7 +1487,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Qu'est-ce que la Constitution ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « C'est la loi suprême du pays ».",
+    "explanation": "Toutes les autres lois françaises doivent obligatoirement respecter la Constitution.",
 
     "answer": "C'est la loi suprême du pays",
     "choices": [
@@ -1501,7 +1501,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Qui peut demander à avorter ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Toute femme enceinte, mineure ou majeure ».",
+    "explanation": "L'IVG est un choix intime et personnel accessible à toutes les femmes.",
 
     "answer": "Toute femme enceinte, mineure ou majeure",
     "choices": [
@@ -1515,7 +1515,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Une femme majeure de nationalité française a-t-elle le droit de voter ?",
-    "explanation": "Cette réponse précise la règle qui permet aux citoyens de participer à la vie démocratique et d’exercer leurs droits civiques. Pour cette question, la bonne réponse est « Oui (depuis 1944) ».",
+    "explanation": "Le suffrage est universel en France pour les hommes comme pour les femmes.",
 
     "answer": "Oui (depuis 1944)",
     "choices": [
@@ -1529,7 +1529,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Les lois s'y appliquent (les injures et incitations à la haine y sont punies) ».",
+    "explanation": "Internet n'est pas une zone de non-droit ; les propos haineux y sont tracés et sanctionnés.",
 
     "answer": "Les lois s'y appliquent (les injures et incitations à la haine y sont punies)",
     "choices": [
@@ -1543,7 +1543,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Jeter un mégot par terre est :",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Un délit (ou infraction) passible d'une amende ».",
+    "explanation": "L'abandon de déchets sur la voie publique est une incivilité lourdement sanctionnée.",
 
     "answer": "Un délit (ou infraction) passible d'une amende",
     "choices": [
@@ -1557,7 +1557,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "L'État peut-il limiter les droits et libertés ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité ».",
+    "explanation": "Par exemple, le confinement sanitaire ou l'état d'urgence justifient des restrictions temporaires.",
 
     "answer": "Oui, dans des cas exceptionnels pour protéger l'ordre public ou la sécurité",
     "choices": [
@@ -1571,7 +1571,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Trier ses déchets ».",
+    "explanation": "Le tri sélectif est un devoir civique pour permettre le recyclage des matériaux.",
 
     "answer": "Trier ses déchets",
     "choices": [
@@ -1585,7 +1585,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle proposition constitue une obligation ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Payer ses impôts ou scolariser ses enfants ».",
+    "explanation": "Contrairement au vote (facultatif), l'impôt et l'instruction sont des obligations légales absolues.",
 
     "answer": "Payer ses impôts ou scolariser ses enfants",
     "choices": [
@@ -1599,7 +1599,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « En cas d'injure, diffamation ou incitation à la haine ».",
+    "explanation": "La liberté d'expression s'arrête là où commencent l'insulte et l'appel à la violence.",
 
     "answer": "En cas d'injure, diffamation ou incitation à la haine",
     "choices": [
@@ -1613,7 +1613,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Pourquoi doit-on trier ses déchets ?",
-    "explanation": "La réponse donne la définition ou la fonction précise de la notion demandée, sans la confondre avec une notion voisine. Pour cette question, la bonne réponse est « Pour faciliter leur recyclage et préserver l'environnement ».",
+    "explanation": "Le recyclage économise les ressources naturelles et limite la pollution.",
 
     "answer": "Pour faciliter leur recyclage et préserver l'environnement",
     "choices": [
@@ -1627,7 +1627,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que doit faire une victime de violences ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Porter plainte à la police ou à la gendarmerie ».",
+    "explanation": "La plainte est le seul moyen légal de déclencher une enquête et de faire condamner l'agresseur.",
 
     "answer": "Porter plainte à la police ou à la gendarmerie",
     "choices": [
@@ -1641,7 +1641,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Obéir et coopérer ».",
+    "explanation": "Le refus d'obtempérer est un délit grave et dangereux. Il faut coopérer lors des contrôles.",
 
     "answer": "Obéir et coopérer",
     "choices": [
@@ -1655,7 +1655,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quel est le rôle de la police ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Assurer la sécurité des citoyens et maintenir l'ordre public ».",
+    "explanation": "Les forces de l'ordre protègent les personnes et les biens sous l'autorité de l'État.",
 
     "answer": "Assurer la sécurité des citoyens et maintenir l'ordre public",
     "choices": [
@@ -1669,7 +1669,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quel est un exemple d'assistance à personne en danger ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Appeler les secours (15, 17, 18 ou 112) ».",
+    "explanation": "Ne pas appeler les secours face à un danger grave constitue le délit de \"non-assistance à personne en danger\".",
 
     "answer": "Appeler les secours (15, 17, 18 ou 112)",
     "choices": [
@@ -1683,7 +1683,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le code de la route (limite de vitesse) ou le confinement ».",
+    "explanation": "La limitation de vitesse limite la liberté de rouler vite, mais protège la vie de tous.",
 
     "answer": "Le code de la route (limite de vitesse) ou le confinement",
     "choices": [
@@ -1697,7 +1697,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle est l'attitude à avoir lorsque qu'on est témoin de violences ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Alerter immédiatement les secours ».",
+    "explanation": "Alerter le 17 est un devoir civique pour protéger la victime et stopper l'agression.",
 
     "answer": "Alerter immédiatement les secours",
     "choices": [
@@ -1711,7 +1711,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle est l'infraction la plus grave ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le crime (ex: meurtre, viol) ».",
+    "explanation": "En droit français, le crime est jugé par la Cour d'assises et encourt les plus lourdes peines.",
 
     "answer": "Le crime (ex: meurtre, viol)",
     "choices": [
@@ -1725,7 +1725,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle obligation concerne toutes les personnes résidant en France ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « L'obligation de respecter les lois ».",
+    "explanation": "Nul n'est censé ignorer la loi. Étrangers et Français y sont soumis à égalité.",
 
     "answer": "L'obligation de respecter les lois",
     "choices": [
@@ -1739,7 +1739,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle proposition représente un exemple de crime ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le meurtre ou le viol ».",
+    "explanation": "Ces actes d'une extrême gravité constituent la catégorie pénale maximale (les crimes).",
 
     "answer": "Le meurtre ou le viol",
     "choices": [
@@ -1753,7 +1753,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Quelle proposition représente un exemple de délit ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Le vol ou les violences légères ».",
+    "explanation": "Les délits sont jugés par le tribunal correctionnel (ex: vols, escroqueries, harcèlement).",
 
     "answer": "Le vol ou les violences légères",
     "choices": [
@@ -1767,7 +1767,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "Qui veille au maintien de l'ordre public ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La police et la gendarmerie nationale ».",
+    "explanation": "L'État détient le monopole de la force légitime via ces deux institutions.",
 
     "answer": "La police et la gendarmerie nationale",
     "choices": [
@@ -1781,7 +1781,7 @@ export const officialQuestions = [
   {
     "category": "Droits & devoirs",
     "question": "S'agissant des déchets, quelle proposition est correcte ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Ils doivent être triés et jetés dans les poubelles adaptées ».",
+    "explanation": "Le dépôt sauvage et le brûlage à l'air libre sont strictement interdits et polluants.",
 
     "answer": "Ils doivent être triés et jetés dans les poubelles adaptées",
     "choices": [
@@ -1795,7 +1795,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel était le surnom de Louis XIV ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le Roi-Soleil ».",
+    "explanation": "Symbole de la monarchie absolue, il a fait construire le château de Versailles.",
 
     "answer": "Le Roi-Soleil",
     "choices": [
@@ -1809,7 +1809,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Louis XVI ».",
+    "explanation": "Il a été guillotiné en 1793 après la chute de la monarchie.",
 
     "answer": "Louis XVI",
     "choices": [
@@ -1823,7 +1823,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 1804 ».",
+    "explanation": "Il s'est sacré empereur des Français à Notre-Dame de Paris.",
 
     "answer": "1804",
     "choices": [
@@ -1837,7 +1837,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Lequel de ces personnages a un lien avec la République française ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Marianne (ou Charles de Gaulle, Jean Moulin) ».",
+    "explanation": "Elle est la figure symbolique et allégorique de la République Française.",
 
     "answer": "Marianne (ou Charles de Gaulle, Jean Moulin)",
     "choices": [
@@ -1851,7 +1851,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "De quand date l'appel à la résistance du général de Gaulle ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « Le 18 juin 1940 ».",
+    "explanation": "Diffusé depuis Londres, c'est l'acte fondateur de la Résistance française.",
 
     "answer": "Le 18 juin 1940",
     "choices": [
@@ -1865,7 +1865,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Pour le devoir de mémoire et prévenir les crimes contre l'humanité ».",
+    "explanation": "L'enseignement des génocides vise à éduquer les jeunes contre la haine et le racisme.",
 
     "answer": "Pour le devoir de mémoire et prévenir les crimes contre l'humanité",
     "choices": [
@@ -1879,7 +1879,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel pays a été colonisé par la France ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « L'Algérie (ou Sénégal, Indochine) ».",
+    "explanation": "L'Algérie a été une colonie française de 1830 jusqu'à son indépendance en 1962.",
 
     "answer": "L'Algérie (ou Sénégal, Indochine)",
     "choices": [
@@ -1893,7 +1893,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 1962 ».",
+    "explanation": "C'est une réforme voulue par le Général de Gaulle pour donner plus de légitimité au Président.",
 
     "answer": "1962",
     "choices": [
@@ -1907,7 +1907,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle est la première étape de la construction européenne en 1951 ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La CECA (Communauté Européenne du Charbon et de l'Acier) ».",
+    "explanation": "Créée pour mettre en commun les productions de guerre et assurer la paix franco-allemande.",
 
     "answer": "La CECA (Communauté Européenne du Charbon et de l'Acier)",
     "choices": [
@@ -1921,7 +1921,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « François Mitterrand (en 1981) ».",
+    "explanation": "Portée par son ministre de la Justice Robert Badinter, elle met fin à l'usage de la guillotine.",
 
     "answer": "François Mitterrand (en 1981)",
     "choices": [
@@ -1935,7 +1935,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La Première République ».",
+    "explanation": "Proclamée juste après l'abolition de la royauté millénaire.",
 
     "answer": "La Première République",
     "choices": [
@@ -1949,7 +1949,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Jean Moulin ».",
+    "explanation": "Il a unifié les différents réseaux de la Résistance sous les ordres de de Gaulle.",
 
     "answer": "Jean Moulin",
     "choices": [
@@ -1963,7 +1963,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Elles ont obtenu le droit de vote ».",
+    "explanation": "Les Françaises ont voté pour la première fois en 1945, très tard par rapport à d'autres démocraties.",
 
     "answer": "Elles ont obtenu le droit de vote",
     "choices": [
@@ -1977,7 +1977,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « L'ONU (Organisation des Nations Unies) ».",
+    "explanation": "Créée pour maintenir la paix mondiale après les horreurs de la Seconde Guerre mondiale.",
 
     "answer": "L'ONU (Organisation des Nations Unies)",
     "choices": [
@@ -1991,7 +1991,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle peine a été supprimée en 1981 ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « La peine de mort ».",
+    "explanation": "La France fut l'un des derniers pays d'Europe de l'Ouest à l'abolir.",
 
     "answer": "La peine de mort",
     "choices": [
@@ -2005,7 +2005,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 2002 ».",
+    "explanation": "Les pièces et billets en Francs ont alors été définitivement remplacés.",
 
     "answer": "2002",
     "choices": [
@@ -2019,7 +2019,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "En quelle année a commencé la Première Guerre mondiale ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « 1914 ».",
+    "explanation": "Un conflit mondial dévastateur qui a duré quatre ans, jusqu'à l'armistice de 1918.",
 
     "answer": "1914",
     "choices": [
@@ -2033,7 +2033,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Où a eu lieu le débarquement en 1944 ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « En Normandie (et en Provence) ».",
+    "explanation": "Ces opérations militaires alliées ont permis la Libération de la France de l'occupation nazie.",
 
     "answer": "En Normandie (et en Provence)",
     "choices": [
@@ -2047,7 +2047,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « L'Afrique ».",
+    "explanation": "Une grande partie de l'Afrique de l'Ouest et du Nord était sous domination coloniale française.",
 
     "answer": "L'Afrique",
     "choices": [
@@ -2061,7 +2061,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Que fête-t-on le 8 mai ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La fin de la Seconde Guerre mondiale (armistice de 1945) ».",
+    "explanation": "C'est un jour férié commémorant la capitulation de l'Allemagne nazie.",
 
     "answer": "La fin de la Seconde Guerre mondiale (armistice de 1945)",
     "choices": [
@@ -2075,7 +2075,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle mer ou océan borde la France métropolitaine ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord) ».",
+    "explanation": "La France possède une large façade maritime à l'Ouest (Atlantique) et au Sud (Méditerranée).",
 
     "answer": "L'Océan Atlantique (et Méditerranée, Manche, Mer du Nord)",
     "choices": [
@@ -2089,7 +2089,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « L'Espagne (ou Italie, Allemagne, Belgique, Suisse) ».",
+    "explanation": "La France métropolitaine partage ses frontières avec 6 pays voisins.",
 
     "answer": "L'Espagne (ou Italie, Allemagne, Belgique, Suisse)",
     "choices": [
@@ -2103,7 +2103,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle ville française est un port maritime ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Marseille (ou Le Havre, Bordeaux) ».",
+    "explanation": "Marseille est le plus grand port de France, situé sur la mer Méditerranée.",
 
     "answer": "Marseille (ou Le Havre, Bordeaux)",
     "choices": [
@@ -2117,7 +2117,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle mer se situe entre la France et l'Angleterre ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « La Manche ».",
+    "explanation": "Elle est aujourd'hui traversée par le célèbre tunnel sous la Manche.",
 
     "answer": "La Manche",
     "choices": [
@@ -2131,7 +2131,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qu'est ce que la France d'outre-mer ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Les territoires français situés en dehors de l'Europe ».",
+    "explanation": "Cela inclut la Guadeloupe, la Martinique, la Réunion, la Guyane, la Polynésie, etc.",
 
     "answer": "Les territoires français situés en dehors de l'Europe",
     "choices": [
@@ -2145,7 +2145,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Les Pyrénées ».",
+    "explanation": "Cette chaîne montagneuse forme une frontière naturelle au sud-ouest du pays.",
 
     "answer": "Les Pyrénées",
     "choices": [
@@ -2159,7 +2159,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle île française se trouve dans l'océan Indien ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « La Réunion (et Mayotte) ».",
+    "explanation": "Ce sont des départements d'outre-mer français situés près de Madagascar.",
 
     "answer": "La Réunion (et Mayotte)",
     "choices": [
@@ -2173,7 +2173,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle est la population approximative de la France en 2025 ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Environ 68 millions d'habitants ».",
+    "explanation": "Ce chiffre inclut la population de la métropole et des territoires d'outre-mer.",
 
     "answer": "Environ 68 millions d'habitants",
     "choices": [
@@ -2187,7 +2187,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel fleuve traverse Paris ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « La Seine ».",
+    "explanation": "Elle coupe la capitale en deux (Rive gauche et Rive droite).",
 
     "answer": "La Seine",
     "choices": [
@@ -2201,7 +2201,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Lequel de ces pays partage des frontières terrestres avec la France ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « L'Italie ».",
+    "explanation": "Les Alpes marquent la frontière naturelle entre la France et l'Italie.",
 
     "answer": "L'Italie",
     "choices": [
@@ -2215,7 +2215,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « La Belgique (ou Luxembourg, Allemagne) ».",
+    "explanation": "Historiquement, c'est une frontière très ouverte et partagée au sein de l'UE.",
 
     "answer": "La Belgique (ou Luxembourg, Allemagne)",
     "choices": [
@@ -2229,7 +2229,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Où se trouvent les principales activités économiques en France ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Dans les grandes métropoles (Île-de-France, grandes villes) ».",
+    "explanation": "L'économie est très concentrée autour de Paris, Lyon, Marseille, Toulouse.",
 
     "answer": "Dans les grandes métropoles (Île-de-France, grandes villes)",
     "choices": [
@@ -2243,7 +2243,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
-    "explanation": "Cette date est le repère historique ou institutionnel précis demandé par la question. Pour cette question, la bonne réponse est « La France ».",
+    "explanation": "La France est la première destination touristique mondiale (plus de 80 millions de visiteurs/an).",
 
     "answer": "La France",
     "choices": [
@@ -2257,7 +2257,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Où habite la majorité des Français ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Dans les aires urbaines (les villes) ».",
+    "explanation": "Plus de 80% de la population française vit dans les pôles urbains.",
 
     "answer": "Dans les aires urbaines (les villes)",
     "choices": [
@@ -2271,7 +2271,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle région est la plus peuplée ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « L'Île-de-France ».",
+    "explanation": "Elle regroupe près d'un cinquième de la population totale française.",
 
     "answer": "L'Île-de-France",
     "choices": [
@@ -2285,7 +2285,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « Paris (ou Marseille, Lyon, Toulouse...) ».",
+    "explanation": "Ce sont les trois plus grandes villes de France en nombre d'habitants.",
 
     "answer": "Paris (ou Marseille, Lyon, Toulouse...)",
     "choices": [
@@ -2299,7 +2299,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Lequel de ces départements de France est le plus touristique ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Paris (ou Savoie, Var) ».",
+    "explanation": "La capitale concentre un nombre immense de monuments historiques.",
 
     "answer": "Paris (ou Savoie, Var)",
     "choices": [
@@ -2313,7 +2313,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Les premiers dimanches du mois ou lors des Journées du Patrimoine ».",
+    "explanation": "C'est une politique publique visant à démocratiser l'accès à la culture.",
 
     "answer": "Les premiers dimanches du mois ou lors des Journées du Patrimoine",
     "choices": [
@@ -2327,7 +2327,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Combien de personnes parlent français dans le monde ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Plus de 300 millions de personnes ».",
+    "explanation": "Le français est parlé sur les 5 continents, notamment en Afrique.",
 
     "answer": "Plus de 300 millions de personnes",
     "choices": [
@@ -2341,7 +2341,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qui était Marguerite Yourcenar ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Une écrivaine célèbre, première femme élue à l'Académie française ».",
+    "explanation": "Elle a été la première femme élue sous la Coupole de l'Académie française en 1980.",
 
     "answer": "Une écrivaine célèbre, première femme élue à l'Académie française",
     "choices": [
@@ -2355,7 +2355,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel peintre est français ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Claude Monet (ou Paul Cézanne, Auguste Renoir) ».",
+    "explanation": "Monet est l'un des fondateurs du mouvement artistique mondial de l'Impressionnisme.",
 
     "answer": "Claude Monet (ou Paul Cézanne, Auguste Renoir)",
     "choices": [
@@ -2369,7 +2369,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel musée est situé à Paris ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le Louvre (ou Musée d'Orsay, Centre Pompidou) ».",
+    "explanation": "Le Louvre est le musée d'art et d'antiquités le plus visité au monde.",
 
     "answer": "Le Louvre (ou Musée d'Orsay, Centre Pompidou)",
     "choices": [
@@ -2383,7 +2383,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qui était Auguste Rodin ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Un célèbre sculpteur français ».",
+    "explanation": "Il est mondialement connu pour son œuvre \"Le Penseur\".",
 
     "answer": "Un célèbre sculpteur français",
     "choices": [
@@ -2397,7 +2397,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « 5ème langue la plus parlée ».",
+    "explanation": "Elle est largement utilisée dans la diplomatie et les affaires internationales.",
 
     "answer": "5ème langue la plus parlée",
     "choices": [
@@ -2411,7 +2411,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Notre-Dame de Paris ».",
+    "explanation": "Ce monument emblématique de l'histoire de France est actuellement en reconstruction.",
 
     "answer": "Notre-Dame de Paris",
     "choices": [
@@ -2425,7 +2425,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qui était une écrivaine française célèbre ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « George Sand (ou Simone de Beauvoir, Colette...) ».",
+    "explanation": "Elles ont profondément marqué la littérature et le féminisme en France.",
 
     "answer": "George Sand (ou Simone de Beauvoir, Colette...)",
     "choices": [
@@ -2439,7 +2439,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qui était un célèbre musicien français ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Claude Debussy (ou Maurice Ravel) ».",
+    "explanation": "Ces compositeurs classiques ont révolutionné la musique française au début du XXe siècle.",
 
     "answer": "Claude Debussy (ou Maurice Ravel)",
     "choices": [
@@ -2453,7 +2453,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Qui était Auguste Renoir ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Un peintre français (impressionniste) ».",
+    "explanation": "Il a immortalisé la vie joyeuse de Paris dans des toiles très célèbres.",
 
     "answer": "Un peintre français (impressionniste)",
     "choices": [
@@ -2467,7 +2467,7 @@ export const officialQuestions = [
   {
     "category": "Histoire & culture",
     "question": "Quelle fête est française ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le 14 juillet (Fête nationale) ».",
+    "explanation": "Elle commémore la prise de la Bastille (1789) et la Fête de la Fédération (1790).",
 
     "answer": "Le 14 juillet (Fête nationale)",
     "choices": [
@@ -2481,7 +2481,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quel mariage est reconnu par l'État ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Uniquement le mariage civil (célébré à la mairie) ».",
+    "explanation": "En France laïque, seul le maire a l'autorité légale pour prononcer un mariage valide.",
 
     "answer": "Uniquement le mariage civil (célébré à la mairie)",
     "choices": [
@@ -2495,7 +2495,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « À la mairie de sa commune ».",
+    "explanation": "C'est la commune qui gère les écoles maternelles et primaires publiques.",
 
     "answer": "À la mairie de sa commune",
     "choices": [
@@ -2509,7 +2509,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "En cas de divorce, qui exerce l'autorité parentale ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Généralement les deux parents de façon conjointe ».",
+    "explanation": "La loi privilégie l'autorité partagée pour garantir la présence des deux parents.",
 
     "answer": "Généralement les deux parents de façon conjointe",
     "choices": [
@@ -2523,7 +2523,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « L'aide juridictionnelle ».",
+    "explanation": "Elle permet à toute personne à faibles revenus de faire valoir ses droits en justice.",
 
     "answer": "L'aide juridictionnelle",
     "choices": [
@@ -2537,7 +2537,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Où faut-il déclarer la naissance d'un enfant ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « À la mairie du lieu de naissance (dans les 5 jours) ».",
+    "explanation": "Cette déclaration obligatoire sous 5 jours permet d'établir l'acte de naissance de l'enfant.",
 
     "answer": "À la mairie du lieu de naissance (dans les 5 jours)",
     "choices": [
@@ -2551,7 +2551,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Avoir l'âge requis (17/18 ans) et réussir l'examen du code ».",
+    "explanation": "L'examen du code de la route est la première étape théorique obligatoire.",
 
     "answer": "Avoir l'âge requis (17/18 ans) et réussir l'examen du code",
     "choices": [
@@ -2565,7 +2565,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Un bail locatif est valide s'il est :",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Écrit et signé par le propriétaire et le locataire ».",
+    "explanation": "Un contrat écrit est indispensable pour protéger juridiquement les deux parties.",
 
     "answer": "Écrit et signé par le propriétaire et le locataire",
     "choices": [
@@ -2579,7 +2579,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Où peut-on déposer un lave-vaisselle cassé ?",
-    "explanation": "Ce nom est le repère géographique ou territorial exact demandé par la question. Pour cette question, la bonne réponse est « À la déchetterie ou dans un point de collecte agréé ».",
+    "explanation": "L'abandon de gros électroménager dans la rue est un délit écologique passible d'amende.",
 
     "answer": "À la déchetterie ou dans un point de collecte agréé",
     "choices": [
@@ -2593,7 +2593,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quel numéro d'urgence permet d'appeler la police ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Le 17 (ou le 112) ».",
+    "explanation": "Le 17 est le numéro de \"police-secours\" pour les urgences sécuritaires.",
 
     "answer": "Le 17 (ou le 112)",
     "choices": [
@@ -2607,7 +2607,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « C'est un droit garanti pour toutes les personnes résidant en France ».",
+    "explanation": "La Sécurité sociale ou l'Aide Médicale d'État (AME) garantissent ce droit universel.",
 
     "answer": "C'est un droit garanti pour toutes les personnes résidant en France",
     "choices": [
@@ -2621,7 +2621,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "À qui est accessible la contraception ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « À toutes les femmes (mineures et majeures) ».",
+    "explanation": "C'est un droit fondamental pour le contrôle des naissances et le droit des femmes.",
 
     "answer": "À toutes les femmes (mineures et majeures)",
     "choices": [
@@ -2635,7 +2635,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Le secret médical (les médecins ne divulguent pas les dossiers) ».",
+    "explanation": "Le médecin n'a pas le droit de divulguer des informations sur votre santé, même à votre famille.",
 
     "answer": "Le secret médical (les médecins ne divulguent pas les dossiers)",
     "choices": [
@@ -2649,7 +2649,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "L'inscription à l'Assurance maladie est :",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Obligatoire pour travailler et résider en France ».",
+    "explanation": "C'est le socle de la protection sociale française.",
 
     "answer": "Obligatoire pour travailler et résider en France",
     "choices": [
@@ -2663,7 +2663,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Qui peut demander un congé parental d'éducation ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « La mère ou le père ».",
+    "explanation": "La loi vise l'égalité professionnelle en incitant aussi les pères à prendre ce congé.",
 
     "answer": "La mère ou le père",
     "choices": [
@@ -2677,7 +2677,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Les litiges liés au contrat de travail entre employeur et salarié ».",
+    "explanation": "Ce tribunal spécifique gère les conflits entre salariés et employeurs (licenciement, salaires).",
 
     "answer": "Les litiges liés au contrat de travail entre employeur et salarié",
     "choices": [
@@ -2691,7 +2691,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Travailler sans être déclaré est :",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Du travail illégal (dissimulé), c'est un délit ».",
+    "explanation": "Aussi appelé \"travail au noir\", il prive le salarié de toute couverture sociale et fraude l'État.",
 
     "answer": "Du travail illégal (dissimulé), c'est un délit",
     "choices": [
@@ -2705,7 +2705,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Il doit payer des heures supplémentaires ou donner un repos compensateur ».",
+    "explanation": "Tout travail supplémentaire imposé par l'employeur doit être légalement rémunéré.",
 
     "answer": "Il doit payer des heures supplémentaires ou donner un repos compensateur",
     "choices": [
@@ -2719,7 +2719,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quelle est la mission de France Travail ?",
-    "explanation": "Cette réponse identifie l’autorité ou la mission compétente ; elle ne doit pas être confondue avec les fonctions des autres institutions. Pour cette question, la bonne réponse est « Accompagner les demandeurs d'emploi et verser les allocations chômage ».",
+    "explanation": "C'est le service public de l'emploi (anciennement Pôle Emploi).",
 
     "answer": "Accompagner les demandeurs d'emploi et verser les allocations chômage",
     "choices": [
@@ -2733,7 +2733,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Dans une entreprise, le droit syndical permet :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « De se syndiquer pour défendre les intérêts des salariés ».",
+    "explanation": "Liberté garantie par la Constitution pour organiser la défense des droits des travailleurs.",
 
     "answer": "De se syndiquer pour défendre les intérêts des salariés",
     "choices": [
@@ -2747,7 +2747,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Dans une entreprise, le droit de grève autorise :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « À cesser le travail pour des revendications sans risquer le licenciement ».",
+    "explanation": "Le licenciement pour fait de grève est nul et illégal en France.",
 
     "answer": "À cesser le travail pour des revendications sans risquer le licenciement",
     "choices": [
@@ -2761,7 +2761,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Être inscrit à France Travail et avoir travaillé suffisamment longtemps ».",
+    "explanation": "C'est un système basé sur la cotisation : il faut avoir cotisé en travaillant pour en bénéficier.",
 
     "answer": "Être inscrit à France Travail et avoir travaillé suffisamment longtemps",
     "choices": [
@@ -2775,7 +2775,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Qu'est-ce que l'école maternelle ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire) ».",
+    "explanation": "Depuis 2019, l'instruction scolaire est devenue obligatoire dès l'âge de 3 ans.",
 
     "answer": "L'école pour les enfants de 3 à 5 ans (début de la scolarité obligatoire)",
     "choices": [
@@ -2789,7 +2789,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Le Diplôme National du Brevet (DNB) ».",
+    "explanation": "C'est le premier diplôme national marquant la fin de la scolarité au collège (vers 15 ans).",
 
     "answer": "Le Diplôme National du Brevet (DNB)",
     "choices": [
@@ -2803,7 +2803,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Les parents d'élève ont le droit de :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « S'informer sur la scolarité et voter pour leurs représentants ».",
+    "explanation": "Les parents participent à la vie de l'école via les conseils d'école et les élections.",
 
     "answer": "S'informer sur la scolarité et voter pour leurs représentants",
     "choices": [
@@ -2817,7 +2817,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Qui peut manger à la cantine scolaire ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « Tous les enfants inscrits à l'école, sans discrimination ».",
+    "explanation": "L'accès à la restauration scolaire ne peut être refusé pour des motifs discriminatoires.",
 
     "answer": "Tous les enfants inscrits à l'école, sans discrimination",
     "choices": [
@@ -2831,7 +2831,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "À quel âge commence l'instruction obligatoire des enfants ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « Dès l'âge de 3 ans ».",
+    "explanation": "L'école maternelle n'est plus facultative afin de réduire les inégalités dès le plus jeune âge.",
 
     "answer": "Dès l'âge de 3 ans",
     "choices": [
@@ -2845,7 +2845,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quel est l'âge de la majorité ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « 18 ans ».",
+    "explanation": "À 18 ans, on devient pleinement responsable civilement et pénalement, et on obtient le droit de vote.",
 
     "answer": "18 ans",
     "choices": [
@@ -2859,7 +2859,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "À l'école, il est interdit aux parents de :",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Faire preuve de violence ou d'imposer leurs croyances religieuses ».",
+    "explanation": "L'école est un sanctuaire laïque et apaisé où la violence et le prosélytisme sont bannis.",
 
     "answer": "Faire preuve de violence ou d'imposer leurs croyances religieuses",
     "choices": [
@@ -2873,7 +2873,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quel motif d'absence est accepté par l'école ?",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « La maladie de l'enfant ou un événement familial grave (ex: décès) ».",
+    "explanation": "L'assiduité est obligatoire, seules des raisons sérieuses justifient une absence.",
 
     "answer": "La maladie de l'enfant ou un événement familial grave (ex: décès)",
     "choices": [
@@ -2887,7 +2887,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
-    "explanation": "Cette réponse correspond à la règle juridique concernée : les droits sont protégés, mais leur exercice doit respecter la loi et les droits d’autrui. Pour cette question, la bonne réponse est « Des amendes (jusqu'à 1500 euros) voire des sanctions pénales ».",
+    "explanation": "Priver un enfant de son droit à l'éducation est lourdement puni par l'État.",
 
     "answer": "Des amendes (jusqu'à 1500 euros) voire des sanctions pénales",
     "choices": [
@@ -2901,7 +2901,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "Quand ont lieu les vacances scolaires de Noël ?",
-    "explanation": "Cette réponse correspond précisément au sujet et au terme recherché dans la question. Pour cette question, la bonne réponse est « En décembre et début janvier ».",
+    "explanation": "C'est la période de congés d'hiver commune à toutes les zones scolaires.",
 
     "answer": "En décembre et début janvier",
     "choices": [
@@ -2915,7 +2915,7 @@ export const officialQuestions = [
   {
     "category": "Vie quotidienne",
     "question": "À l'école, un enfant en situation de handicap :",
-    "explanation": "Cette réponse indique le service, la démarche ou la règle applicable dans la vie quotidienne. Pour cette question, la bonne réponse est « A le droit d'être scolarisé en milieu ordinaire avec un accompagnement adapté ».",
+    "explanation": "L'école inclusive est un droit ; l'État doit fournir les moyens adaptés (comme une AESH).",
 
     "answer": "A le droit d'être scolarisé en milieu ordinaire avec un accompagnement adapté",
     "choices": [
