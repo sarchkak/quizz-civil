@@ -131,14 +131,26 @@ const sourcesByCategory = {
   'Histoire & culture': { label: 'Éduscol · Ressources éducatives', url: 'https://eduscol.education.fr/' },
   'Vie quotidienne': { label: 'Service-Public · Portail officiel', url: 'https://www.service-public.fr/' },
 };
+const explanationDetail = (item) => {
+  const q = item.question.toLocaleLowerCase('fr-FR');
+  if (/année|date|depuis quand|de quand/.test(q)) return 'Cette date constitue le repère chronologique attendu pour situer cet événement dans l’histoire civique française ou européenne.';
+  if (/qui dirige|qui nomme|qui est le|quel est le rôle|mission/.test(q)) return 'Cette réponse identifie précisément l’autorité compétente et permet de distinguer son rôle de celui des autres institutions.';
+  if (/laïcité|religion|religieux|conscience|culte/.test(q)) return 'Cette règle garantit la liberté de conscience et l’égalité, tout en imposant la neutralité aux services et agents publics concernés.';
+  if (/vote|élection|électoral|citoyen/.test(q)) return 'Cette règle précise les conditions concrètes de la participation civique et distingue un droit, une condition d’exercice ou une obligation.';
+  if (/liberté|droit|obligation|interdit|loi|peine|infraction|crime|délit/.test(q)) return 'Cette réponse applique le principe juridique demandé : les libertés sont protégées, mais leur exercice s’inscrit dans le respect de la loi et des droits d’autrui.';
+  if (/où|quelle ville|quel pays|frontière|mer|fleuve|montagne|région|territoire/.test(q)) return 'Ce repère permet de situer correctement le territoire, les institutions ou le patrimoine concernés.';
+  if (/école|enfant|parent|travail|emploi|santé|médecin|logement|naissance|mariage|urgence|police/.test(q)) return 'Cette réponse indique la conduite ou la démarche attendue dans la vie quotidienne, ainsi que le service ou le principe à respecter.';
+  if (/pourquoi|à quoi sert|que signifie|qu’est-ce que|qu'est-ce que|que représente/.test(q)) return 'La réponse donne la définition ou la fonction précise demandée par la question, sans l’étendre à une autre notion.';
+  return 'Cette réponse correspond précisément au sujet et au terme recherché dans la question.';
+};
 const explanationFor = (item) => {
   if (item.explanation) return item.explanation;
   const source = sourcesByCategory[item.category] || sourcesByCategory['Vie quotidienne'];
   const prefix = item.situation
     ? 'Dans cette situation, il faut appliquer la règle indiquée et effectuer la démarche attendue, sans se faire justice soi-même.'
-    : 'Cette réponse reprend le principe ou le repère demandé par la question.';
+    : explanationDetail(item);
   return {
-    text: `${prefix} La réponse correcte est « ${item.answer} ». Elle s’inscrit dans les règles et valeurs françaises applicables à ce thème.`,
+    text: `${prefix} Pour « ${item.question} », la réponse correcte est « ${item.answer} ».`,
     sourceLabel: source.label,
     sourceUrl: source.url,
   };

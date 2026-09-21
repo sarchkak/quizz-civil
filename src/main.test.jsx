@@ -41,6 +41,7 @@ describe('corpus du quiz', () => {
   it('fournit une explication pour chaque question de session', () => {
     [...buildQuiz(), ...buildQuiz({ category: 'Institutions' }), ...buildQuiz({ situationsOnly: true })].forEach((item) => {
       expect(item.explanation).toBeTruthy();
+      expect(item.explanation.text).toContain(item.question);
     });
   });
 
