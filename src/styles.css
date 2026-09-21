@@ -64,6 +64,8 @@ h2 { margin: 22px 0 8px; font-family: 'Playfair Display', serif; font-size: clam
 .feedback-icon { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; }
 .feedback strong, .feedback span { display: block; }
 .feedback span { margin-top: 3px; font-size: 12px; }
+.feedback .explanation { margin: 9px 0 0; padding-top: 8px; border-top: 1px solid currentColor; border-color: color-mix(in srgb, currentColor 18%, transparent); font-size: 12px; line-height: 1.5; }
+.feedback .explanation strong { display: inline; }
 .feedback-good { color: #23764f; background: #f0faf5; }.feedback-good .feedback-icon { background: #d5f0e1; }
 .feedback-bad { color: #a14d3b; background: #fff5f2; }.feedback-bad .feedback-icon { background: #f8dcd4; }
 .question-footer { display: flex; align-items: center; justify-content: space-between; min-height: 62px; margin-top: 12px; color: #94a5b2; font-size: 11px; }.question-footer span { display: flex; align-items: center; gap: 6px; }

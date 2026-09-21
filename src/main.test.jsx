@@ -38,6 +38,12 @@ describe('corpus du quiz', () => {
     expect(session.every((item) => item.situation)).toBe(true);
   });
 
+  it('fournit une explication pour chaque question de session', () => {
+    [...buildQuiz(), ...buildQuiz({ category: 'Institutions' }), ...buildQuiz({ situationsOnly: true })].forEach((item) => {
+      expect(item.explanation).toBeTruthy();
+    });
+  });
+
   it('conserve toujours la bonne réponse dans les quatre choix', () => {
     Array.from({ length: 25 }, () => buildQuiz()).flat().forEach((item) => {
       expect(item.choices).toHaveLength(4);
