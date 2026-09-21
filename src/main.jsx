@@ -124,7 +124,25 @@ const ignoredWords = new Set(['quel', 'quelle', 'quels', 'quelles', 'est', 'sont
 const keywords = (value) => new Set(value.toLocaleLowerCase('fr-FR').normalize('NFD').replace(/[\u0300-\u036f]/g, '').split(/[^a-z0-9]+/).filter((word) => word.length > 2 && !ignoredWords.has(word)));
 const stripParenthetical = (value) => value.replace(/\s*\([^)]*\)/g, '').replace(/\s{2,}/g, ' ').trim();
 const cleanItem = (item) => ({ ...item, answer: stripParenthetical(item.answer), choices: item.choices.map(stripParenthetical) });
-const explanationFor = (item) => item.explanation || `La réponse attendue est « ${item.answer} ». Elle reprend l'information de référence associée à cette question.`;
+const sourcesByCategory = {
+  'Principes & valeurs': { label: 'Éducation nationale · Laïcité et valeurs de la République', url: 'https://www.education.gouv.fr/la-laicite-l-ecole-12482' },
+  Institutions: { label: 'Vie-publique · Les institutions de la République', url: 'https://www.vie-publique.fr/fiches/23911-les-institutions-de-la-republique' },
+  'Droits & devoirs': { label: 'Service-Public · Citoyenneté et démarches', url: 'https://www.service-public.fr/particuliers/vosdroits/N47' },
+  'Histoire & culture': { label: 'Éduscol · Ressources éducatives', url: 'https://eduscol.education.fr/' },
+  'Vie quotidienne': { label: 'Service-Public · Portail officiel', url: 'https://www.service-public.fr/' },
+};
+const explanationFor = (item) => {
+  if (item.explanation) return item.explanation;
+  const source = sourcesByCategory[item.category] || sourcesByCategory['Vie quotidienne'];
+  const prefix = item.situation
+    ? 'Dans cette situation, il faut appliquer la règle indiquée et effectuer la démarche attendue, sans se faire justice soi-même.'
+    : 'Cette réponse reprend le principe ou le repère demandé par la question.';
+  return {
+    text: `${prefix} La réponse correcte est « ${item.answer} ». Elle s’inscrit dans les règles et valeurs françaises applicables à ce thème.`,
+    sourceLabel: source.label,
+    sourceUrl: source.url,
+  };
+};
 const relatedDistractors = (item) => {
   const sourceWords = keywords(`${item.question} ${item.answer}`);
   return officialQuestions
@@ -243,7 +261,7 @@ function Home({ quizCategory, setQuizCategory, startQuiz }) {
 
 function QuizScreen({ question, current, total, progress, selected, choose, next }) {
   const isCorrect = selected === question.answer;
-  return <Shell><section className="quiz-wrap"><div className="quiz-meta"><button className="back-button" onClick={() => window.location.reload()}><ChevronLeft size={18} /> Quitter</button><span className="question-count">Question <strong>{String(current + 1).padStart(2, '0')}</strong> / {total}</span></div><div className="progress-track"><span style={{ width: `${progress}%` }} /></div><div className="category-pill">{question.category}</div><article className="question-card"><div className="question-icon"><Flag size={21} /></div><h2>{question.question}</h2><p className="instruction">Sélectionnez la bonne réponse</p><div className="answers">{question.choices.map((choice, index) => { const state = selected === null ? '' : choice === question.answer ? 'correct' : choice === selected ? 'wrong' : 'muted'; return <button key={choice} className={`answer ${state}`} onClick={() => choose(choice)} aria-pressed={selected === choice}><span className="answer-key">{index + 1}</span><span>{choice}</span>{selected !== null && choice === question.answer && <Check className="answer-icon" size={19} />}{selected === choice && choice !== question.answer && <X className="answer-icon" size={19} />}</button>; })}</div>{selected !== null && <div className={`feedback ${isCorrect ? 'feedback-good' : 'feedback-bad'}`}><div className="feedback-icon">{isCorrect ? <Check size={18} /> : <X size={18} />}</div><div><strong>{isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.'}</strong><span>{isCorrect ? 'Continuez comme ça.' : `La bonne réponse est : ${question.answer}`}</span><p className="explanation"><strong>Pourquoi ?</strong> {question.explanation}</p></div></div>}<div className="question-footer"><span><Clock3 size={15} /> Pas de limite de temps</span>{selected !== null && <button className="primary-button compact" onClick={next}>{current === total - 1 ? 'Voir mon score' : 'Question suivante'} <ArrowRight size={17} /></button>}</div></article></section></Shell>;
+  return <Shell><section className="quiz-wrap"><div className="quiz-meta"><button className="back-button" onClick={() => window.location.reload()}><ChevronLeft size={18} /> Quitter</button><span className="question-count">Question <strong>{String(current + 1).padStart(2, '0')}</strong> / {total}</span></div><div className="progress-track"><span style={{ width: `${progress}%` }} /></div><div className="category-pill">{question.category}</div><article className="question-card"><div className="question-icon"><Flag size={21} /></div><h2>{question.question}</h2><p className="instruction">Sélectionnez la bonne réponse</p><div className="answers">{question.choices.map((choice, index) => { const state = selected === null ? '' : choice === question.answer ? 'correct' : choice === selected ? 'wrong' : 'muted'; return <button key={choice} className={`answer ${state}`} onClick={() => choose(choice)} aria-pressed={selected === choice}><span className="answer-key">{index + 1}</span><span>{choice}</span>{selected !== null && choice === question.answer && <Check className="answer-icon" size={19} />}{selected === choice && choice !== question.answer && <X className="answer-icon" size={19} />}</button>; })}</div>{selected !== null && <div className={`feedback ${isCorrect ? 'feedback-good' : 'feedback-bad'}`}><div className="feedback-icon">{isCorrect ? <Check size={18} /> : <X size={18} />}</div><div><strong>{isCorrect ? 'Bonne réponse !' : 'Pas tout à fait.'}</strong><span>{isCorrect ? 'Continuez comme ça.' : `La bonne réponse est : ${question.answer}`}</span><p className="explanation"><strong>Pourquoi ?</strong> {question.explanation.text}<a href={question.explanation.sourceUrl} target="_blank" rel="noreferrer">Source officielle : {question.explanation.sourceLabel}</a></p></div></div>}<div className="question-footer"><span><Clock3 size={15} /> Pas de limite de temps</span>{selected !== null && <button className="primary-button compact" onClick={next}>{current === total - 1 ? 'Voir mon score' : 'Question suivante'} <ArrowRight size={17} /></button>}</div></article></section></Shell>;
 }
 
 function Results({ score, total, answers, restart, home }) {
